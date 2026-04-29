@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Build image
-        run: docker build . --file Dockerfile --tag data_processing --label "runnumber=${GITHUB_RUN_ID}"
+        run: docker build . --file data_processing/Dockerfile --tag data_processing --label "runnumber=${GITHUB_RUN_ID}"
 
       - name: Log in to GHCR
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
