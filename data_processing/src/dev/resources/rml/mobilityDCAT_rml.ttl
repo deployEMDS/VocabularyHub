@@ -1,0 +1,703 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix cv: <http://data.europa.eu/m8g/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix grelm: <http://fno.io/grel/rmlmapping#> .
+@base <http://data.dsb.com#>.
+@prefix mobilitydcatap: <https://w3id.org/mobilitydcat-ap#> .
+
+
+<#Catalog>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/catalog/{id}";
+	rr:class dcat:Catalog;
+  ];
+
+# description
+
+  rr:predicateObjectMap [
+    rr:predicate dct:identifier;
+	rr:objectMap [
+	    rml:reference "id";
+	];
+  ];
+# title
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:dataset;
+	rr:objectMap [
+	    rr:parentTriplesMap <#Dataset>;
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:publisher;
+	rr:objectMap [
+	    rr:parentTriplesMap <#Publisher>;
+		rr:joinCondition [
+			rr:child "publisher";
+			rr:parent "publisher"
+		  ]
+	];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dcat:themeTaxonomy;
+    rr:objectMap [
+     rr:constant <http://publications.europa.eu/resource/authority/data-theme>;
+     rr:termType rr:IRI;
+    ];
+ ];
+  rr:predicateObjectMap [
+    rr:predicate dct:spatial;
+    rr:objectMap [
+      rml:reference "spatial";
+      rr:termType rr:IRI;
+    ];
+  ].
+<#DescriptionCatalog> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$.description[*]";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/catalog/{id}";
+    rr:class dcat:Catalog;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:description;
+    rr:objectMap [
+        rml:reference "value";
+        rml:languageMap [
+            rr:template "{language}";
+            ];
+    ];
+  ].
+
+<#TitleCatalog> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$.title[*]";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/catalog/{id}";
+    rr:class dcat:Catalog;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:title;
+    rr:objectMap [
+      rml:reference "value";
+      rml:languageMap [ rr:template "{language}" ];
+    ];
+  ].
+
+<#Dataset>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/{id}";
+	rr:class dcat:Dataset;
+  ];
+
+# description
+
+  rr:predicateObjectMap [
+    rr:predicate dct:identifier;
+	rr:objectMap [
+	    rml:reference "id";
+	];
+  ];
+
+# title
+
+  rr:predicateObjectMap [
+    rr:predicate owl:versionInfo;
+	rr:objectMap [
+	    rml:reference "version_info";
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:modified;
+	rr:objectMap [
+	    rml:reference "modified";
+		rr:datatype xsd:date ;
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:distribution;
+	rr:objectMap [
+	    rr:parentTriplesMap <#Distribution>;
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:type;
+	rr:objectMap [
+	    rr:parentTriplesMap <#DatasetType>;
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:creator;
+	rr:objectMap [
+	    rr:parentTriplesMap <#Creator>;
+		rr:joinCondition [
+			rr:child "creator";
+			rr:parent "creator"
+		  ]
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:publisher;
+	rr:objectMap [
+	    rr:parentTriplesMap <#Publisher>;
+		rr:joinCondition [
+			rr:child "publisher";
+			rr:parent "publisher"
+		  ]
+	];
+];
+
+# version notes
+
+  rr:predicateObjectMap [
+    rr:predicate dct:accrualPeriodicity;
+    rr:objectMap [
+      rml:reference "frequency";
+      rr:termType rr:IRI;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:language;
+    rr:objectMap [
+      rml:reference "language";
+      rr:termType rr:IRI;
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate mobilitydcatap:mobilityTheme;
+    rr:objectMap [
+      rml:reference "mobilityTheme";
+      rr:termType rr:IRI;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:theme;
+    rr:objectMap [
+      rml:reference "theme";
+      rr:termType rr:IRI;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:spatial;
+	rr:objectMap [
+      rml:reference "spatial";
+      rr:termType rr:IRI;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:landingPage;
+	rr:objectMap [
+	    rml:reference "documentation";
+	    rr:termType rr:IRI
+	];
+];
+  rr:predicateObjectMap [
+    rr:predicate dqv:hasQualityMeasurement;
+	rr:objectMap [
+	    rr:parentTriplesMap <#QualityMeasurement>;
+	];
+ ].
+<#DatasetDescription> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$.description[*]";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/{id}";
+    rr:class dcat:Dataset;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:description;
+    rr:objectMap [
+        rml:reference "value";
+        rml:languageMap [
+            rr:template "{language}";
+            ];
+    ];
+  ].
+
+<#TitleDataset> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$.title[*]";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/{id}";
+    rr:class dcat:Dataset;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:title;
+    rr:objectMap [
+      rml:reference "value";
+      rml:languageMap [ rr:template "{language}" ];
+    ];
+  ].
+
+<#VersionNotesDataset> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$.version_notes[*]";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/{id}";
+    rr:class dcat:Dataset;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate adms:versionNotes;
+    rr:objectMap [
+      rml:reference "value";
+      rml:languageMap [ rr:template "{language}" ];
+    ];
+  ].
+
+<#Distribution>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/distribution/{id}";
+	rr:class dcat:Distribution;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:accessURL;
+	rr:objectMap [
+	    rml:reference "namedGraphURL";
+	    rr:termType rr:IRI
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:downloadURL;
+	rr:objectMap [
+	    rml:reference "accessURL";
+	    rr:termType rr:IRI
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dcat:mediaType;
+    rr:objectMap [
+      rml:reference "extension";
+      rr:termType rr:IRI;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:license;
+	rr:objectMap [
+	    rr:parentTriplesMap <#License>;
+	];
+   ];
+# description
+
+  rr:predicateObjectMap [
+    rr:predicate adms:status;
+    rr:objectMap [
+      rml:reference "status";
+      rr:termType rr:IRI;
+    ];
+  ];
+    rr:predicateObjectMap [
+    rr:predicate mobilitydcatap:mobilityDataStandard;
+    rr:objectMap [
+      rml:reference "mobility_data_standard";
+      rr:termType rr:IRI;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:format;
+	rr:objectMap [
+	    rr:template "https://publications.europa.eu/resource/authority/file-type/{format}" ;
+	];
+
+  ].
+
+<#DistributionDescription> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$.description[*]";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/distribution/{id}";
+    rr:class dcat:Distribution;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:description;
+    rr:objectMap [
+        rml:reference "value";
+        rml:languageMap [
+            rr:template "{language}";
+            ];
+    ];
+  ].
+
+<#MediaType> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+  rr:subjectMap [
+    #rr:template "https://www.iana.org/assignments/media-types/{mediaType}#Resource";
+	#rr:termType rr:IRI
+
+    fnml:functionValue [
+        rr:predicateObjectMap [
+          rr:predicate fno:executes ;
+          rr:objectMap [ rr:constant grel:array_join ] ;
+        ] ;
+        rr:predicateObjectMap [
+          rr:predicate grel:p_array_a ;
+          rr:objectMap [ rr:constant "https://www.iana.org/assignments/media-types/" ] ;
+        ] ;
+        rr:predicateObjectMap [
+          rr:predicate grel:p_array_a ;
+          rr:objectMap [ rml:reference "mediaType" ] ;
+        ] ;
+    ] ;
+	rr:termType rr:IRI ;
+  ].
+
+
+<#License> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+	rml:reference "license";
+	rr:termType rr:IRI;
+	rr:class dct:LicenseDocument;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/licence";
+	    rr:termType rr:IRI
+	];
+  ].
+
+<#Theme> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://publications.europa.eu/resource/authority/data-theme/{theme}";
+	rr:termType rr:IRI;
+	rr:class skos:Concept;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/data-theme";
+	    rr:termType rr:IRI
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:prefLabel;
+	rr:objectMap [
+	    rml:reference "theme";
+	];
+  ].
+
+  <#Status> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://publications.europa.eu/resource/authority/distribution-status/{status}";
+	rr:termType rr:IRI;
+	rr:class skos:ConceptScheme;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/distribution-status";
+	    rr:termType rr:IRI
+	];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dct:title;
+	rr:objectMap [
+	    rml:reference "status";
+	];
+  ].
+
+<#Language> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://publications.europa.eu/resource/authority/language/{language}";
+	rr:termType rr:IRI;
+	rr:class dct:LinguisticSystem;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/language";
+	    rr:termType rr:IRI
+	];
+  ].
+
+
+<#AccrualPeriodicity> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://publications.europa.eu/resource/authority/frequency/{frequency}";
+	rr:termType rr:IRI;
+	rr:class dct:Frequency;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/frequency";
+	    rr:termType rr:IRI
+	];
+  ].
+
+ <#Spatial> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+	rr:template "http://publications.europa.eu/resource/authority/country/{spatial}";
+	rr:termType rr:IRI;
+	rr:class dct:Location;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/country";
+	    rr:termType rr:IRI
+	];
+  ].
+
+<#DatasetType> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+  rr:subjectMap [
+    rml:reference "resource_type_iri";
+    rr:termType rr:IRI;
+	rr:class skos:Concept;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:prefLabel;
+	rr:objectMap [
+	    rml:reference "resource_type";
+	];
+  ].
+
+
+<#Publisher> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/publisher/{id}";
+	rr:class foaf:Agent;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate foaf:name;
+	rr:objectMap [
+	    rml:reference "publisher";
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/corporate-body";
+	    rr:termType rr:IRI
+	];
+  ].
+
+<#Creator> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/creator/{id}";
+	rr:class foaf:Agent;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate foaf:name;
+	rr:objectMap [
+	    rml:reference "author";
+	];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate skos:inScheme;
+	rr:objectMap [
+        rr:template "http://publications.europa.eu/resource/authority/corporate-body";
+	    rr:termType rr:IRI
+	];
+  ].
+
+<#QualityMeasurement>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:template "http://data.dsb.com/vocabulary/dataset/quality-measurement/{id}";
+    rr:class dqv:QualityMeasurement;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dqv:isMeasurementOf;
+    rr:objectMap [
+        rr:parentTriplesMap <#QualityMetric>;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dqv:value;
+    rr:objectMap [
+        rml:reference "quality_score";
+        rr:datatype xsd:decimal;
+    ];
+  ].
+
+<#QualityMetric>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "../resources/test/test_metadata.json";
+    rml:referenceFormulation ql:JSONPath;
+    rml:iterator "$";
+  ];
+
+  rr:subjectMap [
+    rr:constant <http://data.dsb.com/metric/quality-score>;
+    rr:class dqv:Metric;
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:title;
+    rr:objectMap [
+        rr:constant "Quality Score"@en;
+    ];
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dct:description;
+    rr:objectMap [
+        rr:constant "Overall quality score of the dataset"@en;
+    ];
+  ].
+

@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages iso-639-3.entries.version="2007-07-18"
+           original.entries.date="2009-04-01"
+           current.entries.date="2024-09-12"
+           table.structure.version="01-02.89-20240912"
+           table.id="language"
+           ref.administration="cat.admin.xml"
+           version="20240925-0">
+   <record deprecated="false"
+           id="LNG2412"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-11"
+           language.classification="EU">
+      <iso-639-3>hrv</iso-639-3>
+      <iso-639-2b>hrv</iso-639-2b>
+      <iso-639-2t>hrv</iso-639-2t>
+      <iso-639-1>hr</iso-639-1>
+      <authority-code>HRV</authority-code>
+      <op-mapped-code source="EUDOR">HR</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">HR</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">HR</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">HR</op-mapped-code>
+      <op-mapped-code source="TED">HR</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">HR</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="hrv">hrvatski</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>
+               <p>Croatian is the standardised variety of the Serbo-Croatian language used by Croats, principally in Croatia and in Bosnia and Herzegovina. Standard Croatian is based on the Shtokavian dialect of Serbo-Croatian.</p>
+               <p>Croatian uses exclusively the Latin alphabet.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>
+               <p>Le croate est la variante standard de la langue serbo-croate utilisée par les Croates, principalement en Croatie et en Bosnie-Herzégovine. Sa norme est basée sur le dialecte chtokavien du serbo-croate.</p>
+               <p>Le croate utilise exclusivement l’alphabet latin.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">хърватски</lg.version>
+         <lg.version lg="ces">chorvatština</lg.version>
+         <lg.version lg="dan">kroatisk</lg.version>
+         <lg.version lg="deu">Kroatisch</lg.version>
+         <lg.version lg="ell" script="Greek">κροατικά</lg.version>
+         <lg.version lg="eng">Croatian</lg.version>
+         <lg.version lg="est">horvaadi keel</lg.version>
+         <lg.version lg="fin">kroatia</lg.version>
+         <lg.version lg="fra">croate</lg.version>
+         <lg.version lg="gle">Cróitis</lg.version>
+         <lg.version lg="hbs">hrvatski</lg.version>
+         <lg.version lg="hrv">hrvatski</lg.version>
+         <lg.version lg="hsb">chorwatšćina</lg.version>
+         <lg.version lg="hun">horvát</lg.version>
+         <lg.version lg="isl">króatíska</lg.version>
+         <lg.version lg="ita">croato</lg.version>
+         <lg.version lg="lav">horvatu valoda</lg.version>
+         <lg.version lg="lit">kroatų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">хрватски</lg.version>
+         <lg.version lg="mlt">Kroat</lg.version>
+         <lg.version lg="nld">Kroatisch</lg.version>
+         <lg.version lg="nor">kroatisk</lg.version>
+         <lg.version lg="pol">chorwacki</lg.version>
+         <lg.version lg="por">croata</lg.version>
+         <lg.version lg="ron">croată</lg.version>
+         <lg.version lg="rus" script="Cyrillic">хорватский</lg.version>
+         <lg.version lg="slk">chorvátčina</lg.version>
+         <lg.version lg="slv">hrvaščina</lg.version>
+         <lg.version lg="spa">Croata</lg.version>
+         <lg.version lg="srp" script="Cyrillic">хрватски</lg.version>
+         <lg.version lg="swe">kroatiska</lg.version>
+         <lg.version lg="tur">hırvatça</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">хорватська мова</lg.version>
+         <lg.version lg="cat">Croata</lg.version>
+         <lg.version lg="eus">Kroaziarra</lg.version>
+         <lg.version lg="glg">Croata</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>hr</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1480"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-04"
+           language.classification="EU">
+      <iso-639-3>dan</iso-639-3>
+      <iso-639-2b>dan</iso-639-2b>
+      <iso-639-2t>dan</iso-639-2t>
+      <iso-639-1>da</iso-639-1>
+      <authority-code>DAN</authority-code>
+      <op-mapped-code source="EUDOR">DA</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">DA</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">DK</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">DA</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">DA</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">DA</op-mapped-code>
+      <op-mapped-code source="TED">DA</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">DA</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="dan">dansk</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>Danish is a North Germanic language spoken principally in Denmark and as a second language in the Faroe Islands and Greenland. Danish is largely mutually intelligible with Norwegian and Swedish.</p>
+               <p>Danish has a relatively large vowel inventory and is distinguished by the many pharyngealised sounds.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>Le danois est une langue germanique du Nord, parlée principalement au Danemark, et est la deuxième langue dans les Îles Féroé et au Groenland. Le danois est en grande partie mutuellement intelligible avec le norvégien et le suédois.</p>
+               <p>Il possède un inventaire de voyelles relativement vaste et se distingue par ses nombreux sons pharyngalisés.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">датски</lg.version>
+         <lg.version lg="ces">dánština</lg.version>
+         <lg.version lg="dan">dansk</lg.version>
+         <lg.version lg="deu">Dänisch</lg.version>
+         <lg.version lg="ell" script="Greek">δανικά</lg.version>
+         <lg.version lg="eng">Danish</lg.version>
+         <lg.version lg="est">taani keel</lg.version>
+         <lg.version lg="fin">tanska</lg.version>
+         <lg.version lg="fra">danois</lg.version>
+         <lg.version lg="gle">Danmhairgis</lg.version>
+         <lg.version lg="hbs">danski</lg.version>
+         <lg.version lg="hrv">danski</lg.version>
+         <lg.version lg="hsb">danšćina</lg.version>
+         <lg.version lg="hun">dán</lg.version>
+         <lg.version lg="isl">danska</lg.version>
+         <lg.version lg="ita">danese</lg.version>
+         <lg.version lg="lav">dāņu valoda</lg.version>
+         <lg.version lg="lit">danų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">дански</lg.version>
+         <lg.version lg="mlt">Daniż</lg.version>
+         <lg.version lg="nld">Deens</lg.version>
+         <lg.version lg="nor">dansk</lg.version>
+         <lg.version lg="pol">duński</lg.version>
+         <lg.version lg="por">dinamarques</lg.version>
+         <lg.version lg="ron">daneză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">датский</lg.version>
+         <lg.version lg="slk">dánčina</lg.version>
+         <lg.version lg="slv">danščina</lg.version>
+         <lg.version lg="spa">Danés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">дански</lg.version>
+         <lg.version lg="swe">danska</lg.version>
+         <lg.version lg="tur">danca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">данська мова</lg.version>
+         <lg.version lg="cat">Danès</lg.version>
+         <lg.version lg="eus">Daniera</lg.version>
+         <lg.version lg="glg">Danés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>da</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG4630"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-17"
+           language.classification="EU">
+      <iso-639-3>nld</iso-639-3>
+      <iso-639-2b>dut</iso-639-2b>
+      <iso-639-2t>nld</iso-639-2t>
+      <iso-639-1>nl</iso-639-1>
+      <authority-code>NLD</authority-code>
+      <op-mapped-code source="EUDOR">NL</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">NL</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">NL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">NL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">NL</op-mapped-code>
+      <op-mapped-code source="TED">NL</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">NL</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="nld">Nederlands</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>Dutch is a West Germanic language whose closest relative is German. It is spoken in the Netherlands, by about 60% of the population of Belgium, in Suriname and in the Caribbean island nations of Aruba, Curaçao, and Sint Maarten. The version of Dutch spoken in Southern Africa has been standardised into Afrikaans.</description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>Le néerlandais est une langue germanique occidentale, dont le plus proche parent est l’allemand. Elle est parlée aux Pays-Bas, en Belgique (par environ 60 % de la population), au Suriname et dans les pays insulaires des Caraïbes (Aruba, Curaçao et Sint-Maarten). La version du néerlandais parlé en Afrique du Sud a été normalisée comme l’afrikaans.</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">нидерландски</lg.version>
+         <lg.version lg="ces">nizozemština</lg.version>
+         <lg.version lg="dan">nederlandsk</lg.version>
+         <lg.version lg="deu">Niederländisch</lg.version>
+         <lg.version lg="ell" script="Greek">ολλανδικά</lg.version>
+         <lg.version lg="eng">Dutch</lg.version>
+         <lg.version lg="est">hollandi keel</lg.version>
+         <lg.version lg="fin">hollanti</lg.version>
+         <lg.version lg="fra">néerlandais</lg.version>
+         <lg.version lg="gle">Ollainnis</lg.version>
+         <lg.version lg="hbs">holandski</lg.version>
+         <lg.version lg="hrv">nizozemski</lg.version>
+         <lg.version lg="hsb">nižozemšćina</lg.version>
+         <lg.version lg="hun">holland</lg.version>
+         <lg.version lg="isl">hollenska</lg.version>
+         <lg.version lg="ita">neerlandese</lg.version>
+         <lg.version lg="lav">holandiešu valoda</lg.version>
+         <lg.version lg="lit">nyderlandų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">холандски</lg.version>
+         <lg.version lg="mlt">Olandiż</lg.version>
+         <lg.version lg="nld">Nederlands</lg.version>
+         <lg.version lg="nor">nederlandsk</lg.version>
+         <lg.version lg="pol">niderlandzki</lg.version>
+         <lg.version lg="por">neerlandes</lg.version>
+         <lg.version lg="ron">neerlandeză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">нидерландский</lg.version>
+         <lg.version lg="slk">holandčina</lg.version>
+         <lg.version lg="slv">nizozemščina</lg.version>
+         <lg.version lg="spa">Neerlandés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">холандски</lg.version>
+         <lg.version lg="swe">nederländska</lg.version>
+         <lg.version lg="tur">hollandaca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">нідерландська мова</lg.version>
+         <lg.version lg="cat">Neerlandès</lg.version>
+         <lg.version lg="eus">Herbehere</lg.version>
+         <lg.version lg="glg">Neerlandés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>nl</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG0001"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-08"
+           language.classification="EU">
+      <iso-639-3>eng</iso-639-3>
+      <iso-639-2b>eng</iso-639-2b>
+      <iso-639-2t>eng</iso-639-2t>
+      <iso-639-1>en</iso-639-1>
+      <authority-code>ENG</authority-code>
+      <op-mapped-code source="EUDOR">EN</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">EN</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">EN</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">EN</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">EN</op-mapped-code>
+      <op-mapped-code source="TED">EN</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">EN</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="eng">English</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>English is a member of the West Germanic group of the Germanic languages. It is an official language of almost 60 sovereign states and is now a global lingua franca.</p>
+               <p>It is the third-most-common native language in the world and it is widely learned as a second language.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>L’anglais est une langue appartenant au groupe occidental des langues germaniques. C’est la langue officielle de près de 60 États souverains. De nos jours, l’anglais est une lingua franca mondiale (langue véhiculaire).</p>
+               <p>L’anglais est la troisième langue maternelle la plus parlée dans le monde et la langue la plus étudiée comme deuxième langue.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">английски</lg.version>
+         <lg.version lg="ces">angličtina</lg.version>
+         <lg.version lg="dan">engelsk</lg.version>
+         <lg.version lg="deu">Englisch</lg.version>
+         <lg.version lg="ell" script="Greek">αγγλικά</lg.version>
+         <lg.version lg="eng">English</lg.version>
+         <lg.version lg="est">inglise keel</lg.version>
+         <lg.version lg="fin">englanti</lg.version>
+         <lg.version lg="fra">anglais</lg.version>
+         <lg.version lg="gle">Béarla</lg.version>
+         <lg.version lg="hbs">engleski</lg.version>
+         <lg.version lg="hrv">engleski</lg.version>
+         <lg.version lg="hsb">jendźelšćina</lg.version>
+         <lg.version lg="hun">angol</lg.version>
+         <lg.version lg="isl">enska</lg.version>
+         <lg.version lg="ita">inglese</lg.version>
+         <lg.version lg="lav">angļu valoda</lg.version>
+         <lg.version lg="lit">anglų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">англиски</lg.version>
+         <lg.version lg="mlt">Ingliż</lg.version>
+         <lg.version lg="nld">Engels</lg.version>
+         <lg.version lg="nor">engelsk</lg.version>
+         <lg.version lg="pol">angielski</lg.version>
+         <lg.version lg="por">ingles</lg.version>
+         <lg.version lg="ron">engleză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">английский</lg.version>
+         <lg.version lg="slk">angličtina</lg.version>
+         <lg.version lg="slv">angleščina</lg.version>
+         <lg.version lg="spa">Inglés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">енглески</lg.version>
+         <lg.version lg="swe">engelska</lg.version>
+         <lg.version lg="tur">ıngilizce</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">англійська мова</lg.version>
+         <lg.version lg="cat">Anglès</lg.version>
+         <lg.version lg="eus">Ingelesa</lg.version>
+         <lg.version lg="glg">Inglés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>en</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1837"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-06"
+           language.classification="EU">
+      <iso-639-3>est</iso-639-3>
+      <iso-639-2b>est</iso-639-2b>
+      <iso-639-2t>est</iso-639-2t>
+      <iso-639-1>et</iso-639-1>
+      <authority-code>EST</authority-code>
+      <op-mapped-code source="EUDOR">ET</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">ET</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">ET</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">ET</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">ET</op-mapped-code>
+      <op-mapped-code source="TED">ET</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">ET</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="est">eesti keel</lg.version>
+         </original.name>
+         <alternative.name>
+            <lg.version lg="nld">Ests</lg.version>
+            <lg.version lg="nld">Estlands</lg.version>
+         </alternative.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>Estonian belongs (with Finnish) to the Baltic-Finnic subgroup of the Finno-Ugrian languages from the Uralic family. It is the official language of Estonia.</p>
+               <p>Estonian represents a transitional form from an agglutinating language to a fusional language.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>L’estonien appartient, avec le finnois, au sous-groupe balto-finnois des langues finno-ougriennes de la famille ouralienne. Il est la langue officielle de l’Estonie.</p>
+               <p>L’estonien représente une forme de transition d’une langue agglutinante à une langue fusionnelle.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">естонски</lg.version>
+         <lg.version lg="ces">estonština</lg.version>
+         <lg.version lg="dan">estisk</lg.version>
+         <lg.version lg="deu">Estnisch</lg.version>
+         <lg.version lg="ell" script="Greek">εσθονικά</lg.version>
+         <lg.version lg="eng">Estonian</lg.version>
+         <lg.version lg="est">eesti keel</lg.version>
+         <lg.version lg="fin">viro</lg.version>
+         <lg.version lg="fra">estonien</lg.version>
+         <lg.version lg="gle">Eastóinis</lg.version>
+         <lg.version lg="hbs">estonski</lg.version>
+         <lg.version lg="hrv">estonski</lg.version>
+         <lg.version lg="hsb">estišćina</lg.version>
+         <lg.version lg="hun">észt</lg.version>
+         <lg.version lg="isl">eistneska</lg.version>
+         <lg.version lg="ita">estone</lg.version>
+         <lg.version lg="lav">igauņu valoda</lg.version>
+         <lg.version lg="lit">estų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">естонски</lg.version>
+         <lg.version lg="mlt">Eston</lg.version>
+         <lg.version lg="nld">Estisch</lg.version>
+         <lg.version lg="nor">estisk</lg.version>
+         <lg.version lg="pol">estoński</lg.version>
+         <lg.version lg="por">estónio</lg.version>
+         <lg.version lg="ron">estonă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">эстонский</lg.version>
+         <lg.version lg="slk">estónčina</lg.version>
+         <lg.version lg="slv">estonščina</lg.version>
+         <lg.version lg="spa">Estonio</lg.version>
+         <lg.version lg="srp" script="Cyrillic">естонски</lg.version>
+         <lg.version lg="swe">estniska</lg.version>
+         <lg.version lg="tur">estonca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">естонська мова</lg.version>
+         <lg.version lg="cat">Estonià</lg.version>
+         <lg.version lg="eus">Estoniera</lg.version>
+         <lg.version lg="glg">Estonio</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>et</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1890"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-23"
+           language.classification="EU">
+      <iso-639-3>fin</iso-639-3>
+      <iso-639-2b>fin</iso-639-2b>
+      <iso-639-2t>fin</iso-639-2t>
+      <iso-639-1>fi</iso-639-1>
+      <authority-code>FIN</authority-code>
+      <op-mapped-code source="EUDOR">FI</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">FI</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">FI</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">FI</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">FI</op-mapped-code>
+      <op-mapped-code source="TED">FI</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">FI</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="fin">suomi</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>Finnish belongs (with Estonian) to the Baltic-Finnic subgroup of the Finno-Ugrian languages from the Uralic family. Finnish is one of two official languages of Finland (the other being Swedish).</p>
+               <p>Finnish is typologically between fusional and agglutinative languages.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>Le finnois appartient, avec l’estonien, au sous-groupe balto-finnois des langues finno-ougriennes de la famille ouralienne. Le finnois est l’une des deux langues officielles de la Finlande (l’autre étant le suédois).</p>
+               <p>Typologiquement, le finnois se situe entre les langues fusionnelles et agglutinantes.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">фински</lg.version>
+         <lg.version lg="ces">finština</lg.version>
+         <lg.version lg="dan">finsk</lg.version>
+         <lg.version lg="deu">Finnisch</lg.version>
+         <lg.version lg="ell" script="Greek">φινλανδικά</lg.version>
+         <lg.version lg="eng">Finnish</lg.version>
+         <lg.version lg="est">soome keel</lg.version>
+         <lg.version lg="fin">suomi</lg.version>
+         <lg.version lg="fra">finnois</lg.version>
+         <lg.version lg="gle">Fionlainnis</lg.version>
+         <lg.version lg="hbs">finski</lg.version>
+         <lg.version lg="hrv">finski</lg.version>
+         <lg.version lg="hsb">finšćina</lg.version>
+         <lg.version lg="hun">finn</lg.version>
+         <lg.version lg="isl">finnska</lg.version>
+         <lg.version lg="ita">finlandese</lg.version>
+         <lg.version lg="lav">somu valoda</lg.version>
+         <lg.version lg="lit">suomių kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">фински</lg.version>
+         <lg.version lg="mlt">Finlandiż</lg.version>
+         <lg.version lg="nld">Fins</lg.version>
+         <lg.version lg="nor">finsk</lg.version>
+         <lg.version lg="pol">fiński</lg.version>
+         <lg.version lg="por">finlandes</lg.version>
+         <lg.version lg="ron">finlandeză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">финский</lg.version>
+         <lg.version lg="slk">fínčina</lg.version>
+         <lg.version lg="slv">finščina</lg.version>
+         <lg.version lg="spa">Finés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">фински</lg.version>
+         <lg.version lg="swe">finska</lg.version>
+         <lg.version lg="tur">fince</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">фінська мова</lg.version>
+         <lg.version lg="cat">Finlandès</lg.version>
+         <lg.version lg="eus">Finlandiara</lg.version>
+         <lg.version lg="glg">Finlandés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>fi</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1915"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-09"
+           language.classification="EU">
+      <iso-639-3>fra</iso-639-3>
+      <iso-639-2b>fre</iso-639-2b>
+      <iso-639-2t>fra</iso-639-2t>
+      <iso-639-1>fr</iso-639-1>
+      <authority-code>FRA</authority-code>
+      <op-mapped-code source="EUDOR">FR</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">FR</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">F</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">FR</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">FR</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">FR</op-mapped-code>
+      <op-mapped-code source="TED">FR</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">FR</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="fra">français</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>French is the most northerly of the Romance languages and is an official language in 29 countries. It is an official language of all United Nations agencies and of a large number of international organisations. Outside of France, the highest numbers of French speakers are found in Canada, Belgium, Switzerland and Luxembourg.</description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>Le français est la plus septentrionale des langues romanes et est une langue officielle dans 29 pays. Il est aussi une langue officielle de tous les organismes des Nations unies et d’un grand nombre d’organisations internationales. Hors de France, le plus grand nombre de francophones se trouvent au Canada, en Belgique, en Suisse et au Luxembourg.</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">френски</lg.version>
+         <lg.version lg="ces">francouzština</lg.version>
+         <lg.version lg="dan">fransk</lg.version>
+         <lg.version lg="deu">Französisch</lg.version>
+         <lg.version lg="ell" script="Greek">γαλλικά</lg.version>
+         <lg.version lg="eng">French</lg.version>
+         <lg.version lg="est">prantsuse keel</lg.version>
+         <lg.version lg="fin">ranska</lg.version>
+         <lg.version lg="fra">français</lg.version>
+         <lg.version lg="gle">Fraincis</lg.version>
+         <lg.version lg="hbs">francuski</lg.version>
+         <lg.version lg="hrv">francuski</lg.version>
+         <lg.version lg="hsb">francošćina</lg.version>
+         <lg.version lg="hun">francia</lg.version>
+         <lg.version lg="isl">franska</lg.version>
+         <lg.version lg="ita">francese</lg.version>
+         <lg.version lg="lav">franču valoda</lg.version>
+         <lg.version lg="lit">prancūzų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">француски</lg.version>
+         <lg.version lg="mlt">Franċiż</lg.version>
+         <lg.version lg="nld">Frans</lg.version>
+         <lg.version lg="nor">fransk</lg.version>
+         <lg.version lg="pol">francuski</lg.version>
+         <lg.version lg="por">frances</lg.version>
+         <lg.version lg="ron">franceză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">французский</lg.version>
+         <lg.version lg="slk">francúzština</lg.version>
+         <lg.version lg="slv">francoščina</lg.version>
+         <lg.version lg="spa">Francés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">француски</lg.version>
+         <lg.version lg="swe">franska</lg.version>
+         <lg.version lg="tur">fransızca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">французька мова</lg.version>
+         <lg.version lg="cat">Francès</lg.version>
+         <lg.version lg="eus">Frantsesa</lg.version>
+         <lg.version lg="glg">Francés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>fr</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1535"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-05"
+           language.classification="EU">
+      <iso-639-3>deu</iso-639-3>
+      <iso-639-2b>ger</iso-639-2b>
+      <iso-639-2t>deu</iso-639-2t>
+      <iso-639-1>de</iso-639-1>
+      <authority-code>DEU</authority-code>
+      <op-mapped-code source="EUDOR">DE</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">DE</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">D</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">DE</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">DE</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">OS</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">DE</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">OS</op-mapped-code>
+      <op-mapped-code source="TED">DE</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">DE</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="deu">Deutsch</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>German is a West Germanic language, most closely related to Dutch and Yiddish. German is a pluricentric language, with multiple countries having their own standardised variants as well as many dialects. There is also one variant referred to as Standard German.</description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>L’allemand est une langue germanique occidentale, proche du néerlandais et du yiddish. L’allemand est une langue pluricentrique, avec plusieurs pays ayant leurs propres variantes normalisées ainsi que de nombreux dialectes. Il existe aussi une variante dénommée «allemand standard».</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">немски</lg.version>
+         <lg.version lg="ces">němčina</lg.version>
+         <lg.version lg="dan">tysk</lg.version>
+         <lg.version lg="deu">Deutsch</lg.version>
+         <lg.version lg="ell" script="Greek">γερμανικά</lg.version>
+         <lg.version lg="eng">German</lg.version>
+         <lg.version lg="est">saksa keel</lg.version>
+         <lg.version lg="fin">saksa</lg.version>
+         <lg.version lg="fra">allemand</lg.version>
+         <lg.version lg="gle">Gearmáinis</lg.version>
+         <lg.version lg="hbs">nemački</lg.version>
+         <lg.version lg="hrv">njemački</lg.version>
+         <lg.version lg="hsb">němska</lg.version>
+         <lg.version lg="hun">német</lg.version>
+         <lg.version lg="isl">þýska</lg.version>
+         <lg.version lg="ita">tedesco</lg.version>
+         <lg.version lg="lav">vācu valoda</lg.version>
+         <lg.version lg="lit">vokiečių kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">германски</lg.version>
+         <lg.version lg="mlt">Ġermaniż</lg.version>
+         <lg.version lg="nld">Duits</lg.version>
+         <lg.version lg="nor">tysk</lg.version>
+         <lg.version lg="pol">niemiecki</lg.version>
+         <lg.version lg="por">alemão</lg.version>
+         <lg.version lg="ron">germană</lg.version>
+         <lg.version lg="rus" script="Cyrillic">немецкий</lg.version>
+         <lg.version lg="slk">nemčina</lg.version>
+         <lg.version lg="slv">nemščina</lg.version>
+         <lg.version lg="spa">Alemán</lg.version>
+         <lg.version lg="srp" script="Cyrillic">немачки</lg.version>
+         <lg.version lg="swe">tyska</lg.version>
+         <lg.version lg="tur">almanca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">німецька мова</lg.version>
+         <lg.version lg="cat">Alemany</lg.version>
+         <lg.version lg="eus">Alemaniera</lg.version>
+         <lg.version lg="glg">Alemán</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>de</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG2437"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-15"
+           language.classification="EU">
+      <iso-639-3>hun</iso-639-3>
+      <iso-639-2b>hun</iso-639-2b>
+      <iso-639-2t>hun</iso-639-2t>
+      <iso-639-1>hu</iso-639-1>
+      <authority-code>HUN</authority-code>
+      <op-mapped-code source="EUDOR">HU</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">HU</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">HU</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">HU</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">HU</op-mapped-code>
+      <op-mapped-code source="TED">HU</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">HU</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="hun">magyar</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>
+               <p>Hungarian (Magyar), like Finnish and Estonian, belongs to the Finno-Ugric branch of the Uralic language family. It is the official language of Hungary and is also spoken by communities of Hungarian people in neighbouring countries.</p>
+               <p>In Hungarian, surnames precede Christian names.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>
+               <p>Le hongrois (magyar), comme l’estonien et le finnois, appartient à la branche finno-ougrienne de la famille des langues ouraliennes. Il est la langue officielle de la Hongrie et est également parlé par les communautés hongroises dans les pays voisins.</p>
+               <p>En hongrois, les noms de famille précèdent les prénoms.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">унгарски</lg.version>
+         <lg.version lg="ces">maďarština</lg.version>
+         <lg.version lg="dan">ungarsk</lg.version>
+         <lg.version lg="deu">Ungarisch</lg.version>
+         <lg.version lg="ell" script="Greek">ουγγρικά</lg.version>
+         <lg.version lg="eng">Hungarian</lg.version>
+         <lg.version lg="est">ungari keel</lg.version>
+         <lg.version lg="fin">unkari</lg.version>
+         <lg.version lg="fra">hongrois</lg.version>
+         <lg.version lg="gle">Ungáiris</lg.version>
+         <lg.version lg="hbs">mađarski</lg.version>
+         <lg.version lg="hrv">mađarski</lg.version>
+         <lg.version lg="hsb">madźaršćina</lg.version>
+         <lg.version lg="hun">magyar</lg.version>
+         <lg.version lg="isl">ungverska</lg.version>
+         <lg.version lg="ita">ungherese</lg.version>
+         <lg.version lg="lav">ungaru valoda</lg.version>
+         <lg.version lg="lit">vengrų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">унгарски</lg.version>
+         <lg.version lg="mlt">Ungeriż</lg.version>
+         <lg.version lg="nld">Hongaars</lg.version>
+         <lg.version lg="nor">ungarsk</lg.version>
+         <lg.version lg="pol">węgierski</lg.version>
+         <lg.version lg="por">húngaro</lg.version>
+         <lg.version lg="ron">maghiară</lg.version>
+         <lg.version lg="rus" script="Cyrillic">венгерский</lg.version>
+         <lg.version lg="slk">maďarčina</lg.version>
+         <lg.version lg="slv">madžarščina</lg.version>
+         <lg.version lg="spa">Húngaro</lg.version>
+         <lg.version lg="srp" script="Cyrillic">мађарски</lg.version>
+         <lg.version lg="swe">ungerska</lg.version>
+         <lg.version lg="tur">macarca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">угорська мова</lg.version>
+         <lg.version lg="cat">Húngaro</lg.version>
+         <lg.version lg="eus">Hungariera</lg.version>
+         <lg.version lg="glg">Húngaro</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>hu</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG2097"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-10"
+           language.classification="EU">
+      <iso-639-3>gle</iso-639-3>
+      <iso-639-2b>gle</iso-639-2b>
+      <iso-639-2t>gle</iso-639-2t>
+      <iso-639-1>ga</iso-639-1>
+      <authority-code>GLE</authority-code>
+      <op-mapped-code source="EUDOR">GA</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">GA</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">IRL</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">GA</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">GA</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">GA</op-mapped-code>
+      <op-mapped-code source="TED">GA</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">GA</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="gle">Gaeilge</lg.version>
+         </original.name>
+         <alternative.name>
+            <lg.version lg="fra">gaélique irlandais</lg.version>
+            <lg.version lg="fra">gaélique</lg.version>
+         </alternative.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>
+               <p>Irish, Irish Gaelic, or Gaelic (Gaeilge) belongs to the Gaelic branch of the Celtic family of languages, originating in Ireland and historically spoken by the Irish people.</p>
+               <p>Irish is spoken as a first language by a small minority of Irish people, and as a second language by a rather larger group. Irish enjoys constitutional status as the national and first official language of the Republic of Ireland, and is an officially recognised minority language in Northern Ireland.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>
+               <p>L’irlandais, gaélique irlandais ou gaélique (Gaeilge) appartient à la branche gaélique de la famille des langues celtiques, originaires de l’Irlande et historiquement parlées par le peuple irlandais.</p>
+               <p>L’irlandais est utilisé comme première langue par une minorité irlandaise et comme deuxième langue par un groupe beaucoup plus large. L’irlandais bénéficie d’un statut constitutionnel comme langue officielle nationale et première langue de la République d’Irlande, et est une langue minoritaire officiellement reconnue en Irlande du Nord.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">ирландски</lg.version>
+         <lg.version lg="ces">irština</lg.version>
+         <lg.version lg="dan">irsk</lg.version>
+         <lg.version lg="deu">Irisch</lg.version>
+         <lg.version lg="ell" script="Greek">ιρλανδικά</lg.version>
+         <lg.version lg="eng">Irish</lg.version>
+         <lg.version lg="est">iiri keel</lg.version>
+         <lg.version lg="fin">iiri</lg.version>
+         <lg.version lg="fra">irlandais</lg.version>
+         <lg.version lg="gle">Gaeilge</lg.version>
+         <lg.version lg="hbs">irski</lg.version>
+         <lg.version lg="hrv">irski</lg.version>
+         <lg.version lg="hsb">iršćina</lg.version>
+         <lg.version lg="hun">ír</lg.version>
+         <lg.version lg="isl">írska</lg.version>
+         <lg.version lg="ita">irlandese</lg.version>
+         <lg.version lg="lav">īru valoda</lg.version>
+         <lg.version lg="lit">airių kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">ирски</lg.version>
+         <lg.version lg="mlt">Irlandiż</lg.version>
+         <lg.version lg="nld">Iers</lg.version>
+         <lg.version lg="nor">irsk</lg.version>
+         <lg.version lg="pol">irlandzki</lg.version>
+         <lg.version lg="por">irlandes</lg.version>
+         <lg.version lg="ron">irlandeză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">ирландский</lg.version>
+         <lg.version lg="slk">írčina</lg.version>
+         <lg.version lg="slv">irščina</lg.version>
+         <lg.version lg="spa">Irlandés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">ирски</lg.version>
+         <lg.version lg="swe">iriska</lg.version>
+         <lg.version lg="tur">ırlandaca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">ірландська мова</lg.version>
+         <lg.version lg="cat">Irlandés</lg.version>
+         <lg.version lg="eus">Irlandés</lg.version>
+         <lg.version lg="glg">Irlandés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>ga</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG2595"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-12"
+           language.classification="EU">
+      <iso-639-3>ita</iso-639-3>
+      <iso-639-2b>ita</iso-639-2b>
+      <iso-639-2t>ita</iso-639-2t>
+      <iso-639-1>it</iso-639-1>
+      <authority-code>ITA</authority-code>
+      <op-mapped-code source="EUDOR">IT</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">IT</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">I</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">IT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">IT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">IT</op-mapped-code>
+      <op-mapped-code source="TED">IT</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">IT</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="ita">italiano</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>
+               <p>Italian is a member of the Romance language group, spoken mainly in south Europe. Among the Romance languages, Italian is the closest to Latin in terms of vocabulary. The Italian language adopted by the state after the unification of Italy is based on Tuscan.</p>
+               <p>Many Italian speakers are native bilinguals of both standardised Italian and other regional variants.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>
+               <p>L’italien est une langue appartenant au groupe des langues romanes, parlée principalement en Europe du Sud. Parmi les langues romanes, l’italien est très proche du latin en termes de vocabulaire. La langue italienne adoptée par l’État après l’unification de l’Italie est fondée sur le dialecte de la Toscane.</p>
+               <p>De nombreux locuteurs italiens sont bilingues et parlent aussi bien l’italien standard que les autres variantes régionales.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">италиански</lg.version>
+         <lg.version lg="ces">italština</lg.version>
+         <lg.version lg="dan">italiensk</lg.version>
+         <lg.version lg="deu">Italienisch</lg.version>
+         <lg.version lg="ell" script="Greek">ιταλικά</lg.version>
+         <lg.version lg="eng">Italian</lg.version>
+         <lg.version lg="est">itaalia keel</lg.version>
+         <lg.version lg="fin">italia</lg.version>
+         <lg.version lg="fra">italien</lg.version>
+         <lg.version lg="gle">Iodáilis</lg.version>
+         <lg.version lg="hbs">italijanski</lg.version>
+         <lg.version lg="hrv">talijanski</lg.version>
+         <lg.version lg="hsb">italšćina</lg.version>
+         <lg.version lg="hun">olasz</lg.version>
+         <lg.version lg="isl">ítalska</lg.version>
+         <lg.version lg="ita">italiano</lg.version>
+         <lg.version lg="lav">itaļu valoda</lg.version>
+         <lg.version lg="lit">italų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">италијански</lg.version>
+         <lg.version lg="mlt">Taljan</lg.version>
+         <lg.version lg="nld">Italiaans</lg.version>
+         <lg.version lg="nor">italiensk</lg.version>
+         <lg.version lg="pol">włoski</lg.version>
+         <lg.version lg="por">italiano</lg.version>
+         <lg.version lg="ron">italiană</lg.version>
+         <lg.version lg="rus" script="Cyrillic">итальянский</lg.version>
+         <lg.version lg="slk">taliančina</lg.version>
+         <lg.version lg="slv">italijanščina</lg.version>
+         <lg.version lg="spa">Italiano</lg.version>
+         <lg.version lg="srp" script="Cyrillic">италијански</lg.version>
+         <lg.version lg="swe">italienska</lg.version>
+         <lg.version lg="tur">ıtalyanca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">італійська мова</lg.version>
+         <lg.version lg="cat">Italià</lg.version>
+         <lg.version lg="eus">Italiera</lg.version>
+         <lg.version lg="glg">Italiano</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>it</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG3432"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-13"
+           language.classification="EU">
+      <iso-639-3>lav</iso-639-3>
+      <iso-639-2b>lav</iso-639-2b>
+      <iso-639-2t>lav</iso-639-2t>
+      <iso-639-1>lv</iso-639-1>
+      <authority-code>LAV</authority-code>
+      <op-mapped-code source="EUDOR">LV</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">LV</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">LV</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">LV</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">LV</op-mapped-code>
+      <op-mapped-code source="TED">LV</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">LV</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="lav">latviešu valoda</lg.version>
+         </original.name>
+         <alternative.name>
+            <lg.version lg="fra">lette</lg.version>
+            <lg.version lg="nld">Letlands</lg.version>
+         </alternative.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>
+               <p>Latvian is one of the two living members of the Baltic languages, the other being Lithuanian. It is the official language of Latvia.</p>
+               <p>Latvian is more innovative, especially in morphology than Lithuanian.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>
+               <p>Le letton ou lette est l’un des deux membres vivants des langues baltes, l’autre étant le lituanien. C’est la langue officielle de la Lettonie.</p>
+               <p>Le letton est plus novateur, en particulier dans la morphologie, que le lituanien.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">латвийски</lg.version>
+         <lg.version lg="ces">lotyština</lg.version>
+         <lg.version lg="dan">lettisk</lg.version>
+         <lg.version lg="deu">Lettisch</lg.version>
+         <lg.version lg="ell" script="Greek">λετονικά</lg.version>
+         <lg.version lg="eng">Latvian</lg.version>
+         <lg.version lg="est">läti keel</lg.version>
+         <lg.version lg="fin">latvia</lg.version>
+         <lg.version lg="fra">letton</lg.version>
+         <lg.version lg="gle">Laitvis</lg.version>
+         <lg.version lg="hbs">letonski</lg.version>
+         <lg.version lg="hrv">latvijski</lg.version>
+         <lg.version lg="hsb">letišćina</lg.version>
+         <lg.version lg="hun">lett</lg.version>
+         <lg.version lg="isl">lettneska</lg.version>
+         <lg.version lg="ita">lettone</lg.version>
+         <lg.version lg="lav">latviešu valoda</lg.version>
+         <lg.version lg="lit">latvių kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">латвиски</lg.version>
+         <lg.version lg="mlt">Latvjan</lg.version>
+         <lg.version lg="nld">Lets</lg.version>
+         <lg.version lg="nor">latvisk</lg.version>
+         <lg.version lg="pol">łotewski</lg.version>
+         <lg.version lg="por">letão</lg.version>
+         <lg.version lg="ron">letonă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">латышский</lg.version>
+         <lg.version lg="slk">lotyština</lg.version>
+         <lg.version lg="slv">latvijščina</lg.version>
+         <lg.version lg="spa">Letón</lg.version>
+         <lg.version lg="srp" script="Cyrillic">летонски</lg.version>
+         <lg.version lg="swe">lettiska</lg.version>
+         <lg.version lg="tur">letonca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">латиська мова</lg.version>
+         <lg.version lg="cat">Letó</lg.version>
+         <lg.version lg="eus">Letoniera</lg.version>
+         <lg.version lg="glg">Letón</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>lv</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG3552"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-14"
+           language.classification="EU">
+      <iso-639-3>lit</iso-639-3>
+      <iso-639-2b>lit</iso-639-2b>
+      <iso-639-2t>lit</iso-639-2t>
+      <iso-639-1>lt</iso-639-1>
+      <authority-code>LIT</authority-code>
+      <op-mapped-code source="EUDOR">LT</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">LT</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">LT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">LT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">LT</op-mapped-code>
+      <op-mapped-code source="TED">LT</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">LT</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="lit">lietuvių kalba</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>
+               <p>Lithuanian is one of the two living members of the Baltic languages, the other being Latvian. It is the official language of Lithuania.</p>
+               <p>The Lithuanian language is often said to be the most conservative living Indo-European language, retaining many features of Proto-Indo-European now lost in other Indo-European languages.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>
+               <p>Le lituanien est l’un des deux membres vivants des langues baltes, l’autre étant le letton. C’est la langue officielle de la Lituanie.</p>
+               <p>Le lituanien est souvent dit la langue indo-européenne vivante la plus conservatrice, gardant de nombreuses caractéristiques de l’indo-européen aujourd’hui perdues dans d’autres langues indo-européennes.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">литовски</lg.version>
+         <lg.version lg="ces">litevština</lg.version>
+         <lg.version lg="dan">litauisk</lg.version>
+         <lg.version lg="deu">Litauisch</lg.version>
+         <lg.version lg="ell" script="Greek">λιθουανικά</lg.version>
+         <lg.version lg="eng">Lithuanian</lg.version>
+         <lg.version lg="est">leedu keel</lg.version>
+         <lg.version lg="fin">liettua</lg.version>
+         <lg.version lg="fra">lituanien</lg.version>
+         <lg.version lg="gle">Liotuáinis</lg.version>
+         <lg.version lg="hbs">litvanski</lg.version>
+         <lg.version lg="hrv">litavski</lg.version>
+         <lg.version lg="hsb">litawšćina</lg.version>
+         <lg.version lg="hun">litván</lg.version>
+         <lg.version lg="isl">litháíska</lg.version>
+         <lg.version lg="ita">lituano</lg.version>
+         <lg.version lg="lav">lietuviešu valoda</lg.version>
+         <lg.version lg="lit">lietuvių kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">литвански</lg.version>
+         <lg.version lg="mlt">Litwan</lg.version>
+         <lg.version lg="nld">Litouws</lg.version>
+         <lg.version lg="nor">litauisk</lg.version>
+         <lg.version lg="pol">litewski</lg.version>
+         <lg.version lg="por">lituano</lg.version>
+         <lg.version lg="ron">lituaniană</lg.version>
+         <lg.version lg="rus" script="Cyrillic">литовский</lg.version>
+         <lg.version lg="slk">litovčina</lg.version>
+         <lg.version lg="slv">litovščina</lg.version>
+         <lg.version lg="spa">Lituano</lg.version>
+         <lg.version lg="srp" script="Cyrillic">литвански</lg.version>
+         <lg.version lg="swe">litauiska</lg.version>
+         <lg.version lg="tur">litvanca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">литовська мова</lg.version>
+         <lg.version lg="cat">Lituà</lg.version>
+         <lg.version lg="eus">Lituaniera</lg.version>
+         <lg.version lg="glg">Lituano</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>lt</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG4035"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-16"
+           language.classification="EU">
+      <iso-639-3>mlt</iso-639-3>
+      <iso-639-2b>mlt</iso-639-2b>
+      <iso-639-2t>mlt</iso-639-2t>
+      <iso-639-1>mt</iso-639-1>
+      <authority-code>MLT</authority-code>
+      <op-mapped-code source="EUDOR">MT</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">MT</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">MT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">MT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">MT</op-mapped-code>
+      <op-mapped-code source="TED">MT</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">MT</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="mlt">Malti</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Maltese is a Semitic language, historically a dialect of Arabic, spoken in Malta. About half of the vocabulary is derived from standard Italian and Sicilian; English words also make up an important part of the Maltese vocabulary.</p>
+               <p>It is the only Semitic language written in the Latin script in its standard form.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>Le maltais est une langue sémitique, historiquement un dialecte de l’arabe, parlé à Malte. Environ la moitié du vocabulaire est dérivé de l’italien standard et de Sicile; les mots anglais constituent également une partie importante du vocabulaire maltais.</p>
+               <p>Il est la seule langue sémitique écrite en alphabet latin dans sa forme standard.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">малтийски</lg.version>
+         <lg.version lg="ces">maltština</lg.version>
+         <lg.version lg="dan">maltesisk</lg.version>
+         <lg.version lg="deu">Maltesisch</lg.version>
+         <lg.version lg="ell" script="Greek">μαλτέζικα</lg.version>
+         <lg.version lg="eng">Maltese</lg.version>
+         <lg.version lg="est">malta keel</lg.version>
+         <lg.version lg="fin">malta</lg.version>
+         <lg.version lg="fra">maltais</lg.version>
+         <lg.version lg="gle">Máltais</lg.version>
+         <lg.version lg="hbs">malteški</lg.version>
+         <lg.version lg="hrv">malteški</lg.version>
+         <lg.version lg="hsb">maltašćina</lg.version>
+         <lg.version lg="hun">máltai</lg.version>
+         <lg.version lg="isl">maltneska</lg.version>
+         <lg.version lg="ita">maltese</lg.version>
+         <lg.version lg="lav">maltiešu valoda</lg.version>
+         <lg.version lg="lit">maltiečių kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">малтешки</lg.version>
+         <lg.version lg="mlt">Malti</lg.version>
+         <lg.version lg="nld">Maltees</lg.version>
+         <lg.version lg="nor">maltesisk</lg.version>
+         <lg.version lg="pol">maltański</lg.version>
+         <lg.version lg="por">maltes</lg.version>
+         <lg.version lg="ron">malteză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">мальтийский</lg.version>
+         <lg.version lg="slk">maltčina</lg.version>
+         <lg.version lg="slv">malteščina</lg.version>
+         <lg.version lg="spa">Maltés</lg.version>
+         <lg.version lg="srp" script="Cyrillic">малтешки</lg.version>
+         <lg.version lg="swe">maltesiska</lg.version>
+         <lg.version lg="tur">maltaca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">мальтійська мова</lg.version>
+         <lg.version lg="cat">Maltès</lg.version>
+         <lg.version lg="eus">Maltesera</lg.version>
+         <lg.version lg="glg">Maltés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>mt</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG5250"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-18"
+           language.classification="EU">
+      <iso-639-3>pol</iso-639-3>
+      <iso-639-2b>pol</iso-639-2b>
+      <iso-639-2t>pol</iso-639-2t>
+      <iso-639-1>pl</iso-639-1>
+      <authority-code>POL</authority-code>
+      <op-mapped-code source="EUDOR">PL</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">PL</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">PL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">PL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">PL</op-mapped-code>
+      <op-mapped-code source="TED">PL</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">PL</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="pol">polski</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Polish is the eastern member of the Lechitic branch of the West Slavic languages. It is spoken primarily in Poland.</p>
+               <p>Polish is the second most widely spoken Slavic language, after Russian.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>Le polonais fait partie de la branche léchitique des langues slaves de l’Ouest. Il est parlé principalement en Pologne. Le polonais est la deuxième langue slave la plus utilisée après le russe.</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">полски</lg.version>
+         <lg.version lg="ces">polština</lg.version>
+         <lg.version lg="dan">polsk</lg.version>
+         <lg.version lg="deu">Polnisch</lg.version>
+         <lg.version lg="ell" script="Greek">πολωνικά</lg.version>
+         <lg.version lg="eng">Polish</lg.version>
+         <lg.version lg="est">poola keel</lg.version>
+         <lg.version lg="fin">puola</lg.version>
+         <lg.version lg="fra">polonais</lg.version>
+         <lg.version lg="gle">Polainnis</lg.version>
+         <lg.version lg="hbs">poljski</lg.version>
+         <lg.version lg="hrv">poljski</lg.version>
+         <lg.version lg="hsb">pólšćina</lg.version>
+         <lg.version lg="hun">lengyel</lg.version>
+         <lg.version lg="isl">pólska</lg.version>
+         <lg.version lg="ita">polacco</lg.version>
+         <lg.version lg="lav">poļu valoda</lg.version>
+         <lg.version lg="lit">lenkų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">полски</lg.version>
+         <lg.version lg="mlt">Pollakk</lg.version>
+         <lg.version lg="nld">Pools</lg.version>
+         <lg.version lg="nor">polsk</lg.version>
+         <lg.version lg="pol">polski</lg.version>
+         <lg.version lg="por">polaco</lg.version>
+         <lg.version lg="ron">polonă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">польский</lg.version>
+         <lg.version lg="slk">poľština</lg.version>
+         <lg.version lg="slv">poljščina</lg.version>
+         <lg.version lg="spa">Polaco</lg.version>
+         <lg.version lg="srp" script="Cyrillic">пољски</lg.version>
+         <lg.version lg="swe">polska</lg.version>
+         <lg.version lg="tur">lehçe</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">польська мова</lg.version>
+         <lg.version lg="cat">Polonès</lg.version>
+         <lg.version lg="eus">Poloniarra</lg.version>
+         <lg.version lg="glg">Polaco</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>pl</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG5256"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-19"
+           language.classification="EU">
+      <iso-639-3>por</iso-639-3>
+      <iso-639-2b>por</iso-639-2b>
+      <iso-639-2t>por</iso-639-2t>
+      <iso-639-1>pt</iso-639-1>
+      <authority-code>POR</authority-code>
+      <op-mapped-code source="EUDOR">PT</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">PT</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">P</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">PT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">PT</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">PT</op-mapped-code>
+      <op-mapped-code source="TED">PT</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">PT</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="por">portugues</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Portuguese is a member of the Ibero-Romance subgroup of the Romance languages. It is spoken in Portugal, Brazil, Mozambique, Angola, Cape Verde, Guinea-Bissau, São Tomé and Príncipe, Macau (China), Equatorial Guinea and East Timor.</p>
+               <p>Portuguese is the major language of the southern hemisphere.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>Le portugais est une langue appartenant au sous-groupe ibéro-roman des langues romanes. Il est parlé au Portugal, au Brésil, au Mozambique, en Angola, au Cap-Vert, en Guinée-Bissau, à Sao Tomé-et-Principe, à Macao (Chine), en Guinée équatoriale et au Timor-Oriental.</p>
+               <p>Le portugais est la langue la plus parlée de l’hémisphère Sud.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">португалски</lg.version>
+         <lg.version lg="ces">portugalština</lg.version>
+         <lg.version lg="dan">portugisisk</lg.version>
+         <lg.version lg="deu">Portugiesisch</lg.version>
+         <lg.version lg="ell" script="Greek">πορτογαλικά</lg.version>
+         <lg.version lg="eng">Portuguese</lg.version>
+         <lg.version lg="est">portugali keel</lg.version>
+         <lg.version lg="fin">portugali</lg.version>
+         <lg.version lg="fra">portugais</lg.version>
+         <lg.version lg="gle">Portaingéilis</lg.version>
+         <lg.version lg="hbs">portugalski</lg.version>
+         <lg.version lg="hrv">portugalski</lg.version>
+         <lg.version lg="hsb">portugalšćina</lg.version>
+         <lg.version lg="hun">portugál</lg.version>
+         <lg.version lg="isl">portúgalska</lg.version>
+         <lg.version lg="ita">portoghese</lg.version>
+         <lg.version lg="lav">portugaļu valoda</lg.version>
+         <lg.version lg="lit">portugalų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">португалски</lg.version>
+         <lg.version lg="mlt">Portugiż</lg.version>
+         <lg.version lg="nld">Portugees</lg.version>
+         <lg.version lg="nor">portugisisk</lg.version>
+         <lg.version lg="pol">portugalski</lg.version>
+         <lg.version lg="por">portugues</lg.version>
+         <lg.version lg="ron">portugheză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">португальский</lg.version>
+         <lg.version lg="slk">portugalčina</lg.version>
+         <lg.version lg="slv">portugalščina</lg.version>
+         <lg.version lg="spa">Portugués</lg.version>
+         <lg.version lg="srp" script="Cyrillic">португалски</lg.version>
+         <lg.version lg="swe">portugisiska</lg.version>
+         <lg.version lg="tur">portekizce</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">португальська мова</lg.version>
+         <lg.version lg="cat">Portuguès</lg.version>
+         <lg.version lg="eus">Portugesa</lg.version>
+         <lg.version lg="glg">Portugués</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>pt</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG5536"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-20"
+           language.classification="EU">
+      <iso-639-3>ron</iso-639-3>
+      <iso-639-2b>rum</iso-639-2b>
+      <iso-639-2t>ron</iso-639-2t>
+      <iso-639-1>ro</iso-639-1>
+      <authority-code>RON</authority-code>
+      <op-mapped-code source="EUDOR">RO</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">RO</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">RO</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">RO</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">RO</op-mapped-code>
+      <op-mapped-code source="TED">RO</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">RO</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="ron">română</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Romanian is a Romance language spoken principally in Romania and Moldova. Much of the total Romanian vocabulary is derived from Latin.</p>
+               <p>Romanian has four varieties: Daco-Romanian, Istro-Romanian, Aromanian and Megleno-Romanian.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>Le roumain est une langue romane parlée principalement en Roumanie et en Moldavie. Une grande partie du vocabulaire roumain total est dérivée du latin.</p>
+               <p>Le roumain possède quatre dialectes: le daco-roumain, l’istro-roumain, l’aroumain et le mégléno-roumain.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">румънски</lg.version>
+         <lg.version lg="ces">rumunština</lg.version>
+         <lg.version lg="dan">rumænsk</lg.version>
+         <lg.version lg="deu">Rumänisch</lg.version>
+         <lg.version lg="ell" script="Greek">ρουμανικά</lg.version>
+         <lg.version lg="eng">Romanian</lg.version>
+         <lg.version lg="est">rumeenia keel</lg.version>
+         <lg.version lg="fin">romania</lg.version>
+         <lg.version lg="fra">roumain</lg.version>
+         <lg.version lg="gle">Rómáinis</lg.version>
+         <lg.version lg="hbs">rumunski</lg.version>
+         <lg.version lg="hrv">rumunjski</lg.version>
+         <lg.version lg="hsb">rumunšćina</lg.version>
+         <lg.version lg="hun">román</lg.version>
+         <lg.version lg="isl">rúmenska</lg.version>
+         <lg.version lg="ita">rumeno</lg.version>
+         <lg.version lg="lav">rumaņu valoda</lg.version>
+         <lg.version lg="lit">rumunų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">романски</lg.version>
+         <lg.version lg="mlt">Rumen</lg.version>
+         <lg.version lg="nld">Roemeens</lg.version>
+         <lg.version lg="nor">rumensk</lg.version>
+         <lg.version lg="pol">rumuński</lg.version>
+         <lg.version lg="por">romeno</lg.version>
+         <lg.version lg="ron">română</lg.version>
+         <lg.version lg="rus" script="Cyrillic">румынский</lg.version>
+         <lg.version lg="slk">rumunčina</lg.version>
+         <lg.version lg="slv">romunščina</lg.version>
+         <lg.version lg="spa">Rumano</lg.version>
+         <lg.version lg="srp" script="Cyrillic">румунски</lg.version>
+         <lg.version lg="swe">rumänska</lg.version>
+         <lg.version lg="tur">rumence</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">румунська мова</lg.version>
+         <lg.version lg="cat">Romanès</lg.version>
+         <lg.version lg="eus">Errumaniera</lg.version>
+         <lg.version lg="glg">Romanés</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>ro</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG5807"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-21"
+           language.classification="EU">
+      <iso-639-3>slk</iso-639-3>
+      <iso-639-2b>slo</iso-639-2b>
+      <iso-639-2t>slk</iso-639-2t>
+      <iso-639-1>sk</iso-639-1>
+      <authority-code>SLK</authority-code>
+      <op-mapped-code source="EUDOR">SK</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">SK</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">SK</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">SK</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">SK</op-mapped-code>
+      <op-mapped-code source="TED">SK</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">SK</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="slk">slovenčina</lg.version>
+            <lg.version lg="slk">slovenský</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Slovak is a member of the western subgroup of Slavic languages, mainly spoken in Slovakia where it is protected by a language law.</p>
+               <p>Slovak is very close to the Czech.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>Le slovaque est une langue appartenant au sous-groupe des langues slaves occidentales, principalement parlée en Slovaquie, où elle est protégée par une loi linguistique.</p>
+               <p>Le slovaque est très proche du tchèque.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">словашки</lg.version>
+         <lg.version lg="ces">slovenština</lg.version>
+         <lg.version lg="dan">slovakisk</lg.version>
+         <lg.version lg="deu">Slowakisch</lg.version>
+         <lg.version lg="ell" script="Greek">σλοβακικά</lg.version>
+         <lg.version lg="eng">Slovak</lg.version>
+         <lg.version lg="est">slovaki keel</lg.version>
+         <lg.version lg="fin">slovakki</lg.version>
+         <lg.version lg="fra">slovaque</lg.version>
+         <lg.version lg="gle">Slóvaicis</lg.version>
+         <lg.version lg="hbs">slovački</lg.version>
+         <lg.version lg="hrv">slovački</lg.version>
+         <lg.version lg="hsb">słowakšćina</lg.version>
+         <lg.version lg="hun">szlovák</lg.version>
+         <lg.version lg="isl">slóvakíska</lg.version>
+         <lg.version lg="ita">slovacco</lg.version>
+         <lg.version lg="lav">slovaku valoda</lg.version>
+         <lg.version lg="lit">slovakų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">словачки</lg.version>
+         <lg.version lg="mlt">Slovakk</lg.version>
+         <lg.version lg="nld">Slowaaks</lg.version>
+         <lg.version lg="nor">slovakisk</lg.version>
+         <lg.version lg="pol">słowacki</lg.version>
+         <lg.version lg="por">eslovaco</lg.version>
+         <lg.version lg="ron">slovacă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">словацкий</lg.version>
+         <lg.version lg="slk">slovenčina</lg.version>
+         <lg.version lg="slv">slovaščina</lg.version>
+         <lg.version lg="spa">Eslovaco</lg.version>
+         <lg.version lg="srp" script="Cyrillic">словачки</lg.version>
+         <lg.version lg="swe">slovakiska</lg.version>
+         <lg.version lg="tur">slovakça</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">словацька мова</lg.version>
+         <lg.version lg="cat">Eslovac</lg.version>
+         <lg.version lg="eus">Eslovakiera</lg.version>
+         <lg.version lg="glg">Eslovaco</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>sk</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG5817"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-22"
+           language.classification="EU">
+      <iso-639-3>slv</iso-639-3>
+      <iso-639-2b>slv</iso-639-2b>
+      <iso-639-2t>slv</iso-639-2t>
+      <iso-639-1>sl</iso-639-1>
+      <authority-code>SLV</authority-code>
+      <op-mapped-code source="EUDOR">SL</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">SL</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">SL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">SL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">SL</op-mapped-code>
+      <op-mapped-code source="TED">SL</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">SL</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="slv">slovenščina</lg.version>
+            <lg.version lg="slv">slovenski</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Slovenian or Slovene is a member of the southern subgroup of the Slavic languages, spoken mainly in Slovenia.</p>
+               <p>The distinctive characteristic of Slovene that it has preserved the use of dual grammatical number in addition to singular and plural.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>Le slovène est une langue appartenant au sous-groupe méridional des langues slaves, parlée principalement en Slovénie.</p>
+               <p>L’une des caractéristiques du slovène est qu’il a conservé l’usage grammatical du duel (qui représente exactement deux unités) en plus du singulier et du pluriel.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">словенски</lg.version>
+         <lg.version lg="ces">slovinština</lg.version>
+         <lg.version lg="dan">slovensk</lg.version>
+         <lg.version lg="deu">Slowenisch</lg.version>
+         <lg.version lg="ell" script="Greek">σλοβενικά</lg.version>
+         <lg.version lg="eng">Slovenian</lg.version>
+         <lg.version lg="est">sloveenia keel</lg.version>
+         <lg.version lg="fin">sloveeni</lg.version>
+         <lg.version lg="fra">slovène</lg.version>
+         <lg.version lg="gle">Slóivéinis</lg.version>
+         <lg.version lg="hbs">slovenski</lg.version>
+         <lg.version lg="hrv">slovenski</lg.version>
+         <lg.version lg="hsb">słowjenšćina</lg.version>
+         <lg.version lg="hun">szlovén</lg.version>
+         <lg.version lg="isl">slóvenska</lg.version>
+         <lg.version lg="ita">sloveno</lg.version>
+         <lg.version lg="lav">slovēņu valoda</lg.version>
+         <lg.version lg="lit">slovėnų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">словенечки</lg.version>
+         <lg.version lg="mlt">Sloven</lg.version>
+         <lg.version lg="nld">Sloveens</lg.version>
+         <lg.version lg="nor">slovensk</lg.version>
+         <lg.version lg="pol">słoweński</lg.version>
+         <lg.version lg="por">esloveno</lg.version>
+         <lg.version lg="ron">slovenă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">словенский</lg.version>
+         <lg.version lg="slk">slovinčina</lg.version>
+         <lg.version lg="slv">slovenščina</lg.version>
+         <lg.version lg="spa">Esloveno</lg.version>
+         <lg.version lg="srp" script="Cyrillic">словеначки</lg.version>
+         <lg.version lg="swe">slovenska</lg.version>
+         <lg.version lg="tur">slovence</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">словенська мова</lg.version>
+         <lg.version lg="cat">Eslovè</lg.version>
+         <lg.version lg="eus">Esloveniara</lg.version>
+         <lg.version lg="glg">Esloveno</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>sl</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG5896"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-02"
+           language.classification="EU">
+      <iso-639-3>spa</iso-639-3>
+      <iso-639-2b>spa</iso-639-2b>
+      <iso-639-2t>spa</iso-639-2t>
+      <iso-639-1>es</iso-639-1>
+      <authority-code>SPA</authority-code>
+      <op-mapped-code source="EUDOR">ES</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">ES</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">E</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">ES</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">ES</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">ES</op-mapped-code>
+      <op-mapped-code source="TED">ES</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">ES</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="spa">Español</lg.version>
+         </original.name>
+         <alternative.name>
+            <lg.version lg="fra">castillan</lg.version>
+         </alternative.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Spanish is a member of the Romance language family. It is spoken in Spain and in the continents of North and South America.</p>
+               <p>Spanish is second after Mandarin in terms of its number of native speakers worldwide. From the last decades of the 20th century, the study of Spanish as a foreign language has grown significantly.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>L’espagnol fait partie de la famille des langues romanes. Il est parlé en Espagne et en Amérique du Nord et du Sud.</p>
+               <p>L’espagnol est la deuxième langue après le mandarin en termes de nombre de locuteurs natifs dans le monde entier. Depuis les dernières décennies du XXe siècle, l’étude de l’espagnol comme langue étrangère a augmenté de façon significative.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">испански</lg.version>
+         <lg.version lg="ces">španělština</lg.version>
+         <lg.version lg="dan">spansk</lg.version>
+         <lg.version lg="deu">Spanisch</lg.version>
+         <lg.version lg="ell" script="Greek">ισπανικά</lg.version>
+         <lg.version lg="eng">Spanish</lg.version>
+         <lg.version lg="est">hispaania keel</lg.version>
+         <lg.version lg="fin">espanja</lg.version>
+         <lg.version lg="fra">espagnol</lg.version>
+         <lg.version lg="gle">Spáinnis</lg.version>
+         <lg.version lg="hbs">španski</lg.version>
+         <lg.version lg="hrv">španjolski</lg.version>
+         <lg.version lg="hsb">španišćina</lg.version>
+         <lg.version lg="hun">spanyol</lg.version>
+         <lg.version lg="isl">spænska</lg.version>
+         <lg.version lg="ita">spagnolo</lg.version>
+         <lg.version lg="lav">spaņu valoda</lg.version>
+         <lg.version lg="lit">ispanų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">шпански</lg.version>
+         <lg.version lg="mlt">Spanjol</lg.version>
+         <lg.version lg="nld">Spaans</lg.version>
+         <lg.version lg="nor">spansk</lg.version>
+         <lg.version lg="pol">hiszpański</lg.version>
+         <lg.version lg="por">espanhol</lg.version>
+         <lg.version lg="ron">spaniolă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">испанский</lg.version>
+         <lg.version lg="slk">španielčina</lg.version>
+         <lg.version lg="slv">španščina</lg.version>
+         <lg.version lg="spa">Español</lg.version>
+         <lg.version lg="srp" script="Cyrillic">шпански</lg.version>
+         <lg.version lg="swe">spanska</lg.version>
+         <lg.version lg="tur">ıspanyolca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">іспанська мова</lg.version>
+         <lg.version lg="cat">Espanyol</lg.version>
+         <lg.version lg="eus">Gaztelania</lg.version>
+         <lg.version lg="glg">Castelán</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>es</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG6029"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-24"
+           language.classification="EU">
+      <iso-639-3>swe</iso-639-3>
+      <iso-639-2b>swe</iso-639-2b>
+      <iso-639-2t>swe</iso-639-2t>
+      <iso-639-1>sv</iso-639-1>
+      <authority-code>SWE</authority-code>
+      <op-mapped-code source="EUDOR">SV</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">SV</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">SV</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">SV</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">SV</op-mapped-code>
+      <op-mapped-code source="TED">SV</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">SV</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="swe">svenska</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-13" lg="eng">
+            <description>
+               <p>Swedish is a North Germanic language, spoken mainly in Sweden and parts of Finland. It is largely mutually intelligible with Norwegian and Danish.</p>
+               <p>Swedish uses two genders: neutrum and utrum which unifies the old masculin and femenin.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-13" lg="fra">
+            <description>
+               <p>Le suédois est une langue germanique septentrionale, parlée principalement en Suède et dans certaines parties de la Finlande. Il est en grande partie mutuellement intelligible avec le norvégien et le danois.</p>
+               <p>Le suédois utilise deux genres: le neutrum et l’utrum qui rassemble les anciens genres masculin et féminin.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">шведски</lg.version>
+         <lg.version lg="ces">švédština</lg.version>
+         <lg.version lg="dan">svensk</lg.version>
+         <lg.version lg="deu">Schwedisch</lg.version>
+         <lg.version lg="ell" script="Greek">σουηδικά</lg.version>
+         <lg.version lg="eng">Swedish</lg.version>
+         <lg.version lg="est">rootsi keel</lg.version>
+         <lg.version lg="fin">ruotsi</lg.version>
+         <lg.version lg="fra">suédois</lg.version>
+         <lg.version lg="gle">Sualainnis</lg.version>
+         <lg.version lg="hbs">švedski</lg.version>
+         <lg.version lg="hrv">švedski</lg.version>
+         <lg.version lg="hsb">šwedšćina</lg.version>
+         <lg.version lg="hun">svéd</lg.version>
+         <lg.version lg="isl">sænska</lg.version>
+         <lg.version lg="ita">svedese</lg.version>
+         <lg.version lg="lav">zviedru valoda</lg.version>
+         <lg.version lg="lit">švedų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">шведски</lg.version>
+         <lg.version lg="mlt">Svediż</lg.version>
+         <lg.version lg="nld">Zweeds</lg.version>
+         <lg.version lg="nor">svensk</lg.version>
+         <lg.version lg="pol">szwedzki</lg.version>
+         <lg.version lg="por">sueco</lg.version>
+         <lg.version lg="ron">suedeză</lg.version>
+         <lg.version lg="rus" script="Cyrillic">шведский</lg.version>
+         <lg.version lg="slk">švédčina</lg.version>
+         <lg.version lg="slv">švedščina</lg.version>
+         <lg.version lg="spa">Sueco</lg.version>
+         <lg.version lg="srp" script="Cyrillic">шведски</lg.version>
+         <lg.version lg="swe">svenska</lg.version>
+         <lg.version lg="tur">ısveççe</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">шведська мова</lg.version>
+         <lg.version lg="cat">Suec</lg.version>
+         <lg.version lg="eus">Suediera</lg.version>
+         <lg.version lg="glg">Sueco</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>sv</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1014"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-01"
+           language.classification="EU">
+      <iso-639-3>bul</iso-639-3>
+      <iso-639-2b>bul</iso-639-2b>
+      <iso-639-2t>bul</iso-639-2t>
+      <iso-639-1>bg</iso-639-1>
+      <authority-code>BUL</authority-code>
+      <op-mapped-code source="EUDOR">BG</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">BG</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">BG</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">BG</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">BG</op-mapped-code>
+      <op-mapped-code source="TED">BG</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">BG</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="bul" script="Cyrillic">български</lg.version>
+            <lg.version lg="bul">bulgarski</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>Bulgarian is a member of the Southern subgroup of the Slavic languages, spoken mainly in Bulgaria.</p>
+               <p>Modern Bulgarian has several striking differences from other Slavic languages. e.g. nouns are no longer declined; however, there is a definite article suffixed to the noun.</p>
+               <p>Bulgarian is written with the Cyrillic alphabet.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>Le bulgare est une langue du sous-groupe sud des langues slaves. Il est parlé principalement en Bulgarie.</p>
+               <p>Le bulgare a plusieurs caractéristiques qui le distinguent de toutes les autres langues slaves, par exemple l’absence de déclinaison ou l’existence d’un article défini suffixé au nom.</p>
+               <p>Il est écrit avec l’alphabet cyrillique.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">български</lg.version>
+         <lg.version lg="ces">bulharština</lg.version>
+         <lg.version lg="dan">bulgarsk</lg.version>
+         <lg.version lg="deu">Bulgarisch</lg.version>
+         <lg.version lg="ell" script="Greek">βουλγαρικά</lg.version>
+         <lg.version lg="eng">Bulgarian</lg.version>
+         <lg.version lg="est">bulgaaria keel</lg.version>
+         <lg.version lg="fin">bulgaria</lg.version>
+         <lg.version lg="fra">bulgare</lg.version>
+         <lg.version lg="gle">Bulgáiris</lg.version>
+         <lg.version lg="hbs">bugarski</lg.version>
+         <lg.version lg="hrv">bugarski</lg.version>
+         <lg.version lg="hsb">bołharšćina</lg.version>
+         <lg.version lg="hun">bolgár</lg.version>
+         <lg.version lg="isl">búlgarska</lg.version>
+         <lg.version lg="ita">bulgaro</lg.version>
+         <lg.version lg="lav">bulgāru valoda</lg.version>
+         <lg.version lg="lit">bulgarų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">бугарски</lg.version>
+         <lg.version lg="mlt">Bulgaru</lg.version>
+         <lg.version lg="nld">Bulgaars</lg.version>
+         <lg.version lg="nor">bulgarsk</lg.version>
+         <lg.version lg="pol">bułgarski</lg.version>
+         <lg.version lg="por">búlgaro</lg.version>
+         <lg.version lg="ron">bulgară</lg.version>
+         <lg.version lg="rus" script="Cyrillic">болгарский</lg.version>
+         <lg.version lg="slk">bulharčina</lg.version>
+         <lg.version lg="slv">bolgarščina</lg.version>
+         <lg.version lg="spa">Búlgaro</lg.version>
+         <lg.version lg="srp" script="Cyrillic">бугарски</lg.version>
+         <lg.version lg="swe">bulgariska</lg.version>
+         <lg.version lg="tur">bulgarca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">болгарська мова</lg.version>
+         <lg.version lg="cat">Búlgar</lg.version>
+         <lg.version lg="eus">Bulgariera</lg.version>
+         <lg.version lg="glg">Búlgaro</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>bg</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1223"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-03"
+           language.classification="EU">
+      <iso-639-3>ces</iso-639-3>
+      <iso-639-2b>cze</iso-639-2b>
+      <iso-639-2t>ces</iso-639-2t>
+      <iso-639-1>cs</iso-639-1>
+      <authority-code>CES</authority-code>
+      <op-mapped-code source="EUDOR">CS</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">CS</op-mapped-code>
+      <op-mapped-code source="PLANJO_CODES">CS</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">CS</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">CS</op-mapped-code>
+      <op-mapped-code source="TED">CS</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">CS</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="ces">čeština</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>Czech is a member of the Western subgroup of the Slavic languages, spoken mainly in the Czech Republic.</p>
+               <p>Czech is a fusional language and one of the most highly inflected tongues in the world.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>Le tchèque est une langue du sous-groupe occidental des langues slaves, parlée principalement en République tchèque.</p>
+               <p>Le tchèque est une des langues les plus flexionnelles dans le monde.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">чешки</lg.version>
+         <lg.version lg="ces">čeština</lg.version>
+         <lg.version lg="dan">tjekkisk</lg.version>
+         <lg.version lg="deu">Tschechisch</lg.version>
+         <lg.version lg="ell" script="Greek">τσεχικά</lg.version>
+         <lg.version lg="eng">Czech</lg.version>
+         <lg.version lg="est">tšehhi keel</lg.version>
+         <lg.version lg="fin">tšekki</lg.version>
+         <lg.version lg="fra">tchèque</lg.version>
+         <lg.version lg="gle">Seicis</lg.version>
+         <lg.version lg="hbs">češki</lg.version>
+         <lg.version lg="hrv">češki</lg.version>
+         <lg.version lg="hsb">čěšćina</lg.version>
+         <lg.version lg="hun">cseh</lg.version>
+         <lg.version lg="isl">tékkneska</lg.version>
+         <lg.version lg="ita">ceco</lg.version>
+         <lg.version lg="lav">čehu valoda</lg.version>
+         <lg.version lg="lit">čekų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">чешки</lg.version>
+         <lg.version lg="mlt">Ċek</lg.version>
+         <lg.version lg="nld">Tsjechisch</lg.version>
+         <lg.version lg="nor">tsjekkisk</lg.version>
+         <lg.version lg="pol">czeski</lg.version>
+         <lg.version lg="por">checo</lg.version>
+         <lg.version lg="ron">cehă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">чешский</lg.version>
+         <lg.version lg="slk">čeština</lg.version>
+         <lg.version lg="slv">češčina</lg.version>
+         <lg.version lg="spa">Checo</lg.version>
+         <lg.version lg="srp" script="Cyrillic">чешки</lg.version>
+         <lg.version lg="swe">tjeckiska</lg.version>
+         <lg.version lg="tur">çekçe</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">чеська мова</lg.version>
+         <lg.version lg="cat">Txec</lg.version>
+         <lg.version lg="eus">Txekiera</lg.version>
+         <lg.version lg="glg">Checo</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>cs</xml-lang>
+   </record>
+   <record deprecated="false"
+           id="LNG1780"
+           IMMC.proposal.date="2011-10-06"
+           IMMC.approval.date="2012-06-27"
+           date.creation="2010-01-01"
+           adm.status="current"
+           protocol.order="EU-07"
+           language.classification="EU">
+      <iso-639-3>ell</iso-639-3>
+      <iso-639-2b>gre</iso-639-2b>
+      <iso-639-2t>ell</iso-639-2t>
+      <iso-639-1>el</iso-639-1>
+      <authority-code>ELL</authority-code>
+      <op-mapped-code source="EUDOR">GR</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">EL</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">GR</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">EL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">GR</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">EL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">GR</op-mapped-code>
+      <op-mapped-code source="TED">EL</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">EL</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="ell" script="Greek">ελληνικά</lg.version>
+            <lg.version lg="ell">elliniká</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>
+               <p>Greek is an independent branch of the Indo-European family of languages, native to the southern Balkans, the Aegean Islands, western Asia Minor and Cyprus. It has the longest continuous recorded history of any European language.</p>
+               <p>Its writing system has been the Greek alphabet for the majority of its history.</p>
+               <p>Greek roots are often used to coin new words for other languages; Greek and Latin are the predominant sources of international scientific vocabulary.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>
+               <p>Le grec fait partie de la branche indépendante de la famille indo-européenne des langues, principalement parlé dans le sud des Balkans, sur les îles de la mer Égée, en Asie Mineure occidentale et à Chypre. Il a la plus longue histoire enregistrée en continu de toutes les langues européennes.</p>
+               <p>Son système d’écriture a été l’alphabet grec pour la majorité de son histoire.</p>
+               <p>Les racines grecques sont souvent utilisées pour créer de nouveaux mots dans d’autres langues; le grec et le latin sont les principales sources de vocabulaire scientifique international.</p>
+            </description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">гръцки</lg.version>
+         <lg.version lg="ces">řečtina</lg.version>
+         <lg.version lg="dan">græsk</lg.version>
+         <lg.version lg="deu">Griechisch</lg.version>
+         <lg.version lg="ell" script="Greek">ελληνικά</lg.version>
+         <lg.version lg="eng">Greek</lg.version>
+         <lg.version lg="est">kreeka keel</lg.version>
+         <lg.version lg="fin">kreikka</lg.version>
+         <lg.version lg="fra">grec</lg.version>
+         <lg.version lg="gle">Gréigis</lg.version>
+         <lg.version lg="hbs">grčki</lg.version>
+         <lg.version lg="hrv">grčki</lg.version>
+         <lg.version lg="hsb">grjekšćina</lg.version>
+         <lg.version lg="hun">görög</lg.version>
+         <lg.version lg="isl">gríska</lg.version>
+         <lg.version lg="ita">greco</lg.version>
+         <lg.version lg="lav">grieķu valoda</lg.version>
+         <lg.version lg="lit">graikų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">грчки</lg.version>
+         <lg.version lg="mlt">Grieg</lg.version>
+         <lg.version lg="nld">Grieks</lg.version>
+         <lg.version lg="nor">gresk</lg.version>
+         <lg.version lg="pol">grecki</lg.version>
+         <lg.version lg="por">grego</lg.version>
+         <lg.version lg="ron">greacă</lg.version>
+         <lg.version lg="rus" script="Cyrillic">греческий</lg.version>
+         <lg.version lg="slk">gréčtina</lg.version>
+         <lg.version lg="slv">grščina</lg.version>
+         <lg.version lg="spa">Griego</lg.version>
+         <lg.version lg="srp" script="Cyrillic">грчки</lg.version>
+         <lg.version lg="swe">grekiska</lg.version>
+         <lg.version lg="tur">yunanca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">грецька мова</lg.version>
+         <lg.version lg="cat">Grec</lg.version>
+         <lg.version lg="eus">Grekiera</lg.version>
+         <lg.version lg="glg">Grego</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>el</xml-lang>
+   </record>
+
+   <record deprecated="false" id="LNG1168" IMMC.proposal.date="2011-10-06" IMMC.approval.date="2012-06-27" date.creation="2010-01-01" adm.status="current" language.classification="EUROPEAN">
+      <iso-639-3>cat</iso-639-3>
+      <iso-639-2b>cat</iso-639-2b>
+      <iso-639-2t>cat</iso-639-2t>
+      <iso-639-1>ca</iso-639-1>
+      <authority-code>CAT</authority-code>
+      <op-mapped-code source="EUDOR">CA</op-mapped-code>
+      <op-mapped-code source="EurLex" affected.table="FD_060">CA</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">CA</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">CA</op-mapped-code>
+      <op-mapped-code source="TED">CA</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">CA</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="cat">Català</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>Catalan is a member of the Romance family of languages. It is spoken in Catalonia, north-eastern Spain and adjoining parts of France and it is the official language of Andorra. Catalan has a co-official status in the Spanish autonomous communities of Catalonia, the Balearic Islands, and the Valencian Community (where the language is known as Valencian). It is also the language of the city of Alghero on the Italian island Sardinia.</description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>Le catalan est une langue latine. Il est parlé en Catalogne, en Espagne du Nord et dans des parties adjacentes de la France, et est la langue officielle de l’Andorre. Le catalan a un statut coofficiel dans les communautés autonomes espagnoles de Catalogne, les îles Baléares et la Communauté de Valence (où la langue est connue sous le nom de «valencien»). Il est aussi la langue de la ville d’Alghero sur l’île italienne de Sardaigne.</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">каталонски</lg.version>
+         <lg.version lg="ces">katalánština</lg.version>
+         <lg.version lg="dan">catalansk</lg.version>
+         <lg.version lg="deu">Katalanisch</lg.version>
+         <lg.version lg="ell" script="Greek">καταλανικά</lg.version>
+         <lg.version lg="eng">Catalan</lg.version>
+         <lg.version lg="est">katalaani keel</lg.version>
+         <lg.version lg="fin">katalaani</lg.version>
+         <lg.version lg="fra">catalan</lg.version>
+         <lg.version lg="gle">Catalóinis</lg.version>
+         <lg.version lg="hbs">katalonski</lg.version>
+         <lg.version lg="hrv">katalonski</lg.version>
+         <lg.version lg="hun">katalán</lg.version>
+         <lg.version lg="isl">katalónska</lg.version>
+         <lg.version lg="ita">catalano</lg.version>
+         <lg.version lg="lav">katalāņu valoda</lg.version>
+         <lg.version lg="lit">katalonų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">каталонски</lg.version>
+         <lg.version lg="mlt">Katalan</lg.version>
+         <lg.version lg="nld">Catalaans</lg.version>
+         <lg.version lg="nor">katalansk</lg.version>
+         <lg.version lg="pol">kataloński</lg.version>
+         <lg.version lg="por">catalão</lg.version>
+         <lg.version lg="ron">catalană</lg.version>
+         <lg.version lg="rus" script="Cyrillic">каталанский</lg.version>
+         <lg.version lg="slk">katalánčina</lg.version>
+         <lg.version lg="slv">katalonščina</lg.version>
+         <lg.version lg="spa">Catalán</lg.version>
+         <lg.version lg="srp" script="Cyrillic">каталонски</lg.version>
+         <lg.version lg="swe">katalanska</lg.version>
+         <lg.version lg="tur">katalanca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">каталонська мова</lg.version>
+         <lg.version lg="cat">Català</lg.version>
+         <lg.version lg="eus">Katalana</lg.version>
+         <lg.version lg="glg">Catalán</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>EurLex</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>ca</xml-lang>
+   </record>
+   <record deprecated="false" id="LNG1850" IMMC.proposal.date="2011-10-06" IMMC.approval.date="2012-06-27" date.creation="2010-01-01" adm.status="current" language.classification="EUROPEAN">
+      <iso-639-3>eus</iso-639-3>
+      <iso-639-2b>baq</iso-639-2b>
+      <iso-639-2t>eus</iso-639-2t>
+      <iso-639-1>eu</iso-639-1>
+      <authority-code>EUS</authority-code>
+      <op-mapped-code source="EUDOR">EU</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">EU</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">EU</op-mapped-code>
+      <op-mapped-code source="TED">EU</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">EU</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="eus">euskara</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-07-23" lg="eng">
+            <description>Basque (euskara) is a non Indo-European language of uncertain origin; the only living language of Europe that has no known linguistic relatives. It is spoken by the Basque people, indigenous to and mainly inhabiting the Basque Country, a region spanning an area in north-eastern Spain and south-western France.</description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-07-23" lg="fra">
+            <description>Le basque (euskara) est une langue non indo-européenne d’origine incertaine et la seule langue vivante de l’Europe qui n’a pas de parents linguistiques connus. Il s’agit de la langue parlée par le peuple basque, qui est indigène et habite principalement au Pays basque, région couvrant une zone dans le nord-ouest de l’Espagne et le sud-ouest de la France.</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">баскски</lg.version>
+         <lg.version lg="ces">baskičtina</lg.version>
+         <lg.version lg="dan">baskisk</lg.version>
+         <lg.version lg="deu">Baskisch</lg.version>
+         <lg.version lg="ell" script="Greek">βασκικά</lg.version>
+         <lg.version lg="eng">Basque</lg.version>
+         <lg.version lg="est">baski keel</lg.version>
+         <lg.version lg="fin">baski</lg.version>
+         <lg.version lg="fra">basque</lg.version>
+         <lg.version lg="gle">Bascais</lg.version>
+         <lg.version lg="hbs">baskijski</lg.version>
+         <lg.version lg="hrv">baskijski</lg.version>
+         <lg.version lg="hsb">baskovščina</lg.version>
+         <lg.version lg="hun">baszk</lg.version>
+         <lg.version lg="isl">baskneska</lg.version>
+         <lg.version lg="ita">basco</lg.version>
+         <lg.version lg="lav">basku valoda</lg.version>
+         <lg.version lg="lit">baskų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">баскијски</lg.version>
+         <lg.version lg="mlt">Bask</lg.version>
+         <lg.version lg="nld">Baskisch</lg.version>
+         <lg.version lg="nor">baskisk</lg.version>
+         <lg.version lg="pol">baskijski</lg.version>
+         <lg.version lg="por">basco</lg.version>
+         <lg.version lg="ron">bască</lg.version>
+         <lg.version lg="rus" script="Cyrillic">баскский</lg.version>
+         <lg.version lg="slk">baskičtina</lg.version>
+         <lg.version lg="slv">baskovščina</lg.version>
+         <lg.version lg="spa">Vasco</lg.version>
+         <lg.version lg="srp" script="Cyrillic">баскијски</lg.version>
+         <lg.version lg="swe">baskiska</lg.version>
+         <lg.version lg="tur">baskça</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">баскська мова</lg.version>
+         <lg.version lg="cat">Basc</lg.version>
+         <lg.version lg="eus">Euskera</lg.version>
+         <lg.version lg="glg">Éuscaro</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>eu</xml-lang>
+   </record>
+   <record deprecated="false" id="LNG2098" IMMC.proposal.date="2011-10-06" IMMC.approval.date="2012-06-27" date.creation="2010-01-01" adm.status="current" language.classification="EUROPEAN">
+      <iso-639-3>glg</iso-639-3>
+      <iso-639-2b>glg</iso-639-2b>
+      <iso-639-2t>glg</iso-639-2t>
+      <iso-639-1>gl</iso-639-1>
+      <authority-code>GLG</authority-code>
+      <op-mapped-code source="EUDOR">GL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LANG">GL</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_LNGISO">GL</op-mapped-code>
+      <op-mapped-code source="TED">GL</op-mapped-code>
+      <op-mapped-code source="TED_SCHEMA">GL</op-mapped-code>
+      <name>
+         <original.name>
+            <lg.version lg="glg">galego</lg.version>
+         </original.name>
+      </name>
+      <sources>
+         <source date="2014-08-11" lg="eng">
+            <description>Galician (galego) is an Indo-European language of the Western Ibero-Romance branch, closely related to Portuguese. It is spoken mainly in the autonomous region of Galicia, located in north-western Spain.</description>
+            <provenance>OP</provenance>
+         </source>
+         <source date="2014-08-11" lg="fra">
+            <description>Le galicien (galego) est une langue indo-européenne de la branche ibéro-romane occidentale, très proche du portugais. Il est principalement parlé dans la région autonome de Galice, située dans le nord-ouest de l’Espagne.</description>
+            <provenance>OP</provenance>
+         </source>
+      </sources>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">галисийски</lg.version>
+         <lg.version lg="ces">galicijština</lg.version>
+         <lg.version lg="dan">galicisk</lg.version>
+         <lg.version lg="deu">Galicisch</lg.version>
+         <lg.version lg="ell" script="Greek">γαλικιανά</lg.version>
+         <lg.version lg="eng">Galician</lg.version>
+         <lg.version lg="est">galeegi keel</lg.version>
+         <lg.version lg="fin">galicia</lg.version>
+         <lg.version lg="fra">galicien</lg.version>
+         <lg.version lg="gle">Gailísis</lg.version>
+         <lg.version lg="hbs">galicijski</lg.version>
+         <lg.version lg="hrv">galicijski</lg.version>
+         <lg.version lg="hsb">galščina</lg.version>
+         <lg.version lg="hun">galíciai</lg.version>
+         <lg.version lg="ita">galiziano</lg.version>
+         <lg.version lg="lav">galisiešu valoda</lg.version>
+         <lg.version lg="lit">galisų kalba</lg.version>
+         <lg.version lg="mkd" script="Cyrillic">галициски</lg.version>
+         <lg.version lg="mlt">Galizjan</lg.version>
+         <lg.version lg="nld">Galicisch</lg.version>
+         <lg.version lg="nor">galisisk</lg.version>
+         <lg.version lg="pol">galicyjski</lg.version>
+         <lg.version lg="por">galego</lg.version>
+         <lg.version lg="ron">galiciană</lg.version>
+         <lg.version lg="rus" script="Cyrillic">галисийский</lg.version>
+         <lg.version lg="slk">galícijčina</lg.version>
+         <lg.version lg="slv">galščina</lg.version>
+         <lg.version lg="spa">Gallego</lg.version>
+         <lg.version lg="srp" script="Cyrillic">галицијски</lg.version>
+         <lg.version lg="swe">galiciska</lg.version>
+         <lg.version lg="tur">galiçyaca</lg.version>
+         <lg.version lg="ukr" script="Cyrillic">галісійська мова</lg.version>
+         <lg.version lg="cat">Gallec</lg.version>
+         <lg.version lg="eus">Galiziarra</lg.version>
+         <lg.version lg="glg">Galego</lg.version>
+      </label>
+      <use.context>COMREF</use.context>
+      <use.context>COM_WEB</use.context>
+      <use.context>EFORMS</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>EUDOR</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <use.context>TED</use.context>
+      <use.context>TED_SCHEMA</use.context>
+      <start.use>1950-05-09</start.use>
+      <xml-lang>gl</xml-lang>
+   </record>
+
+</languages>

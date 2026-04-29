@@ -1,0 +1,176 @@
+ {
+    "title": {
+          "type": "array-dict",
+          "description": "String indicating the resource title.",
+          "required": true,
+          "example":  [
+            {  "language": "en",  "value": "EURIO" },
+            {  "language": "es",   "value": "EURIO" }
+            ],
+          "in_creation_model": false,
+          "updatable": false,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "version_info": {
+          "type": "string",
+          "description": "Resource version indicator.",
+          "required": true,
+          "example": "1.0.0",
+          "in_creation_model": false,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "description": {
+          "type": "array-dict",
+          "description": "Metadata description.",
+          "required": true,
+          "example":  [
+            {  "language": "en",  "value": "The EUropean Research Information Ontology (EURIO) conceptualises, formally encodes and makes available in an open, structured and machine-readable format data about research projects funded by the EU's framework programmes for research and innovation." },
+            {  "language": "es",   "value": "La Ontología Europea de Información sobre Investigación (EURIO) conceptualiza, codifica formalmente y pone a disposición, en un formato abierto, estructurado y legible por máquina, los datos relativos a los proyectos de investigación financiados por los programas marco de investigación e innovación de la UE." }
+            ],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "version_notes":  {
+          "type": "array-dict",
+          "description": "Possible differences between this version and a previous version.",
+          "required": false,
+          "example":  [
+            {  "language": "en",  "value": "Version notes test." },
+            {  "language": "es",   "value": "Prueba de notas de versión." }
+            ],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "author": {
+          "type": "array",
+          "description": "Entity responsible for producing the resource.",
+          "required": false,
+          "example": ["Publications Office of the European Union"],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "publisher": {
+          "type": "string",
+          "description": "Entity responsible for making the resource available.",
+          "required": true,
+          "example": "Publications Office of the European Union",
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "license": {
+          "type": "string",
+          "description": "License under the resource is made available.",
+          "required": false,
+          "example": "https://creativecommons.org/licenses/by/4.0/",
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "spatial": {
+          "type": "array",
+          "description": "Country covered by the resource.",
+          "required": false,
+          "example": ["EUR"],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "countries"
+        },
+   "theme": {
+          "type": "array",
+          "description": "Theme of the resource.",
+          "required": false,
+          "example": ["GOVE"],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "data-theme"
+        },
+   "frequency": {
+          "type": "string",
+          "description": "Frequency the resource is updated.",
+          "required": false,
+          "example": "NEVER",
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "frequencies"
+        },
+   "language": {
+          "type": "array",
+          "description": "Language used in the resource.",
+          "required": false,
+          "example": ["ENG"],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "languages"
+        },
+   "status": {
+          "type": "string",
+          "description": "Resource status.",
+          "required": false,
+          "example": "ACTIVE",
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "distribution-status"
+        },
+   "documentation": {
+          "type": "array",
+          "description": "URL web page that provides access to the resource and give more information.",
+          "required": false,
+          "example": ["https://op.europa.eu/es/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurio"],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "access_url": {
+          "type": "array",
+          "description": "URL web page that provides access to the resource and give more information.",
+          "required": true,
+          "example": ["https://op.europa.eu/en/web/eu-vocabularies/eurio"],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "mobilityTheme": {
+          "type": "array",
+          "description": "Mobility theme of the resource.",
+          "required": true,
+          "example": [
+            "cycle-network-data",
+            "other",
+            "network-detailed-attributes",
+            "network-geometry-and-lane-character"
+          ],
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "mobility-themes"
+        },
+   "mobility_data_standard": {
+          "type": "string",
+          "description": "This property describes the mobility data standard, as applied for the delivered content within the Distribution.",
+          "required": true,
+          "example": "GTFS",
+          "in_creation_model": true,
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "mobility-data-standard"
+        }
+ }

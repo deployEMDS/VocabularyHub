@@ -1,0 +1,41 @@
+publisher:
+  - dct:publisher
+  - dcterms:publisher
+description:
+  - dct:description
+  - dcterms:description
+title:
+  - dct:title
+  - rdfs:label
+identifier:
+  - rdf:about
+  - dct:identifier
+author:
+  - dct:creator
+  - dcterms:creator
+version:
+  - dcat:version
+  - owl:versionInfo
+modified:
+  - dcterms:modified
+  - dct:modified
+license:
+  - dcterms:license
+  - dct:license
+language:
+  - dcterms:language
+  - dct:language
+geographical_coverage:
+  - dct:spatial
+  - dcterms:spatial
+theme:
+  - dcat:theme
+frequency:
+  - dct:accrualPeriodicity
+  - dcterms:accrualPeriodicity
+version_notes:
+  - adms:versionNotes
+  - dcterms:versionNotes
+documentation:
+  - dcat:landingPage
+  - dcterms:landingPage

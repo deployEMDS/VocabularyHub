@@ -1,0 +1,16 @@
+mock==5.1.0
+PyYAML==6.0.2
+requests==2.32.4
+urllib3==2.6.3
+validators==0.34.0
+opensearch-py==3.1.0
+rdflib~=6.1.1
+python-dotenv==1.2.2
+gunicorn==23.0.0
+fastapi==0.123.7
+pydantic==2.12.5
+httpx==0.28.1
+python-multipart==0.0.22
+uvicorn[standard]>=0.30.0
+setuptools>=80.0.0
+wheel==0.46.2

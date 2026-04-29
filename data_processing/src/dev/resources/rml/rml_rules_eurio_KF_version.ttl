@@ -1,0 +1,104 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix eurio: <http://data.europa.eu/s66/ontology#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix grelm: <http://fno.io/grel/rmlmapping#> .
+@prefix cordis: <http://cordis.europa.eu> .
+
+@base <http://example.com/base/> .
+
+<#OrganisationMap> a rr:TriplesMap ; 
+  rml:logicalSource [
+    rml:source "%1$s" ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "/project/relations/associations/organization"
+  ] ;
+  
+  rr:subjectMap [
+    rr:template "http://data.europa.eu/s66/Organisations#{rcn}" ;
+    rr:class eurio:Organisation ;
+    rr:graph "http://data.europa.eu/s66/Organisations#" 
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+  rr:objectMap [ rr:constant eurio:Organisation ] 
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+	  rr:objectMap [ rr:constant "Organisation" ] 
+  ] ;
+  
+  rr:predicateObjectMap [
+    rr:predicate eurio:hasRole ;
+	rr:objectMap [ rr:template "http://data.europa.eu/s66#OrganisationRole/{id}" ] 
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:roleLabel ;
+    rr:objectMap [
+      rml:reference "@type" ;
+      rr:datatype xsd:string 
+	]
+  ] ;
+  
+  rr:predicateObjectMap [
+    rr:predicate eurio:legalName ;
+    rr:objectMap [
+      rml:reference "legalName" ;
+      rr:datatype xsd:string 
+	]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:hasPaymentAmount ;
+    rr:objectMap [
+      rml:reference "@ecContribution" ;
+      rr:datatype xsd:float 
+	]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:hasTotalCost ;
+    rr:objectMap [
+      rml:reference "totalCost" ;
+      rr:datatype xsd:float 
+	]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:vatNumber ;
+    rr:objectMap [
+      rml:reference "vatNumber" ;
+      rr:datatype xsd:string 
+	]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:identifier ;
+	rr:objectMap [
+      rml:reference "id" ;
+      rr:datatype rdfs:Literal 
+	]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:rcn ;
+	rr:objectMap [
+      rml:reference "rcn" ;
+      rr:datatype xsd:nonNegativeInteger 
+	]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate eurio:hasSite ;
+	rr:objectMap [ rr:template "http://data.europa.eu/s66#Site/{id}" ] 
+  ] .
+

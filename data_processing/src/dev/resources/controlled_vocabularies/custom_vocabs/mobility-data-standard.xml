@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobility-data-standard table.id="mobility-data-standard">
+    <record id="c-its">
+        <authority-code>c-its</authority-code>
+        <label>
+            <lg.version lg="eng">C-ITS</lg.version>
+        </label>
+    </record>
+    <record id="datex-II">
+        <authority-code>datex-II</authority-code>
+        <label>
+            <lg.version lg="eng">DATEX II</lg.version>
+        </label>
+    </record>
+    <record id="dino">
+        <authority-code>dino</authority-code>
+        <label>
+            <lg.version lg="eng">DINO</lg.version>
+        </label>
+    </record>
+    <record id="gbfs">
+        <authority-code>gbfs</authority-code>
+        <label>
+            <lg.version lg="eng">GBFS</lg.version>
+        </label>
+    </record>
+    <record id="gml">
+        <authority-code>gml</authority-code>
+        <label>
+            <lg.version lg="eng">GML</lg.version>
+        </label>
+    </record>
+    <record id="gtfs">
+        <authority-code>gtfs</authority-code>
+        <label>
+            <lg.version lg="eng">GTFS</lg.version>
+        </label>
+    </record>
+    <record id="gtfs-rt">
+        <authority-code>gtfs-rt</authority-code>
+        <label>
+            <lg.version lg="eng">GTFS-RT</lg.version>
+        </label>
+    </record>
+    <record id="inspire">
+        <authority-code>inspire</authority-code>
+        <label>
+            <lg.version lg="eng">INSPIRE</lg.version>
+        </label>
+    </record>
+    <record id="netex">
+        <authority-code>netex</authority-code>
+        <label>
+            <lg.version lg="eng">NeTEx</lg.version>
+        </label>
+    </record>
+    <record id="ocit-c">
+        <authority-code>ocit-c</authority-code>
+        <label>
+            <lg.version lg="eng">OCIT-C</lg.version>
+        </label>
+    </record>
+    <record id="ocpi">
+        <authority-code>ocpi</authority-code>
+        <label>
+            <lg.version lg="eng">OCPI</lg.version>
+        </label>
+    </record>
+    <record id="other">
+        <authority-code>other</authority-code>
+        <label>
+            <lg.version lg="eng">Other</lg.version>
+        </label>
+    </record>
+    <record id="siri">
+        <authority-code>siri</authority-code>
+        <label>
+            <lg.version lg="eng">SIRI</lg.version>
+        </label>
+    </record>
+    <record id="tn-its">
+        <authority-code>tn-its</authority-code>
+        <label>
+            <lg.version lg="eng">TN-ITS</lg.version>
+        </label>
+    </record>
+    <record id="tpegml">
+        <authority-code>tpegml</authority-code>
+        <label>
+            <lg.version lg="eng">tpegML</lg.version>
+        </label>
+    </record>
+</mobility-data-standard>

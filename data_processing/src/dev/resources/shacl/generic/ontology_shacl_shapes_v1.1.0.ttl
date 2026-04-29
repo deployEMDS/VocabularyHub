@@ -1,0 +1,99 @@
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-xl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix kf: <https://data.knowledgefactory.com/shacl/ontology#> .
+
+
+kf:
+	a owl:Ontology ;
+	rdfs:label "Generic SHACL shapes to validate Ontologies."@en ;
+	rdfs:comment "Generic SHACL shapes to validate Ontologies."@en ;
+    dct:creator "NTT Data"@en ;
+	dcterms:modified "2022-08-26" ;
+	owl:versionInfo "v1.0.0"@en .
+
+
+kf:OntologyBasic
+    a sh:NodeShape ;
+
+    rdfs:label "Cardinality owl:Ontology"@en ;
+    rdfs:comment "An ontology must have at least one owl:Ontology."@en ;
+	
+	sh:targetNode owl:Ontology ;
+	
+	sh:property [
+		sh:path [ sh:inversePath rdf:type ] ;
+		sh:minCount 2 ;
+		
+		sh:severity sh:Warning ;
+		sh:message "An ontology must have at least one class of type owl:Ontology."@en ;
+		
+		sh:name "Cardinality owl:Ontology"@en ;
+		sh:description "An ontology must have at least one class of type owl:Ontology."@en ;
+	] .
+
+
+kf:OntologyObjectProperty
+    a sh:NodeShape ;
+
+    rdfs:label "Cardinality owl:ObjectProperty"@en ;
+    rdfs:comment "An ontology must have at least one owl:ObjectProperty."@en ;
+	
+	sh:targetNode owl:ObjectProperty ;
+	
+	sh:property [
+		sh:path [ sh:inversePath rdf:type ] ;
+		sh:minCount 1 ;
+		
+		sh:severity sh:Warning ;
+		sh:message "An ontology must have at least one class of type owl:ObjectProperty."@en ;
+		
+		sh:name "Cardinality owl:ObjectProperty"@en ;
+		sh:description "An ontology must have at least one class of type owl:ObjectProperty."@en ;
+	] .
+
+
+kf:OntologyDatatypeProperty
+    a sh:NodeShape ;
+
+    rdfs:label "Cardinality owl:DatatypeProperty"@en ;
+    rdfs:comment "An ontology must have at least one owl:DatatypeProperty."@en ;
+	
+	sh:targetNode owl:DatatypeProperty ;
+	
+	sh:property [
+		sh:path [ sh:inversePath rdf:type ] ;
+		sh:minCount 1 ;
+		
+		sh:severity sh:Warning ;
+		sh:message "An ontology must have at least one class of type owl:DatatypeProperty."@en ;
+		
+		sh:name "Cardinality owl:DatatypeProperty"@en ;
+		sh:description "An ontology must have at least one class of type owl:DatatypeProperty."@en ;
+	] .
+
+
+kf:OntologyClassProperty
+    a sh:NodeShape ;
+
+    rdfs:label "Cardinality owl:Class"@en ;
+    rdfs:comment "An ontology must have at least one owl:Class."@en ;
+	
+	sh:targetNode owl:Class ;
+	
+	sh:property [
+		sh:path [ sh:inversePath rdf:type ] ;
+		sh:minCount 1 ;
+		
+		sh:severity sh:Warning ;
+		sh:message "An ontology must have at least one class of type owl:Class."@en ;
+		
+		sh:name "Cardinality owl:Class"@en ;
+		sh:description "An ontology must have at least one class of type owl:Class."@en ;
+	] .
+

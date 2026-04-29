@@ -1,0 +1,131 @@
+{
+  "settings": {
+    "number_of_shards": 2,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "type": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+
+
+      "file_hash": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "file_name": {
+        "type": "text",
+          "fields": {
+            "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+            }
+          }
+      },
+
+
+      "named_graph": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+
+      "metadata": {
+        "properties": {
+         "title": {
+            "type": "nested",
+             "properties": {
+                  "text": {
+                        "type": "text",
+                        "fields": {
+                        "keyword": { "type": "keyword", "ignore_above": 500 }
+            }
+          },
+                  "lang": { "type": "keyword" }
+        }
+      },
+          "version": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+
+
+          "publisher": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "type": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+
+        }
+      },
+      "timestamp": {
+        "type": "date",
+        "format": "yyyy-MM-dd HH:mm:ss.SSSSSSZZZZZ||dd-MM-yyyy HH:mm:ss.SSSSSSZZZZZ"
+      },
+      "stage": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "phase": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "status": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "status_message": {
+        "type": "text"
+      }
+    }
+  }
+}

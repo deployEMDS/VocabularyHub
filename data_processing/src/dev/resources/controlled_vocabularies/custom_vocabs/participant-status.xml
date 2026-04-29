@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<participant-status table.id="participant-status">
+    <record id="ACTIVE">
+        <authority-code>ACTIVE</authority-code>
+        <label>
+            <lg.version lg="eng">Active</lg.version>
+            <lg.version lg="cat">Actiu</lg.version>
+            <lg.version lg="spa">Activo</lg.version>
+        </label>
+    </record>
+    <record id="INACTIVE">
+        <authority-code>INACTIVE</authority-code>
+        <label>
+            <lg.version lg="eng">Inactive</lg.version>
+            <lg.version lg="cat">Inactiu</lg.version>
+            <lg.version lg="spa">Inactivo</lg.version>
+        </label>
+    </record>
+    <record id="PENDING">
+        <authority-code>PENDING</authority-code>
+        <label>
+            <lg.version lg="eng">Pending</lg.version>
+            <lg.version lg="cat">Pendent</lg.version>
+            <lg.version lg="spa">Pendiente</lg.version>
+        </label>
+    </record>
+    <record id="SUSPENDED">
+        <authority-code>SUSPENDED</authority-code>
+        <label>
+            <lg.version lg="eng">Suspended</lg.version>
+            <lg.version lg="cat">Suspes</lg.version>
+            <lg.version lg="spa">Suspendido</lg.version>
+        </label>
+    </record>
+</participant-status>

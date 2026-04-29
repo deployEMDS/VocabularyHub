@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobility-themes table.id="mobility-theme">
+    <record id="accesibility-information-for-vehicles">
+        <authority-code>accesibility-information-for-vehicles</authority-code>
+        <label>
+            <lg.version lg="eng">Accesibility information for vehicles</lg.version>
+            <lg.version lg="spa">Accesibility information for vehicles</lg.version>
+            <lg.version lg="cat">Accesibility information for vehicles</lg.version>
+            <lg.version lg="fre">Accesibility information for vehicles</lg.version>
+        </label>
+    </record>
+    <record id="accidents-and-incidents">
+        <authority-code>accidents-and-incidents</authority-code>
+        <label>
+            <lg.version lg="eng">Accidents and incidents</lg.version>
+            <lg.version lg="spa">Accidents and incidents</lg.version>
+            <lg.version lg="cat">Accidents and incidents</lg.version>
+            <lg.version lg="fre">Accidents and incidents</lg.version>
+        </label>
+    </record>
+    <record id="address-identifiers">
+        <authority-code>address-identifiers</authority-code>
+        <label>
+            <lg.version lg="eng">Address identifiers</lg.version>
+            <lg.version lg="spa">Address identifiers</lg.version>
+            <lg.version lg="cat">Address identifiers</lg.version>
+            <lg.version lg="fre">Address identifiers</lg.version>
+        </label>
+    </record>
+    <record id="air-and-space-travel">
+        <authority-code>air-and-space-travel</authority-code>
+        <label>
+            <lg.version lg="eng">Air and space travel</lg.version>
+            <lg.version lg="spa">Air and space travel</lg.version>
+            <lg.version lg="cat">Air and space travel</lg.version>
+            <lg.version lg="fre">Air and space travel</lg.version>
+        </label>
+    </record>
+    <record id="applicable-road-user-charges-and-payment-methods">
+        <authority-code>applicable-road-user-charges-and-payment-methods</authority-code>
+        <label>
+            <lg.version lg="eng">Applicable road user charges and payment methods</lg.version>
+            <lg.version lg="spa">Applicable road user charges and payment methods</lg.version>
+            <lg.version lg="cat">Applicable road user charges and payment methods</lg.version>
+            <lg.version lg="fre">Applicable road user charges and payment methods</lg.version>
+        </label>
+    </record>
+    <record id="availability-of-charging-points-for-electric-vehicles">
+        <authority-code>availability-of-charging-points-for-electric-vehicles</authority-code>
+        <label>
+            <lg.version lg="eng">Availability of charging points for electric vehicles</lg.version>
+            <lg.version lg="spa">Availability of charging points for electric vehicles</lg.version>
+            <lg.version lg="cat">Availability of charging points for electric vehicles</lg.version>
+            <lg.version lg="fre">Availability of charging points for electric vehicles</lg.version>
+        </label>
+    </record>
+    <record id="availability-of-delivery-areas">
+        <authority-code>availability-of-delivery-areas</authority-code>
+        <label>
+            <lg.version lg="eng">Availability of delivery areas</lg.version>
+            <lg.version lg="spa">Availability of delivery areas</lg.version>
+            <lg.version lg="cat">Availability of delivery areas</lg.version>
+            <lg.version lg="fre">Availability of delivery areas</lg.version>
+        </label>
+    </record>
+    <record id="availability-of-filling-stations">
+        <authority-code>availability-of-filling-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Availability of filling stations</lg.version>
+            <lg.version lg="spa">Availability of filling stations</lg.version>
+            <lg.version lg="cat">Availability of filling stations</lg.version>
+            <lg.version lg="fre">Availability of filling stations</lg.version>
+        </label>
+    </record>
+    <record id="basic-commercial-conditions">
+        <authority-code>basic-commercial-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Basic commercial conditions</lg.version>
+            <lg.version lg="spa">Basic commercial conditions</lg.version>
+            <lg.version lg="cat">Basic commercial conditions</lg.version>
+            <lg.version lg="fre">Basic commercial conditions</lg.version>
+        </label>
+    </record>
+    <record id="basic-common-standard-fares">
+        <authority-code>basic-common-standard-fares</authority-code>
+        <label>
+            <lg.version lg="eng">Basic common standard fares</lg.version>
+            <lg.version lg="spa">Basic common standard fares</lg.version>
+            <lg.version lg="cat">Basic common standard fares</lg.version>
+            <lg.version lg="fre">Basic common standard fares</lg.version>
+        </label>
+    </record>
+    <record id="bike-hiring-availability">
+        <authority-code>bike-hiring-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Bike-hiring Availability</lg.version>
+            <lg.version lg="spa">Bike-hiring Availability</lg.version>
+            <lg.version lg="cat">Bike-hiring Availability</lg.version>
+            <lg.version lg="fre">Bike-hiring Availability</lg.version>
+        </label>
+    </record>
+    <record id="bike-hiring-stations">
+        <authority-code>bike-hiring-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Bike-hiring Stations</lg.version>
+            <lg.version lg="spa">Bike-hiring Stations</lg.version>
+            <lg.version lg="cat">Bike-hiring Stations</lg.version>
+            <lg.version lg="fre">Bike-hiring Stations</lg.version>
+        </label>
+    </record>
+    <record id="bike-parking-locations">
+        <authority-code>bike-parking-locations</authority-code>
+        <label>
+            <lg.version lg="eng">Bike-parking locations</lg.version>
+            <lg.version lg="spa">Bike-parking locations</lg.version>
+            <lg.version lg="cat">Bike-parking locations</lg.version>
+            <lg.version lg="fre">Bike-parking locations</lg.version>
+        </label>
+    </record>
+    <record id="bike-sharing-availability">
+        <authority-code>bike-sharing-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Bike sharing Availability</lg.version>
+            <lg.version lg="spa">Bike sharing Availability</lg.version>
+            <lg.version lg="cat">Bike sharing Availability</lg.version>
+            <lg.version lg="fre">Bike sharing Availability</lg.version>
+        </label>
+    </record>
+    <record id="bike-sharing-locations-and-stations">
+        <authority-code>bike-sharing-locations-and-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Bike-sharing Locations and stations</lg.version>
+            <lg.version lg="spa">Bike-sharing Locations and stations</lg.version>
+            <lg.version lg="cat">Bike-sharing Locations and stations</lg.version>
+            <lg.version lg="fre">Bike-sharing Locations and stations</lg.version>
+        </label>
+    </record>
+    <record id="bridge-access-conditions">
+        <authority-code>bridge-access-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Bridge access conditions</lg.version>
+            <lg.version lg="spa">Bridge access conditions</lg.version>
+            <lg.version lg="cat">Bridge access conditions</lg.version>
+            <lg.version lg="fre">Bridge access conditions</lg.version>
+        </label>
+    </record>
+    <record id="bridge-closures-and-access-conditions">
+        <authority-code>bridge-closures-and-access-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Bridge closures and access conditions</lg.version>
+            <lg.version lg="spa">Bridge closures and access conditions</lg.version>
+            <lg.version lg="cat">Bridge closures and access conditions</lg.version>
+            <lg.version lg="fre">Bridge closures and access conditions</lg.version>
+        </label>
+    </record>
+    <record id="car-hiring-availability">
+        <authority-code>car-hiring-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Car-hiring Availability</lg.version>
+            <lg.version lg="spa">Car-hiring Availability</lg.version>
+            <lg.version lg="cat">Car-hiring Availability</lg.version>
+            <lg.version lg="fre">Car-hiring Availability</lg.version>
+        </label>
+    </record>
+    <record id="car-hiring-stations">
+        <authority-code>car-hiring-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Car-hiring Stations</lg.version>
+            <lg.version lg="spa">Car-hiring Stations</lg.version>
+            <lg.version lg="cat">Car-hiring Stations</lg.version>
+            <lg.version lg="fre">Car-hiring Stations</lg.version>
+        </label>
+    </record>
+    <record id="car-parking-availability">
+        <authority-code>car-parking-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Car parking availability</lg.version>
+            <lg.version lg="spa">Car parking availability</lg.version>
+            <lg.version lg="cat">Car parking availability</lg.version>
+            <lg.version lg="fre">Car parking availability</lg.version>
+        </label>
+    </record>
+    <record id="car-parking-locations-and-conditions">
+        <authority-code>car-parking-locations-and-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Car parking locations and conditions</lg.version>
+            <lg.version lg="spa">Car parking locations and conditions</lg.version>
+            <lg.version lg="cat">Car parking locations and conditions</lg.version>
+            <lg.version lg="fre">Car parking locations and conditions</lg.version>
+        </label>
+    </record>
+    <record id="car-sharing-availability">
+        <authority-code>car-sharing-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Car-sharing Availability</lg.version>
+            <lg.version lg="spa">Car-sharing Availability</lg.version>
+            <lg.version lg="cat">Car-sharing Availability</lg.version>
+            <lg.version lg="fre">Car-sharing Availability</lg.version>
+        </label>
+    </record>
+    <record id="car-sharing-locations-and-stations">
+        <authority-code>car-sharing-locations-and-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Car-sharing Locations and stations</lg.version>
+            <lg.version lg="spa">Car-sharing Locations and stations</lg.version>
+            <lg.version lg="cat">Car-sharing Locations and stations</lg.version>
+            <lg.version lg="fre">Car-sharing Locations and stations</lg.version>
+        </label>
+    </record>
+    <record id="common-fare-products">
+        <authority-code>common-fare-products</authority-code>
+        <label>
+            <lg.version lg="eng">Common fare products</lg.version>
+            <lg.version lg="spa">Common fare products</lg.version>
+            <lg.version lg="cat">Common fare products</lg.version>
+            <lg.version lg="fre">Common fare products</lg.version>
+        </label>
+    </record>
+    <record id="connection-links">
+        <authority-code>connection-links</authority-code>
+        <label>
+            <lg.version lg="eng">Connection links</lg.version>
+            <lg.version lg="spa">Connection links</lg.version>
+            <lg.version lg="cat">Connection links</lg.version>
+            <lg.version lg="fre">Connection links</lg.version>
+        </label>
+    </record>
+    <record id="current-travel-times">
+        <authority-code>current-travel-times</authority-code>
+        <label>
+            <lg.version lg="eng">Current travel times</lg.version>
+            <lg.version lg="spa">Current travel times</lg.version>
+            <lg.version lg="cat">Current travel times</lg.version>
+            <lg.version lg="fre">Current travel times</lg.version>
+        </label>
+    </record>
+    <record id="cycle-network-data">
+        <authority-code>cycle-network-data</authority-code>
+        <label>
+            <lg.version lg="eng">Cycle network data</lg.version>
+            <lg.version lg="spa">Cycle network data</lg.version>
+            <lg.version lg="cat">Cycle network data</lg.version>
+            <lg.version lg="fre">Cycle network data</lg.version>
+        </label>
+    </record>
+    <record id="data-content-category">
+        <authority-code>data-content-category</authority-code>
+        <label>
+            <lg.version lg="eng">Data content category</lg.version>
+            <lg.version lg="spa">Data content category</lg.version>
+            <lg.version lg="cat">Data content category</lg.version>
+            <lg.version lg="fre">Data content category</lg.version>
+        </label>
+    </record>
+    <record id="data-content-sub-category">
+        <authority-code>data-content-sub-category</authority-code>
+        <label>
+            <lg.version lg="eng">Data content sub-category</lg.version>
+            <lg.version lg="spa">Data content sub-category</lg.version>
+            <lg.version lg="cat">Data content sub-category</lg.version>
+            <lg.version lg="fre">Data content sub-category</lg.version>
+        </label>
+    </record>
+    <record id="direction-of-travel-on-reversible-lanes">
+        <authority-code>direction-of-travel-on-reversible-lanes</authority-code>
+        <label>
+            <lg.version lg="eng">Direction of travel on reversible lanes</lg.version>
+            <lg.version lg="spa">Direction of travel on reversible lanes</lg.version>
+            <lg.version lg="cat">Direction of travel on reversible lanes</lg.version>
+            <lg.version lg="fre">Direction of travel on reversible lanes</lg.version>
+        </label>
+    </record>
+    <record id="disruptions-delays-cancellations">
+        <authority-code>disruptions-delays-cancellations</authority-code>
+        <label>
+            <lg.version lg="eng">Disruptions, delays, cancellations</lg.version>
+            <lg.version lg="spa">Disruptions, delays, cancellations</lg.version>
+            <lg.version lg="cat">Disruptions, delays, cancellations</lg.version>
+            <lg.version lg="fre">Disruptions, delays, cancellations</lg.version>
+        </label>
+    </record>
+    <record id="dynamic-overtaking-bans-on-heavy-goods-vehicles">
+        <authority-code>dynamic-overtaking-bans-on-heavy-goods-vehicles</authority-code>
+        <label>
+            <lg.version lg="eng">Dynamic overtaking bans on heavy goods vehicles</lg.version>
+            <lg.version lg="spa">Dynamic overtaking bans on heavy goods vehicles</lg.version>
+            <lg.version lg="cat">Dynamic overtaking bans on heavy goods vehicles</lg.version>
+            <lg.version lg="fre">Dynamic overtaking bans on heavy goods vehicles</lg.version>
+        </label>
+    </record>
+    <record id="dynamic-speed-limits">
+        <authority-code>dynamic-speed-limits</authority-code>
+        <label>
+            <lg.version lg="eng">Dynamic speed limits</lg.version>
+            <lg.version lg="spa">Dynamic speed limits</lg.version>
+            <lg.version lg="cat">Dynamic speed limits</lg.version>
+            <lg.version lg="fre">Dynamic speed limits</lg.version>
+        </label>
+    </record>
+    <record id="dynamic-traffic-signs-and-regulations">
+        <authority-code>dynamic-traffic-signs-and-regulations</authority-code>
+        <label>
+            <lg.version lg="eng">Dynamic traffic signs and regulations</lg.version>
+            <lg.version lg="spa">Dynamic traffic signs and regulations</lg.version>
+            <lg.version lg="cat">Dynamic traffic signs and regulations</lg.version>
+            <lg.version lg="fre">Dynamic traffic signs and regulations</lg.version>
+        </label>
+    </record>
+    <record id="e-scooter-sharing-availability">
+        <authority-code>e-scooter-sharing-availability</authority-code>
+        <label>
+            <lg.version lg="eng">E-scooter-sharing Availability</lg.version>
+            <lg.version lg="spa">E-scooter-sharing Availability</lg.version>
+            <lg.version lg="cat">E-scooter-sharing Availability</lg.version>
+            <lg.version lg="fre">E-scooter-sharing Availability</lg.version>
+        </label>
+    </record>
+    <record id="e-scooter-sharing-locations-and-stations">
+        <authority-code>e-scooter-sharing-locations-and-stations</authority-code>
+        <label>
+            <lg.version lg="eng">E-scooter-sharing Locations and stations</lg.version>
+            <lg.version lg="spa">E-scooter-sharing Locations and stations</lg.version>
+            <lg.version lg="cat">E-scooter-sharing Locations and stations</lg.version>
+            <lg.version lg="fre">E-scooter-sharing Locations and stations</lg.version>
+        </label>
+    </record>
+    <record id="environmental-standards-for-vehicles">
+        <authority-code>environmental-standards-for-vehicles</authority-code>
+        <label>
+            <lg.version lg="eng">Environmental standards for vehicles</lg.version>
+            <lg.version lg="spa">Environmental standards for vehicles</lg.version>
+            <lg.version lg="cat">Environmental standards for vehicles</lg.version>
+            <lg.version lg="fre">Environmental standards for vehicles</lg.version>
+        </label>
+    </record>
+    <record id="expected-delays">
+        <authority-code>expected-delays</authority-code>
+        <label>
+            <lg.version lg="eng">Expected delays</lg.version>
+            <lg.version lg="spa">Expected delays</lg.version>
+            <lg.version lg="cat">Expected delays</lg.version>
+            <lg.version lg="fre">Expected delays</lg.version>
+        </label>
+    </record>
+    <record id="fares">
+        <authority-code>fares</authority-code>
+        <label>
+            <lg.version lg="eng">Fares</lg.version>
+            <lg.version lg="spa">Fares</lg.version>
+            <lg.version lg="cat">Fares</lg.version>
+            <lg.version lg="fre">Fares</lg.version>
+        </label>
+    </record>
+    <record id="filling-and-charging-stations">
+        <authority-code>filling-and-charging-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Filling and charging stations</lg.version>
+            <lg.version lg="spa">Filling and charging stations</lg.version>
+            <lg.version lg="cat">Filling and charging stations</lg.version>
+            <lg.version lg="fre">Filling and charging stations</lg.version>
+        </label>
+    </record>
+    <record id="freight-and-logistics">
+        <authority-code>freight-and-logistics</authority-code>
+        <label>
+            <lg.version lg="eng">Freight and logistics</lg.version>
+            <lg.version lg="spa">Freight and logistics</lg.version>
+            <lg.version lg="cat">Freight and logistics</lg.version>
+            <lg.version lg="fre">Freight and logistics</lg.version>
+        </label>
+    </record>
+    <record id="freight-delivery-regulations">
+        <authority-code>freight-delivery-regulations</authority-code>
+        <label>
+            <lg.version lg="eng">Freight delivery regulations</lg.version>
+            <lg.version lg="spa">Freight delivery regulations</lg.version>
+            <lg.version lg="cat">Freight delivery regulations</lg.version>
+            <lg.version lg="fre">Freight delivery regulations</lg.version>
+        </label>
+    </record>
+    <record id="general-information-for-trip-planning">
+        <authority-code>general-information-for-trip-planning</authority-code>
+        <label>
+            <lg.version lg="eng">General information for trip-planning</lg.version>
+            <lg.version lg="spa">General information for trip-planning</lg.version>
+            <lg.version lg="cat">General information for trip-planning</lg.version>
+            <lg.version lg="fre">General information for trip-planning</lg.version>
+        </label>
+    </record>
+    <record id="geometry">
+        <authority-code>geometry</authority-code>
+        <label>
+            <lg.version lg="eng">Geometry</lg.version>
+            <lg.version lg="spa">Geometry</lg.version>
+            <lg.version lg="cat">Geometry</lg.version>
+            <lg.version lg="fre">Geometry</lg.version>
+        </label>
+    </record>
+    <record id="gradients">
+        <authority-code>gradients</authority-code>
+        <label>
+            <lg.version lg="eng">Gradients</lg.version>
+            <lg.version lg="spa">Gradients</lg.version>
+            <lg.version lg="cat">Gradients</lg.version>
+            <lg.version lg="fre">Gradients</lg.version>
+        </label>
+    </record>
+    <record id="hours-of-operation">
+        <authority-code>hours-of-operation</authority-code>
+        <label>
+            <lg.version lg="eng">Hours of operation</lg.version>
+            <lg.version lg="spa">Hours of operation</lg.version>
+            <lg.version lg="cat">Hours of operation</lg.version>
+            <lg.version lg="fre">Hours of operation</lg.version>
+        </label>
+    </record>
+    <record id="identification-of-tolled-roads">
+        <authority-code>identification-of-tolled-roads</authority-code>
+        <label>
+            <lg.version lg="eng">Identification of tolled roads</lg.version>
+            <lg.version lg="spa">Identification of tolled roads</lg.version>
+            <lg.version lg="cat">Identification of tolled roads</lg.version>
+            <lg.version lg="fre">Identification of tolled roads</lg.version>
+        </label>
+    </record>
+    <record id="junctions">
+        <authority-code>junctions</authority-code>
+        <label>
+            <lg.version lg="eng">Junctions</lg.version>
+            <lg.version lg="spa">Junctions</lg.version>
+            <lg.version lg="cat">Junctions</lg.version>
+            <lg.version lg="fre">Junctions</lg.version>
+        </label>
+    </record>
+    <record id="lane-closures-and-access-conditions">
+        <authority-code>lane-closures-and-access-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Lane closures and access conditions</lg.version>
+            <lg.version lg="spa">Lane closures and access conditions</lg.version>
+            <lg.version lg="cat">Lane closures and access conditions</lg.version>
+            <lg.version lg="fre">Lane closures and access conditions</lg.version>
+        </label>
+    </record>
+    <record id="location-and-conditions-of-charging-points">
+        <authority-code>location-and-conditions-of-charging-points</authority-code>
+        <label>
+            <lg.version lg="eng">Location and conditions of charging points</lg.version>
+            <lg.version lg="spa">Location and conditions of charging points</lg.version>
+            <lg.version lg="cat">Location and conditions of charging points</lg.version>
+            <lg.version lg="fre">Location and conditions of charging points</lg.version>
+        </label>
+    </record>
+    <record id="location-and-conditions-of-filling-stations">
+        <authority-code>location-and-conditions-of-filling-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Location and conditions of filling stations</lg.version>
+            <lg.version lg="spa">Location and conditions of filling stations</lg.version>
+            <lg.version lg="cat">Location and conditions of filling stations</lg.version>
+            <lg.version lg="fre">Location and conditions of filling stations</lg.version>
+        </label>
+    </record>
+    <record id="location-and-length-of-queues">
+        <authority-code>location-and-length-of-queues</authority-code>
+        <label>
+            <lg.version lg="eng">Location and length of queues</lg.version>
+            <lg.version lg="spa">Location and length of queues</lg.version>
+            <lg.version lg="cat">Location and length of queues</lg.version>
+            <lg.version lg="fre">Location and length of queues</lg.version>
+        </label>
+    </record>
+    <record id="location-of-delivery-areas">
+        <authority-code>location-of-delivery-areas</authority-code>
+        <label>
+            <lg.version lg="eng">Location of delivery areas</lg.version>
+            <lg.version lg="spa">Location of delivery areas</lg.version>
+            <lg.version lg="cat">Location of delivery areas</lg.version>
+            <lg.version lg="fre">Location of delivery areas</lg.version>
+        </label>
+    </record>
+    <record id="location-of-tolling-stations">
+        <authority-code>location-of-tolling-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Location of tolling stations</lg.version>
+            <lg.version lg="spa">Location of tolling stations</lg.version>
+            <lg.version lg="cat">Location of tolling stations</lg.version>
+            <lg.version lg="fre">Location of tolling stations</lg.version>
+        </label>
+    </record>
+    <record id="locations-and-stations">
+        <authority-code>locations-and-stations</authority-code>
+        <label>
+            <lg.version lg="eng">Locations and stations</lg.version>
+            <lg.version lg="spa">Locations and stations</lg.version>
+            <lg.version lg="cat">Locations and stations</lg.version>
+            <lg.version lg="fre">Locations and stations</lg.version>
+        </label>
+    </record>
+    <record id="long-term-road-works">
+        <authority-code>long-term-road-works</authority-code>
+        <label>
+            <lg.version lg="eng">Long-term road works</lg.version>
+            <lg.version lg="spa">Long-term road works</lg.version>
+            <lg.version lg="cat">Long-term road works</lg.version>
+            <lg.version lg="fre">Long-term road works</lg.version>
+        </label>
+    </record>
+    <record id="network-closures-diversions">
+        <authority-code>network-closures-diversions</authority-code>
+        <label>
+            <lg.version lg="eng">Network closures/diversions</lg.version>
+            <lg.version lg="spa">Network closures/diversions</lg.version>
+            <lg.version lg="cat">Network closures/diversions</lg.version>
+            <lg.version lg="fre">Network closures/diversions</lg.version>
+        </label>
+    </record>
+    <record id="network-detailed-attributes">
+        <authority-code>network-detailed-attributes</authority-code>
+        <label>
+            <lg.version lg="eng">Network detailed attributes</lg.version>
+            <lg.version lg="spa">Network detailed attributes</lg.version>
+            <lg.version lg="cat">Network detailed attributes</lg.version>
+            <lg.version lg="fre">Network detailed attributes</lg.version>
+        </label>
+    </record>
+    <record id="network-geometry-and-lane-character">
+        <authority-code>network-geometry-and-lane-character</authority-code>
+        <label>
+            <lg.version lg="eng">Network geometry and lane character</lg.version>
+            <lg.version lg="spa">Network geometry and lane character</lg.version>
+            <lg.version lg="cat">Network geometry and lane character</lg.version>
+            <lg.version lg="fre">Network geometry and lane character</lg.version>
+        </label>
+    </record>
+    <record id="network-topology-and-routes-lines">
+        <authority-code>network-topology-and-routes-lines</authority-code>
+        <label>
+            <lg.version lg="eng">Network topology and routes/lines</lg.version>
+            <lg.version lg="spa">Network topology and routes/lines</lg.version>
+            <lg.version lg="cat">Network topology and routes/lines</lg.version>
+            <lg.version lg="fre">Network topology and routes/lines</lg.version>
+        </label>
+    </record>
+    <record id="number-of-lanes">
+        <authority-code>number-of-lanes</authority-code>
+        <label>
+            <lg.version lg="eng">Number of lanes</lg.version>
+            <lg.version lg="spa">Number of lanes</lg.version>
+            <lg.version lg="cat">Number of lanes</lg.version>
+            <lg.version lg="fre">Number of lanes</lg.version>
+        </label>
+    </record>
+    <record id="operational-calendar">
+        <authority-code>operational-calendar</authority-code>
+        <label>
+            <lg.version lg="eng">Operational Calendar</lg.version>
+            <lg.version lg="spa">Operational Calendar</lg.version>
+            <lg.version lg="cat">Operational Calendar</lg.version>
+            <lg.version lg="fre">Operational Calendar</lg.version>
+        </label>
+    </record>
+    <record id="other">
+        <authority-code>other</authority-code>
+        <label>
+            <lg.version lg="eng">Other</lg.version>
+            <lg.version lg="spa">Other</lg.version>
+            <lg.version lg="cat">Other</lg.version>
+            <lg.version lg="fre">Other</lg.version>
+        </label>
+    </record>
+    <record id="other-access-restrictions-and-traffic-regulations">
+        <authority-code>other-access-restrictions-and-traffic-regulations</authority-code>
+        <label>
+            <lg.version lg="eng">Other access restrictions and traffic regulations</lg.version>
+            <lg.version lg="spa">Other access restrictions and traffic regulations</lg.version>
+            <lg.version lg="cat">Other access restrictions and traffic regulations</lg.version>
+            <lg.version lg="fre">Other access restrictions and traffic regulations</lg.version>
+        </label>
+    </record>
+    <record id="other-static-traffic-signs">
+        <authority-code>other-static-traffic-signs</authority-code>
+        <label>
+            <lg.version lg="eng">Other static traffic signs</lg.version>
+            <lg.version lg="spa">Other static traffic signs</lg.version>
+            <lg.version lg="cat">Other static traffic signs</lg.version>
+            <lg.version lg="fre">Other static traffic signs</lg.version>
+        </label>
+    </record>
+    <record id="other-temporary-traffic-management-measures-or-plans">
+        <authority-code>other-temporary-traffic-management-measures-or-plans</authority-code>
+        <label>
+            <lg.version lg="eng">Other temporary traffic management measures or plans</lg.version>
+            <lg.version lg="spa">Other temporary traffic management measures or plans</lg.version>
+            <lg.version lg="cat">Other temporary traffic management measures or plans</lg.version>
+            <lg.version lg="fre">Other temporary traffic management measures or plans</lg.version>
+        </label>
+    </record>
+    <record id="other-traffic-regulations">
+        <authority-code>other-traffic-regulations</authority-code>
+        <label>
+            <lg.version lg="eng">Other traffic regulations</lg.version>
+            <lg.version lg="spa">Other traffic regulations</lg.version>
+            <lg.version lg="cat">Other traffic regulations</lg.version>
+            <lg.version lg="fre">Other traffic regulations</lg.version>
+        </label>
+    </record>
+    <record id="parameters-needed-to-calculate-costs">
+        <authority-code>parameters-needed-to-calculate-costs</authority-code>
+        <label>
+            <lg.version lg="eng">Parameters needed to calculate costs</lg.version>
+            <lg.version lg="spa">Parameters needed to calculate costs</lg.version>
+            <lg.version lg="cat">Parameters needed to calculate costs</lg.version>
+            <lg.version lg="fre">Parameters needed to calculate costs</lg.version>
+        </label>
+    </record>
+    <record id="parameters-needed-to-calculate-environmental-factors">
+        <authority-code>parameters-needed-to-calculate-environmental-factors</authority-code>
+        <label>
+            <lg.version lg="eng">Parameters needed to calculate environmental factors</lg.version>
+            <lg.version lg="spa">Parameters needed to calculate environmental factors</lg.version>
+            <lg.version lg="cat">Parameters needed to calculate environmental factors</lg.version>
+            <lg.version lg="fre">Parameters needed to calculate environmental factors</lg.version>
+        </label>
+    </record>
+    <record id="park-and-ride-stops">
+        <authority-code>park-and-ride-stops</authority-code>
+        <label>
+            <lg.version lg="eng">Park and Ride stops</lg.version>
+            <lg.version lg="spa">Park and Ride stops</lg.version>
+            <lg.version lg="cat">Park and Ride stops</lg.version>
+            <lg.version lg="fre">Park and Ride stops</lg.version>
+        </label>
+    </record>
+    <record id="parking-service-and-rest-area-information">
+        <authority-code>parking-service-and-rest-area-information</authority-code>
+        <label>
+            <lg.version lg="eng">Parking, service and rest area information</lg.version>
+            <lg.version lg="spa">Parking, service and rest area information</lg.version>
+            <lg.version lg="cat">Parking, service and rest area information</lg.version>
+            <lg.version lg="fre">Parking, service and rest area information</lg.version>
+        </label>
+    </record>
+    <record id="passenger-classes">
+        <authority-code>passenger-classes</authority-code>
+        <label>
+            <lg.version lg="eng">Passenger classes</lg.version>
+            <lg.version lg="spa">Passenger classes</lg.version>
+            <lg.version lg="cat">Passenger classes</lg.version>
+            <lg.version lg="fre">Passenger classes</lg.version>
+        </label>
+    </record>
+    <record id="payment-methods">
+        <authority-code>payment-methods</authority-code>
+        <label>
+            <lg.version lg="eng">Payment methods</lg.version>
+            <lg.version lg="spa">Payment methods</lg.version>
+            <lg.version lg="cat">Payment methods</lg.version>
+            <lg.version lg="fre">Payment methods</lg.version>
+        </label>
+    </record>
+    <record id="payment-methods-for-tolls">
+        <authority-code>payment-methods-for-tolls</authority-code>
+        <label>
+            <lg.version lg="eng">Payment methods for tolls</lg.version>
+            <lg.version lg="spa">Payment methods for tolls</lg.version>
+            <lg.version lg="cat">Payment methods for tolls</lg.version>
+            <lg.version lg="fre">Payment methods for tolls</lg.version>
+        </label>
+    </record>
+    <record id="pedestrian-accessibility-facilities">
+        <authority-code>pedestrian-accessibility-facilities</authority-code>
+        <label>
+            <lg.version lg="eng">Pedestrian accessibility facilities</lg.version>
+            <lg.version lg="spa">Pedestrian accessibility facilities</lg.version>
+            <lg.version lg="cat">Pedestrian accessibility facilities</lg.version>
+            <lg.version lg="fre">Pedestrian accessibility facilities</lg.version>
+        </label>
+    </record>
+    <record id="pedestrian-network-data">
+        <authority-code>pedestrian-network-data</authority-code>
+        <label>
+            <lg.version lg="eng">Pedestrian network data</lg.version>
+            <lg.version lg="spa">Pedestrian network data</lg.version>
+            <lg.version lg="cat">Pedestrian network data</lg.version>
+            <lg.version lg="fre">Pedestrian network data</lg.version>
+        </label>
+    </record>
+    <record id="pedestrian-network-geometry">
+        <authority-code>pedestrian-network-geometry</authority-code>
+        <label>
+            <lg.version lg="eng">Pedestrian network geometry</lg.version>
+            <lg.version lg="spa">Pedestrian network geometry</lg.version>
+            <lg.version lg="cat">Pedestrian network geometry</lg.version>
+            <lg.version lg="fre">Pedestrian network geometry</lg.version>
+        </label>
+    </record>
+    <record id="permanent-access-restrictions">
+        <authority-code>permanent-access-restrictions</authority-code>
+        <label>
+            <lg.version lg="eng">Permanent access restrictions</lg.version>
+            <lg.version lg="spa">Permanent access restrictions</lg.version>
+            <lg.version lg="cat">Permanent access restrictions</lg.version>
+            <lg.version lg="fre">Permanent access restrictions</lg.version>
+        </label>
+    </record>
+    <record id="planned-interchanges-between-scheduled-services">
+        <authority-code>planned-interchanges-between-scheduled-services</authority-code>
+        <label>
+            <lg.version lg="eng">Planned interchanges between scheduled services</lg.version>
+            <lg.version lg="spa">Planned interchanges between scheduled services</lg.version>
+            <lg.version lg="cat">Planned interchanges between scheduled services</lg.version>
+            <lg.version lg="fre">Planned interchanges between scheduled services</lg.version>
+        </label>
+    </record>
+    <record id="points-of-interest">
+        <authority-code>points-of-interest</authority-code>
+        <label>
+            <lg.version lg="eng">Points of interest</lg.version>
+            <lg.version lg="spa">Points of interest</lg.version>
+            <lg.version lg="cat">Points of interest</lg.version>
+            <lg.version lg="fre">Points of interest</lg.version>
+        </label>
+    </record>
+    <record id="poor-road-conditions">
+        <authority-code>poor-road-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Poor road conditions</lg.version>
+            <lg.version lg="spa">Poor road conditions</lg.version>
+            <lg.version lg="cat">Poor road conditions</lg.version>
+            <lg.version lg="fre">Poor road conditions</lg.version>
+        </label>
+    </record>
+    <record id="predicted-travel-times">
+        <authority-code>predicted-travel-times</authority-code>
+        <label>
+            <lg.version lg="eng">Predicted travel times</lg.version>
+            <lg.version lg="spa">Predicted travel times</lg.version>
+            <lg.version lg="cat">Predicted travel times</lg.version>
+            <lg.version lg="fre">Predicted travel times</lg.version>
+        </label>
+    </record>
+    <record id="provider-data">
+        <authority-code>provider-data</authority-code>
+        <label>
+            <lg.version lg="eng">Provider data</lg.version>
+            <lg.version lg="spa">Provider data</lg.version>
+            <lg.version lg="cat">Provider data</lg.version>
+            <lg.version lg="fre">Provider data</lg.version>
+        </label>
+    </record>
+    <record id="public-transport-non-scheduled-transport">
+        <authority-code>public-transport-non-scheduled-transport</authority-code>
+        <label>
+            <lg.version lg="eng">Public transport non-scheduled transport</lg.version>
+            <lg.version lg="spa">Public transport non-scheduled transport</lg.version>
+            <lg.version lg="cat">Public transport non-scheduled transport</lg.version>
+            <lg.version lg="fre">Public transport non-scheduled transport</lg.version>
+        </label>
+    </record>
+    <record id="public-transport-scheduled-transport">
+        <authority-code>public-transport-scheduled-transport</authority-code>
+        <label>
+            <lg.version lg="eng">Public transport scheduled transport</lg.version>
+            <lg.version lg="spa">Public transport scheduled transport</lg.version>
+            <lg.version lg="cat">Public transport scheduled transport</lg.version>
+            <lg.version lg="fre">Public transport scheduled transport</lg.version>
+        </label>
+    </record>
+    <record id="purchase-information">
+        <authority-code>purchase-information</authority-code>
+        <label>
+            <lg.version lg="eng">Purchase information</lg.version>
+            <lg.version lg="spa">Purchase information</lg.version>
+            <lg.version lg="cat">Purchase information</lg.version>
+            <lg.version lg="fre">Purchase information</lg.version>
+        </label>
+    </record>
+    <record id="real-time-estimated-departure-and-arrival-times">
+        <authority-code>real-time-estimated-departure-and-arrival-times</authority-code>
+        <label>
+            <lg.version lg="eng">Real-time estimated departure and arrival times</lg.version>
+            <lg.version lg="spa">Real-time estimated departure and arrival times</lg.version>
+            <lg.version lg="cat">Real-time estimated departure and arrival times</lg.version>
+            <lg.version lg="fre">Real-time estimated departure and arrival times</lg.version>
+        </label>
+    </record>
+    <record id="real-time-traffic-data">
+        <authority-code>real-time-traffic-data</authority-code>
+        <label>
+            <lg.version lg="eng">Real-time traffic data</lg.version>
+            <lg.version lg="spa">Real-time traffic data</lg.version>
+            <lg.version lg="cat">Real-time traffic data</lg.version>
+            <lg.version lg="fre">Real-time traffic data</lg.version>
+        </label>
+    </record>
+    <record id="reservation-and-purchase-options">
+        <authority-code>reservation-and-purchase-options</authority-code>
+        <label>
+            <lg.version lg="eng">Reservation and purchase options</lg.version>
+            <lg.version lg="spa">Reservation and purchase options</lg.version>
+            <lg.version lg="cat">Reservation and purchase options</lg.version>
+            <lg.version lg="fre">Reservation and purchase options</lg.version>
+        </label>
+    </record>
+    <record id="road-classification">
+        <authority-code>road-classification</authority-code>
+        <label>
+            <lg.version lg="eng">Road classification</lg.version>
+            <lg.version lg="spa">Road classification</lg.version>
+            <lg.version lg="cat">Road classification</lg.version>
+            <lg.version lg="fre">Road classification</lg.version>
+        </label>
+    </record>
+    <record id="road-closures-and-access-conditions">
+        <authority-code>road-closures-and-access-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Road closures and access conditions</lg.version>
+            <lg.version lg="spa">Road closures and access conditions</lg.version>
+            <lg.version lg="cat">Road closures and access conditions</lg.version>
+            <lg.version lg="fre">Road closures and access conditions</lg.version>
+        </label>
+    </record>
+    <record id="road-events-and-conditions">
+        <authority-code>road-events-and-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Road events and conditions</lg.version>
+            <lg.version lg="spa">Road events and conditions</lg.version>
+            <lg.version lg="cat">Road events and conditions</lg.version>
+            <lg.version lg="fre">Road events and conditions</lg.version>
+        </label>
+    </record>
+    <record id="road-weather-conditions">
+        <authority-code>road-weather-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Road weather conditions</lg.version>
+            <lg.version lg="spa">Road weather conditions</lg.version>
+            <lg.version lg="cat">Road weather conditions</lg.version>
+            <lg.version lg="fre">Road weather conditions</lg.version>
+        </label>
+    </record>
+    <record id="road-width">
+        <authority-code>road-width</authority-code>
+        <label>
+            <lg.version lg="eng">Road width</lg.version>
+            <lg.version lg="spa">Road width</lg.version>
+            <lg.version lg="cat">Road width</lg.version>
+            <lg.version lg="fre">Road width</lg.version>
+        </label>
+    </record>
+    <record id="road-work-information">
+        <authority-code>road-work-information</authority-code>
+        <label>
+            <lg.version lg="eng">Road work information</lg.version>
+            <lg.version lg="spa">Road work information</lg.version>
+            <lg.version lg="cat">Road work information</lg.version>
+            <lg.version lg="fre">Road work information</lg.version>
+        </label>
+    </record>
+    <record id="service-and-rest-area-availability">
+        <authority-code>service-and-rest-area-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Service and rest area availability</lg.version>
+            <lg.version lg="spa">Service and rest area availability</lg.version>
+            <lg.version lg="cat">Service and rest area availability</lg.version>
+            <lg.version lg="fre">Service and rest area availability</lg.version>
+        </label>
+    </record>
+    <record id="service-and-rest-area-locations-and-conditions">
+        <authority-code>service-and-rest-area-locations-and-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Service and rest area locations and conditions</lg.version>
+            <lg.version lg="spa">Service and rest area locations and conditions</lg.version>
+            <lg.version lg="cat">Service and rest area locations and conditions</lg.version>
+            <lg.version lg="fre">Service and rest area locations and conditions</lg.version>
+        </label>
+    </record>
+    <record id="service-areas-and-service-times">
+        <authority-code>service-areas-and-service-times</authority-code>
+        <label>
+            <lg.version lg="eng">Service areas and service times</lg.version>
+            <lg.version lg="spa">Service areas and service times</lg.version>
+            <lg.version lg="cat">Service areas and service times</lg.version>
+            <lg.version lg="fre">Service areas and service times</lg.version>
+        </label>
+    </record>
+    <record id="sharing-and-hiring-services">
+        <authority-code>sharing-and-hiring-services</authority-code>
+        <label>
+            <lg.version lg="eng">Sharing and Hiring Services</lg.version>
+            <lg.version lg="spa">Sharing and Hiring Services</lg.version>
+            <lg.version lg="cat">Sharing and Hiring Services</lg.version>
+            <lg.version lg="fre">Sharing and Hiring Services</lg.version>
+        </label>
+    </record>
+    <record id="short-term-road-works">
+        <authority-code>short-term-road-works</authority-code>
+        <label>
+            <lg.version lg="eng">Short-term road works</lg.version>
+            <lg.version lg="spa">Short-term road works</lg.version>
+            <lg.version lg="cat">Short-term road works</lg.version>
+            <lg.version lg="fre">Short-term road works</lg.version>
+        </label>
+    </record>
+    <record id="special-fare-products">
+        <authority-code>special-fare-products</authority-code>
+        <label>
+            <lg.version lg="eng">Special Fare Products</lg.version>
+            <lg.version lg="spa">Special Fare Products</lg.version>
+            <lg.version lg="cat">Special Fare Products</lg.version>
+            <lg.version lg="fre">Special Fare Products</lg.version>
+        </label>
+    </record>
+    <record id="speed">
+        <authority-code>speed</authority-code>
+        <label>
+            <lg.version lg="eng">Speed</lg.version>
+            <lg.version lg="spa">Speed</lg.version>
+            <lg.version lg="cat">Speed</lg.version>
+            <lg.version lg="fre">Speed</lg.version>
+        </label>
+    </record>
+    <record id="speed-limits">
+        <authority-code>speed-limits</authority-code>
+        <label>
+            <lg.version lg="eng">Speed limits</lg.version>
+            <lg.version lg="spa">Speed limits</lg.version>
+            <lg.version lg="cat">Speed limits</lg.version>
+            <lg.version lg="fre">Speed limits</lg.version>
+        </label>
+    </record>
+    <record id="static-road-network-data">
+        <authority-code>static-road-network-data</authority-code>
+        <label>
+            <lg.version lg="eng">Static road network data</lg.version>
+            <lg.version lg="spa">Static road network data</lg.version>
+            <lg.version lg="cat">Static road network data</lg.version>
+            <lg.version lg="fre">Static road network data</lg.version>
+        </label>
+    </record>
+    <record id="static-traffic-signs-and-regulations">
+        <authority-code>static-traffic-signs-and-regulations</authority-code>
+        <label>
+            <lg.version lg="eng">Static traffic signs and regulations</lg.version>
+            <lg.version lg="spa">Static traffic signs and regulations</lg.version>
+            <lg.version lg="cat">Static traffic signs and regulations</lg.version>
+            <lg.version lg="fre">Static traffic signs and regulations</lg.version>
+        </label>
+    </record>
+    <record id="stop-facilities-accessibility-and-paths-within-facility">
+        <authority-code>stop-facilities-accessibility-and-paths-within-facility</authority-code>
+        <label>
+            <lg.version lg="eng">Stop facilities accessibility and paths within facility</lg.version>
+            <lg.version lg="spa">Stop facilities accessibility and paths within facility</lg.version>
+            <lg.version lg="cat">Stop facilities accessibility and paths within facility</lg.version>
+            <lg.version lg="fre">Stop facilities accessibility and paths within facility</lg.version>
+        </label>
+    </record>
+    <record id="stop-facilities-geometry-and-map-layout">
+        <authority-code>stop-facilities-geometry-and-map-layout</authority-code>
+        <label>
+            <lg.version lg="eng">Stop facilities geometry and map layout</lg.version>
+            <lg.version lg="spa">Stop facilities geometry and map layout</lg.version>
+            <lg.version lg="cat">Stop facilities geometry and map layout</lg.version>
+            <lg.version lg="fre">Stop facilities geometry and map layout</lg.version>
+        </label>
+    </record>
+    <record id="stop-facilities-location-and-features">
+        <authority-code>stop-facilities-location-and-features</authority-code>
+        <label>
+            <lg.version lg="eng">Stop facilities location and features</lg.version>
+            <lg.version lg="spa">Stop facilities location and features</lg.version>
+            <lg.version lg="cat">Stop facilities location and features</lg.version>
+            <lg.version lg="fre">Stop facilities location and features</lg.version>
+        </label>
+    </record>
+    <record id="stop-facilities-status-of-features">
+        <authority-code>stop-facilities-status-of-features</authority-code>
+        <label>
+            <lg.version lg="eng">Stop facilities status of features</lg.version>
+            <lg.version lg="spa">Stop facilities status of features</lg.version>
+            <lg.version lg="cat">Stop facilities status of features</lg.version>
+            <lg.version lg="fre">Stop facilities status of features</lg.version>
+        </label>
+    </record>
+    <record id="timetables-static">
+        <authority-code>timetables-static</authority-code>
+        <label>
+            <lg.version lg="eng">Timetables static</lg.version>
+            <lg.version lg="spa">Timetables static</lg.version>
+            <lg.version lg="cat">Timetables static</lg.version>
+            <lg.version lg="fre">Timetables static</lg.version>
+        </label>
+    </record>
+    <record id="toll-information">
+        <authority-code>toll-information</authority-code>
+        <label>
+            <lg.version lg="eng">Toll information</lg.version>
+            <lg.version lg="spa">Toll information</lg.version>
+            <lg.version lg="cat">Toll information</lg.version>
+            <lg.version lg="fre">Toll information</lg.version>
+        </label>
+    </record>
+    <record id="topographic-places">
+        <authority-code>topographic-places</authority-code>
+        <label>
+            <lg.version lg="eng">Topographic places</lg.version>
+            <lg.version lg="spa">Topographic places</lg.version>
+            <lg.version lg="cat">Topographic places</lg.version>
+            <lg.version lg="fre">Topographic places</lg.version>
+        </label>
+    </record>
+    <record id="traffic-circulation-plans">
+        <authority-code>traffic-circulation-plans</authority-code>
+        <label>
+            <lg.version lg="eng">Traffic circulation plans</lg.version>
+            <lg.version lg="spa">Traffic circulation plans</lg.version>
+            <lg.version lg="cat">Traffic circulation plans</lg.version>
+            <lg.version lg="fre">Traffic circulation plans</lg.version>
+        </label>
+    </record>
+    <record id="traffic-data-at-border-crossings-to-third-countries">
+        <authority-code>traffic-data-at-border-crossings-to-third-countries</authority-code>
+        <label>
+            <lg.version lg="eng">Traffic data at border crossings to third countries</lg.version>
+            <lg.version lg="spa">Traffic data at border crossings to third countries</lg.version>
+            <lg.version lg="cat">Traffic data at border crossings to third countries</lg.version>
+            <lg.version lg="fre">Traffic data at border crossings to third countries</lg.version>
+        </label>
+    </record>
+    <record id="traffic-volume">
+        <authority-code>traffic-volume</authority-code>
+        <label>
+            <lg.version lg="eng">Traffic volume</lg.version>
+            <lg.version lg="spa">Traffic volume</lg.version>
+            <lg.version lg="cat">Traffic volume</lg.version>
+            <lg.version lg="fre">Traffic volume</lg.version>
+        </label>
+    </record>
+    <record id="transport-operators">
+        <authority-code>transport-operators</authority-code>
+        <label>
+            <lg.version lg="eng">Transport operators</lg.version>
+            <lg.version lg="spa">Transport operators</lg.version>
+            <lg.version lg="cat">Transport operators</lg.version>
+            <lg.version lg="fre">Transport operators</lg.version>
+        </label>
+    </record>
+    <record id="truck-parking-availability">
+        <authority-code>truck-parking-availability</authority-code>
+        <label>
+            <lg.version lg="eng">Truck parking availability</lg.version>
+            <lg.version lg="spa">Truck parking availability</lg.version>
+            <lg.version lg="cat">Truck parking availability</lg.version>
+            <lg.version lg="fre">Truck parking availability</lg.version>
+        </label>
+    </record>
+    <record id="truck-parking-locations-and-conditions">
+        <authority-code>truck-parking-locations-and-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Truck parking locations and conditions</lg.version>
+            <lg.version lg="spa">Truck parking locations and conditions</lg.version>
+            <lg.version lg="cat">Truck parking locations and conditions</lg.version>
+            <lg.version lg="fre">Truck parking locations and conditions</lg.version>
+        </label>
+    </record>
+    <record id="tunnel-access-conditions">
+        <authority-code>tunnel-access-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Tunnel access conditions</lg.version>
+            <lg.version lg="spa">Tunnel access conditions</lg.version>
+            <lg.version lg="cat">Tunnel access conditions</lg.version>
+            <lg.version lg="fre">Tunnel access conditions</lg.version>
+        </label>
+    </record>
+    <record id="tunnel-closures-and-access-conditions">
+        <authority-code>tunnel-closures-and-access-conditions</authority-code>
+        <label>
+            <lg.version lg="eng">Tunnel closures and access conditions</lg.version>
+            <lg.version lg="spa">Tunnel closures and access conditions</lg.version>
+            <lg.version lg="cat">Tunnel closures and access conditions</lg.version>
+            <lg.version lg="fre">Tunnel closures and access conditions</lg.version>
+        </label>
+    </record>
+    <record id="vehicle-details">
+        <authority-code>vehicle-details</authority-code>
+        <label>
+            <lg.version lg="eng">Vehicle details</lg.version>
+            <lg.version lg="spa">Vehicle details</lg.version>
+            <lg.version lg="cat">Vehicle details</lg.version>
+            <lg.version lg="fre">Vehicle details</lg.version>
+        </label>
+    </record>
+    <record id="waiting-time-at-border-crossings-to-non-eu-member-states">
+        <authority-code>waiting-time-at-border-crossings-to-non-eu-member-states</authority-code>
+        <label>
+            <lg.version lg="eng">Waiting time at border crossings to non-EU Member States</lg.version>
+            <lg.version lg="spa">Waiting time at border crossings to non-EU Member States</lg.version>
+            <lg.version lg="cat">Waiting time at border crossings to non-EU Member States</lg.version>
+            <lg.version lg="fre">Waiting time at border crossings to non-EU Member States</lg.version>
+        </label>
+    </record>
+    <record id="waterways-and-water-bodies">
+        <authority-code>waterways-and-water-bodies</authority-code>
+        <label>
+            <lg.version lg="eng">Waterways and water bodies</lg.version>
+            <lg.version lg="spa">Waterways and water bodies</lg.version>
+            <lg.version lg="cat">Waterways and water bodies</lg.version>
+            <lg.version lg="fre">Waterways and water bodies</lg.version>
+        </label>
+    </record>
+</mobility-themes>

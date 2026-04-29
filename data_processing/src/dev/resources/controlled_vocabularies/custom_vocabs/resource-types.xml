@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-types table.id="resource-type">
+    <record id="ONTOLOGY">
+        <authority-code>ONTOLOGY</authority-code>
+        <label>
+            <lg.version lg="eng">Ontology</lg.version>
+            <lg.version lg="spa">Ontología</lg.version>
+            <lg.version lg="eus">Ontologia</lg.version>
+            <lg.version lg="cat">Ontologia</lg.version>
+            <lg.version lg="glg">Ontoloxía</lg.version>
+        </label>
+    </record>
+    <record id="TAXONOMY">
+        <authority-code>TAXONOMY</authority-code>
+        <label>
+            <lg.version lg="eng">Taxonomy</lg.version>
+            <lg.version lg="spa">Taxonomía</lg.version>
+            <lg.version lg="eus">Taxonomia</lg.version>
+            <lg.version lg="cat">Taxonomia</lg.version>
+            <lg.version lg="glg">Taxonomía</lg.version>
+        </label>
+    </record>
+    <record id="THESAURUS">
+        <authority-code>THESAURUS</authority-code>
+        <label>
+            <lg.version lg="eng">Thesaurus</lg.version>
+            <lg.version lg="spa">Tesauro</lg.version>
+            <lg.version lg="eus">Tesauroa</lg.version>
+            <lg.version lg="cat">Tesaure</lg.version>
+            <lg.version lg="glg">Tesauro</lg.version>
+        </label>
+    </record>
+</resource-types>

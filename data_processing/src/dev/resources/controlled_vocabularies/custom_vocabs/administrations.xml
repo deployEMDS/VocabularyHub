@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<administrations table.id="administration">
+    <record id="AUTONOMOUS-ADMINISTRATION">
+        <authority-code>AUTONOMOUS-ADMINISTRATION</authority-code>
+        <label>
+            <lg.version lg="eng">Autonomous Administration</lg.version>
+            <lg.version lg="spa">Administración Autonómica</lg.version>
+            <lg.version lg="cat">Administració Autonòmica</lg.version>
+            <lg.version lg="eus">Eskualdeko Gobernua</lg.version>
+            <lg.version lg="glg">Goberno rexional</lg.version>
+        </label>
+    </record>
+    <record id="STATE-ADMINISTRATION">
+        <authority-code>STATE-ADMINISTRATION</authority-code>
+        <label>
+            <lg.version lg="eng">State Administration</lg.version>
+            <lg.version lg="spa">Administración del Estado</lg.version>
+            <lg.version lg="cat">Administració de l'Estat</lg.version>
+            <lg.version lg="eus">Estatu Administrazioa</lg.version>
+            <lg.version lg="glg">Administración do Estado</lg.version>
+        </label>
+    </record>
+    <record id="LOCAL-ADMINISTRATION">
+        <authority-code>LOCAL-ADMINISTRATION</authority-code>
+        <label>
+            <lg.version lg="eng">Local Administration</lg.version>
+            <lg.version lg="spa">Administración Local</lg.version>
+            <lg.version lg="cat">Administració Local</lg.version>
+            <lg.version lg="eus">Tokiko Administrazioa</lg.version>
+            <lg.version lg="glg">Administración Local</lg.version>
+        </label>
+    </record>
+    <record id="PRIVATE-ENTITY">
+        <authority-code>PRIVATE-ENTITY</authority-code>
+        <label>
+            <lg.version lg="eng">Private Entity</lg.version>
+            <lg.version lg="spa">Entidad Privada</lg.version>
+            <lg.version lg="cat">Entitat Privada</lg.version>
+            <lg.version lg="eus">Entitate Pribatua</lg.version>
+            <lg.version lg="glg">Entidade Privada</lg.version>
+        </label>
+    </record>
+    <record id="UNIVERSITIES">
+        <authority-code>UNIVERSITIES</authority-code>
+        <label>
+            <lg.version lg="eng">Universities</lg.version>
+            <lg.version lg="spa">Universidades</lg.version>
+            <lg.version lg="cat">Universitats</lg.version>
+            <lg.version lg="eus">Unibertsitateak</lg.version>
+            <lg.version lg="glg">Universidades</lg.version>
+        </label>
+    </record>
+    <record id="OTHER-INSTITUTIONS">
+        <authority-code>OTHER-INSTITUTIONS</authority-code>
+        <label>
+            <lg.version lg="eng">Other Institutions</lg.version>
+            <lg.version lg="spa">Otras instituciones</lg.version>
+            <lg.version lg="cat">Altres institucions</lg.version>
+            <lg.version lg="eus">Beste erakundeak</lg.version>
+            <lg.version lg="glg">Outras institucións</lg.version>
+        </label>
+    </record>
+</administrations>

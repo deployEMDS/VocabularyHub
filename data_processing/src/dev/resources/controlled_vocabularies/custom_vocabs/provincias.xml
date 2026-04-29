@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provincias table.id="provincia">
+    <record id="ALAVA">
+        <authority-code>ÁLAVA</authority-code>
+        <label>
+            <lg.version lg="eng">Alava</lg.version>
+            <lg.version lg="spa">Álava</lg.version>
+            <lg.version lg="cat">Àlaba</lg.version>
+        </label>
+    </record>
+    <record id="ALBACETE">
+        <authority-code>ALBACETE</authority-code>
+        <label>
+            <lg.version lg="eng">Albacete</lg.version>
+            <lg.version lg="spa">Albacete</lg.version>
+            <lg.version lg="cat">Albacete</lg.version>
+        </label>
+    </record>
+    <record id="ALICANTE">
+        <authority-code>ALICANTE</authority-code>
+        <label>
+            <lg.version lg="eng">Alicante</lg.version>
+            <lg.version lg="spa">Alicante</lg.version>
+            <lg.version lg="cat">Alacant</lg.version>
+        </label>
+    </record>
+    <record id="ALMERIA">
+        <authority-code>ALMERÍA</authority-code>
+        <label>
+            <lg.version lg="eng">Almeria</lg.version>
+            <lg.version lg="spa">Almería</lg.version>
+            <lg.version lg="cat">Almeria</lg.version>
+        </label>
+    </record>
+    <record id="ASTURIAS">
+        <authority-code>ASTURIAS</authority-code>
+        <label>
+            <lg.version lg="eng">Asturias</lg.version>
+            <lg.version lg="spa">Asturias</lg.version>
+            <lg.version lg="cat">Astúries</lg.version>
+        </label>
+    </record>
+    <record id="AVILA">
+        <authority-code>ÁVILA</authority-code>
+        <label>
+            <lg.version lg="eng">Avila</lg.version>
+            <lg.version lg="spa">Ávila</lg.version>
+            <lg.version lg="cat">Àvila</lg.version>
+        </label>
+    </record>
+    <record id="BADAJOZ">
+        <authority-code>BADAJOZ</authority-code>
+        <label>
+            <lg.version lg="eng">Badajoz</lg.version>
+            <lg.version lg="spa">Badajoz</lg.version>
+            <lg.version lg="cat">Badajoz</lg.version>
+        </label>
+    </record>
+    <record id="BARCELONA">
+        <authority-code>BARCELONA</authority-code>
+        <label>
+            <lg.version lg="eng">Barcelona</lg.version>
+            <lg.version lg="spa">Barcelona</lg.version>
+            <lg.version lg="cat">Barcelona</lg.version>
+        </label>
+    </record>
+    <record id="BURGOS">
+        <authority-code>BURGOS</authority-code>
+        <label>
+            <lg.version lg="eng">Burgos</lg.version>
+            <lg.version lg="spa">Burgos</lg.version>
+            <lg.version lg="cat">Burgos</lg.version>
+        </label>
+    </record>
+    <record id="CACERES">
+        <authority-code>CÁCERES</authority-code>
+        <label>
+            <lg.version lg="eng">Caceres</lg.version>
+            <lg.version lg="spa">Cáceres</lg.version>
+            <lg.version lg="cat">Càceres</lg.version>
+        </label>
+    </record>
+    <record id="CADIZ">
+        <authority-code>CÁDIZ</authority-code>
+        <label>
+            <lg.version lg="eng">Cadiz</lg.version>
+            <lg.version lg="spa">Cádiz</lg.version>
+            <lg.version lg="cat">Cadis</lg.version>
+        </label>
+    </record>
+    <record id="CANTABRIA">
+        <authority-code>CANTABRIA</authority-code>
+        <label>
+            <lg.version lg="eng">Cantabria</lg.version>
+            <lg.version lg="spa">Cantabria</lg.version>
+            <lg.version lg="cat">Cantàbria</lg.version>
+        </label>
+    </record>
+    <record id="CASTELLON">
+        <authority-code>CASTELLÓN</authority-code>
+        <label>
+            <lg.version lg="eng">Castellon</lg.version>
+            <lg.version lg="spa">Castellón</lg.version>
+            <lg.version lg="cat">Castelló</lg.version>
+        </label>
+    </record>
+    <record id="CEUTA">
+        <authority-code>CEUTA</authority-code>
+        <label>
+            <lg.version lg="eng">Ceuta</lg.version>
+            <lg.version lg="spa">Ceuta</lg.version>
+            <lg.version lg="cat">Ceuta</lg.version>
+        </label>
+    </record>
+    <record id="CIUDAD-REAL">
+        <authority-code>CIUDAD REAL</authority-code>
+        <label>
+            <lg.version lg="eng">Ciudad Real</lg.version>
+            <lg.version lg="spa">Ciudad Real</lg.version>
+            <lg.version lg="cat">Ciudad Real</lg.version>
+        </label>
+    </record>
+    <record id="CORDOBA">
+        <authority-code>CÓRDOBA</authority-code>
+        <label>
+            <lg.version lg="eng">Cordoba</lg.version>
+            <lg.version lg="spa">Córdoba</lg.version>
+            <lg.version lg="cat">Còrdova</lg.version>
+        </label>
+    </record>
+    <record id="CUENCA">
+        <authority-code>CUENCA</authority-code>
+        <label>
+            <lg.version lg="eng">Cuenca</lg.version>
+            <lg.version lg="spa">Cuenca</lg.version>
+            <lg.version lg="cat">Conca</lg.version>
+        </label>
+    </record>
+    <record id="GERONA">
+        <authority-code>GERONA</authority-code>
+        <label>
+            <lg.version lg="eng">Girona</lg.version>
+            <lg.version lg="spa">Gerona</lg.version>
+            <lg.version lg="cat">Girona</lg.version>
+        </label>
+    </record>
+    <record id="GRANADA">
+        <authority-code>GRANADA</authority-code>
+        <label>
+            <lg.version lg="eng">Granada</lg.version>
+            <lg.version lg="spa">Granada</lg.version>
+            <lg.version lg="cat">Granada</lg.version>
+        </label>
+    </record>
+    <record id="GUADALAJARA">
+        <authority-code>GUADALAJARA</authority-code>
+        <label>
+            <lg.version lg="eng">Guadalajara</lg.version>
+            <lg.version lg="spa">Guadalajara</lg.version>
+            <lg.version lg="cat">Guadalajara</lg.version>
+        </label>
+    </record>
+    <record id="GUIPUZCOA">
+        <authority-code>GUIPÚZCOA</authority-code>
+        <label>
+            <lg.version lg="eng">Gipuzkoa</lg.version>
+            <lg.version lg="spa">Guipúzcoa</lg.version>
+            <lg.version lg="cat">Guipúscoa</lg.version>
+        </label>
+    </record>
+    <record id="HUELVA">
+        <authority-code>HUELVA</authority-code>
+        <label>
+            <lg.version lg="eng">Huelva</lg.version>
+            <lg.version lg="spa">Huelva</lg.version>
+            <lg.version lg="cat">Huelva</lg.version>
+        </label>
+    </record>
+    <record id="HUESCA">
+        <authority-code>HUESCA</authority-code>
+        <label>
+            <lg.version lg="eng">Huesca</lg.version>
+            <lg.version lg="spa">Huesca</lg.version>
+            <lg.version lg="cat">Osca</lg.version>
+        </label>
+    </record>
+    <record id="ISLAS-BALEARES">
+        <authority-code>ISLAS BALEARES</authority-code>
+        <label>
+            <lg.version lg="eng">Balearic Islands</lg.version>
+            <lg.version lg="spa">Islas Baleares</lg.version>
+            <lg.version lg="cat">Illes Balears</lg.version>
+        </label>
+    </record>
+    <record id="JAEN">
+        <authority-code>JAÉN</authority-code>
+        <label>
+            <lg.version lg="eng">Jaen</lg.version>
+            <lg.version lg="spa">Jaén</lg.version>
+            <lg.version lg="cat">Jaén</lg.version>
+        </label>
+    </record>
+    <record id="LA-CORUNA">
+        <authority-code>LA CORUÑA</authority-code>
+        <label>
+            <lg.version lg="eng">A Coruna</lg.version>
+            <lg.version lg="spa">La Coruña</lg.version>
+            <lg.version lg="cat">La Corunya</lg.version>
+        </label>
+    </record>
+    <record id="LA-RIOJA">
+        <authority-code>LA RIOJA</authority-code>
+        <label>
+            <lg.version lg="eng">La Rioja</lg.version>
+            <lg.version lg="spa">La Rioja</lg.version>
+            <lg.version lg="cat">La Rioja</lg.version>
+        </label>
+    </record>
+    <record id="LAS-PALMAS">
+        <authority-code>LAS PALMAS</authority-code>
+        <label>
+            <lg.version lg="eng">Las Palmas</lg.version>
+            <lg.version lg="spa">Las Palmas</lg.version>
+            <lg.version lg="cat">Las Palmas</lg.version>
+        </label>
+    </record>
+    <record id="LEON">
+        <authority-code>LEÓN</authority-code>
+        <label>
+            <lg.version lg="eng">Leon</lg.version>
+            <lg.version lg="spa">León</lg.version>
+            <lg.version lg="cat">Lleó</lg.version>
+        </label>
+    </record>
+    <record id="LERIDA">
+        <authority-code>LÉRIDA</authority-code>
+        <label>
+            <lg.version lg="eng">Lleida</lg.version>
+            <lg.version lg="spa">Lérida</lg.version>
+            <lg.version lg="cat">Lleida</lg.version>
+        </label>
+    </record>
+    <record id="LUGO">
+        <authority-code>LUGO</authority-code>
+        <label>
+            <lg.version lg="eng">Lugo</lg.version>
+            <lg.version lg="spa">Lugo</lg.version>
+            <lg.version lg="cat">Lugo</lg.version>
+        </label>
+    </record>
+    <record id="MADRID">
+        <authority-code>MADRID</authority-code>
+        <label>
+            <lg.version lg="eng">Madrid</lg.version>
+            <lg.version lg="spa">Madrid</lg.version>
+            <lg.version lg="cat">Madrid</lg.version>
+        </label>
+    </record>
+    <record id="MALAGA">
+        <authority-code>MÁLAGA</authority-code>
+        <label>
+            <lg.version lg="eng">Malaga</lg.version>
+            <lg.version lg="spa">Málaga</lg.version>
+            <lg.version lg="cat">Màlaga</lg.version>
+        </label>
+    </record>
+    <record id="MELILLA">
+        <authority-code>MELILLA</authority-code>
+        <label>
+            <lg.version lg="eng">Melilla</lg.version>
+            <lg.version lg="spa">Melilla</lg.version>
+            <lg.version lg="cat">Melilla</lg.version>
+        </label>
+    </record>
+    <record id="MURCIA">
+        <authority-code>MURCIA</authority-code>
+        <label>
+            <lg.version lg="eng">Murcia</lg.version>
+            <lg.version lg="spa">Murcia</lg.version>
+            <lg.version lg="cat">Múrcia</lg.version>
+        </label>
+    </record>
+    <record id="NAVARRA">
+        <authority-code>NAVARRA</authority-code>
+        <label>
+            <lg.version lg="eng">Navarre</lg.version>
+            <lg.version lg="spa">Navarra</lg.version>
+            <lg.version lg="cat">Navarra</lg.version>
+        </label>
+    </record>
+    <record id="ORENSE">
+        <authority-code>ORENSE</authority-code>
+        <label>
+            <lg.version lg="eng">Ourense</lg.version>
+            <lg.version lg="spa">Orense</lg.version>
+            <lg.version lg="cat">Ourense</lg.version>
+        </label>
+    </record>
+    <record id="PALENCIA">
+        <authority-code>PALENCIA</authority-code>
+        <label>
+            <lg.version lg="eng">Palencia</lg.version>
+            <lg.version lg="spa">Palencia</lg.version>
+            <lg.version lg="cat">Palència</lg.version>
+        </label>
+    </record>
+    <record id="PONTEVEDRA">
+        <authority-code>PONTEVEDRA</authority-code>
+        <label>
+            <lg.version lg="eng">Pontevedra</lg.version>
+            <lg.version lg="spa">Pontevedra</lg.version>
+            <lg.version lg="cat">Pontevedra</lg.version>
+        </label>
+    </record>
+    <record id="SALAMANCA">
+        <authority-code>SALAMANCA</authority-code>
+        <label>
+            <lg.version lg="eng">Salamanca</lg.version>
+            <lg.version lg="spa">Salamanca</lg.version>
+            <lg.version lg="cat">Salamanca</lg.version>
+        </label>
+    </record>
+    <record id="SANTA-CRUZ-DE-TENERIFE">
+        <authority-code>SANTA CRUZ DE TENERIFE</authority-code>
+        <label>
+            <lg.version lg="eng">Santa Cruz de Tenerife</lg.version>
+            <lg.version lg="spa">Santa Cruz de Tenerife</lg.version>
+            <lg.version lg="cat">Santa Cruz de Tenerife</lg.version>
+        </label>
+    </record>
+    <record id="SEGOVIA">
+        <authority-code>SEGOVIA</authority-code>
+        <label>
+            <lg.version lg="eng">Segovia</lg.version>
+            <lg.version lg="spa">Segovia</lg.version>
+            <lg.version lg="cat">Segòvia</lg.version>
+        </label>
+    </record>
+    <record id="SEVILLA">
+        <authority-code>SEVILLA</authority-code>
+        <label>
+            <lg.version lg="eng">Seville</lg.version>
+            <lg.version lg="spa">Sevilla</lg.version>
+            <lg.version lg="cat">Sevilla</lg.version>
+        </label>
+    </record>
+    <record id="SORIA">
+        <authority-code>SORIA</authority-code>
+        <label>
+            <lg.version lg="eng">Soria</lg.version>
+            <lg.version lg="spa">Soria</lg.version>
+            <lg.version lg="cat">Sòria</lg.version>
+        </label>
+    </record>
+    <record id="TARRAGONA">
+        <authority-code>TARRAGONA</authority-code>
+        <label>
+            <lg.version lg="eng">Tarragona</lg.version>
+            <lg.version lg="spa">Tarragona</lg.version>
+            <lg.version lg="cat">Tarragona</lg.version>
+        </label>
+    </record>
+    <record id="TERUEL">
+        <authority-code>TERUEL</authority-code>
+        <label>
+            <lg.version lg="eng">Teruel</lg.version>
+            <lg.version lg="spa">Teruel</lg.version>
+            <lg.version lg="cat">Terol</lg.version>
+        </label>
+    </record>
+    <record id="TOLEDO">
+        <authority-code>TOLEDO</authority-code>
+        <label>
+            <lg.version lg="eng">Toledo</lg.version>
+            <lg.version lg="spa">Toledo</lg.version>
+            <lg.version lg="cat">Toledo</lg.version>
+        </label>
+    </record>
+    <record id="VALENCIA">
+        <authority-code>VALENCIA</authority-code>
+        <label>
+            <lg.version lg="eng">Valencia</lg.version>
+            <lg.version lg="spa">Valencia</lg.version>
+            <lg.version lg="cat">València</lg.version>
+        </label>
+    </record>
+    <record id="VALLADOLID">
+        <authority-code>VALLADOLID</authority-code>
+        <label>
+            <lg.version lg="eng">Valladolid</lg.version>
+            <lg.version lg="spa">Valladolid</lg.version>
+            <lg.version lg="cat">Valladolid</lg.version>
+        </label>
+    </record>
+    <record id="VIZCAYA">
+        <authority-code>VIZCAYA</authority-code>
+        <label>
+            <lg.version lg="eng">Biscay</lg.version>
+            <lg.version lg="spa">Vizcaya</lg.version>
+            <lg.version lg="cat">Biscaia</lg.version>
+        </label>
+    </record>
+    <record id="ZAMORA">
+        <authority-code>ZAMORA</authority-code>
+        <label>
+            <lg.version lg="eng">Zamora</lg.version>
+            <lg.version lg="spa">Zamora</lg.version>
+            <lg.version lg="cat">Zamora</lg.version>
+        </label>
+    </record>
+    <record id="ZARAGOZA">
+        <authority-code>ZARAGOZA</authority-code>
+        <label>
+            <lg.version lg="eng">Zaragoza</lg.version>
+            <lg.version lg="spa">Zaragoza</lg.version>
+            <lg.version lg="cat">Saragossa</lg.version>
+        </label>
+    </record>
+</provincias>
+

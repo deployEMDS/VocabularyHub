@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<media-types-ext table.id="media-type-ext">
+    <record id="nq">
+        <authority-code>nq</authority-code>
+        <label>
+            <lg.version lg="eng">n-quads</lg.version>
+        </label>
+    </record>
+    <record id="nt">
+        <authority-code>nt</authority-code>
+        <label>
+            <lg.version lg="eng">n-triples</lg.version>
+        </label>
+    </record>
+    <record id="rdf">
+        <authority-code>rdf</authority-code>
+        <label>
+            <lg.version lg="eng">rdf</lg.version>
+        </label>
+    </record>
+    <record id="ttl">
+        <authority-code>ttl</authority-code>
+        <label>
+            <lg.version lg="eng">turtle</lg.version>
+        </label>
+    </record>
+    <record id="jsonld">
+        <authority-code>jsonld</authority-code>
+        <label>
+            <lg.version lg="eng">json-ld</lg.version>
+        </label>
+    </record>
+    <record id="csv">
+        <authority-code>csv</authority-code>
+        <label>
+            <lg.version lg="eng">csv</lg.version>
+        </label>
+    </record>
+    <record id="xls">
+        <authority-code>xls</authority-code>
+        <label>
+            <lg.version lg="eng">ms-excel</lg.version>
+        </label>
+    </record>
+    <record id="json">
+        <authority-code>json</authority-code>
+        <label>
+            <lg.version lg="eng">json</lg.version>
+        </label>
+    </record>
+    <record id="xml">
+        <authority-code>xml</authority-code>
+        <label>
+            <lg.version lg="eng">xml</lg.version>
+        </label>
+    </record>
+    <record id="zip">
+        <authority-code>zip</authority-code>
+        <label>
+            <lg.version lg="eng">zip</lg.version>
+        </label>
+    </record>
+</media-types-ext>

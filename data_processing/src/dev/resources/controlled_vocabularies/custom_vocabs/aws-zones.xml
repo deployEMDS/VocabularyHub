@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aws-zones table.id="aws-zones">
+    <record id="us-east-1">
+        <authority-code>us-east-1</authority-code>
+        <label>
+            <lg.version lg="eng">us-east-1</lg.version>
+        </label>
+    </record>
+    <record id="us-east-2">
+        <authority-code>us-east-2</authority-code>
+        <label>
+            <lg.version lg="eng">us-east-2</lg.version>
+        </label>
+    </record>
+    <record id="us-west-1">
+        <authority-code>us-west-1</authority-code>
+        <label>
+            <lg.version lg="eng">us-west-1</lg.version>
+        </label>
+    </record>
+    <record id="us-west-2">
+        <authority-code>us-west-2</authority-code>
+        <label>
+            <lg.version lg="eng">us-west-2</lg.version>
+        </label>
+    </record>
+    <record id="ca-central-1">
+        <authority-code>ca-central-1</authority-code>
+        <label>
+            <lg.version lg="eng">ca-central-1</lg.version>
+        </label>
+    </record>
+    <record id="ca-west-1">
+        <authority-code>ca-west-1</authority-code>
+        <label>
+            <lg.version lg="eng">ca-west-1</lg.version>
+        </label>
+    </record>
+    <record id="mx-central-1">
+        <authority-code>mx-central-1</authority-code>
+        <label>
+            <lg.version lg="eng">mx-central-1</lg.version>
+        </label>
+    </record>
+    <record id="eu-west-1">
+        <authority-code>eu-west-1</authority-code>
+        <label>
+            <lg.version lg="eng">eu-west-1</lg.version>
+        </label>
+    </record>
+    <record id="eu-west-2">
+        <authority-code>eu-west-2</authority-code>
+        <label>
+            <lg.version lg="eng">eu-west-2</lg.version>
+        </label>
+    </record>
+    <record id="eu-west-3">
+        <authority-code>eu-west-3</authority-code>
+        <label>
+            <lg.version lg="eng">eu-west-3</lg.version>
+        </label>
+    </record>
+    <record id="eu-central-1">
+        <authority-code>eu-central-1</authority-code>
+        <label>
+            <lg.version lg="eng">eu-central-1</lg.version>
+        </label>
+    </record>
+    <record id="eu-north-1">
+        <authority-code>eu-north-1</authority-code>
+        <label>
+            <lg.version lg="eng">eu-north-1</lg.version>
+        </label>
+    </record>
+    <record id="eu-south-1">
+        <authority-code>eu-south-1</authority-code>
+        <label>
+            <lg.version lg="eng">eu-south-1</lg.version>
+        </label>
+    </record>
+    <record id="eu-south-2">
+        <authority-code>eu-south-2</authority-code>
+        <label>
+            <lg.version lg="eng">eu-south-2</lg.version>
+        </label>
+    </record>
+    <record id="ap-south-1">
+        <authority-code>ap-south-1</authority-code>
+        <label>
+            <lg.version lg="eng">ap-south-1</lg.version>
+        </label>
+    </record>
+    <record id="ap-south-2">
+        <authority-code>ap-south-2</authority-code>
+        <label>
+            <lg.version lg="eng">ap-south-2</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-1">
+        <authority-code>ap-southeast-1</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-1</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-2">
+        <authority-code>ap-southeast-2</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-2</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-3">
+        <authority-code>ap-southeast-3</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-3</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-4">
+        <authority-code>ap-southeast-4</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-4</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-5">
+        <authority-code>ap-southeast-5</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-5</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-6">
+        <authority-code>ap-southeast-6</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-6</lg.version>
+        </label>
+    </record>
+    <record id="ap-southeast-7">
+        <authority-code>ap-southeast-7</authority-code>
+        <label>
+            <lg.version lg="eng">ap-southeast-7</lg.version>
+        </label>
+    </record>
+    <record id="ap-northeast-1">
+        <authority-code>ap-northeast-1</authority-code>
+        <label>
+            <lg.version lg="eng">ap-northeast-1</lg.version>
+        </label>
+    </record>
+    <record id="ap-northeast-2">
+        <authority-code>ap-northeast-2</authority-code>
+        <label>
+            <lg.version lg="eng">ap-northeast-2</lg.version>
+        </label>
+    </record>
+    <record id="ap-northeast-3">
+        <authority-code>ap-northeast-3</authority-code>
+        <label>
+            <lg.version lg="eng">ap-northeast-3</lg.version>
+        </label>
+    </record>
+    <record id="ap-east-1">
+        <authority-code>ap-east-1</authority-code>
+        <label>
+            <lg.version lg="eng">ap-east-1</lg.version>
+        </label>
+    </record>
+    <record id="af-south-1">
+        <authority-code>af-south-1</authority-code>
+        <label>
+            <lg.version lg="eng">af-south-1</lg.version>
+        </label>
+    </record>
+    <record id="me-south-1">
+        <authority-code>me-south-1</authority-code>
+        <label>
+            <lg.version lg="eng">me-south-1</lg.version>
+        </label>
+    </record>
+    <record id="me-central-1">
+        <authority-code>me-central-1</authority-code>
+        <label>
+            <lg.version lg="eng">me-central-1</lg.version>
+        </label>
+    </record>
+    <record id="il-central-1">
+        <authority-code>il-central-1</authority-code>
+        <label>
+            <lg.version lg="eng">il-central-1</lg.version>
+        </label>
+    </record>
+    <record id="us-gov-west-1">
+        <authority-code>us-gov-west-1</authority-code>
+        <label>
+            <lg.version lg="eng">us-gov-west-1</lg.version>
+        </label>
+    </record>
+    <record id="us-gov-east-1">
+        <authority-code>us-gov-east-1</authority-code>
+        <label>
+            <lg.version lg="eng">us-gov-east-1</lg.version>
+        </label>
+    </record>
+    <record id="cn-north-1">
+        <authority-code>cn-north-1</authority-code>
+        <label>
+            <lg.version lg="eng">cn-north-1</lg.version>
+        </label>
+    </record>
+    <record id="cn-northwest-1">
+        <authority-code>cn-northwest-1</authority-code>
+        <label>
+            <lg.version lg="eng">cn-northwest-1</lg.version>
+        </label>
+    </record>
+</aws-zones>

@@ -1,0 +1,63 @@
+@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-xl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix kf: <https://data.knowledgefactory.com/shacl/ontology> .
+
+
+kf:
+	a owl:Ontology ;
+	rdfs:label "Generic SHACL shapes to validate Taxonomies and Thesaurus."@en ;
+	rdfs:comment "Generic SHACL shapes to validate Taxonomies and Thesaurus."@en ;
+    dct:creator "NTT Data"@en ;
+	dcterms:modified "2022-08-26" ;
+	owl:versionInfo "v1.0.0"@en .
+	
+	
+kf:TaxoConcept
+    a sh:NodeShape ;
+
+    rdfs:label "Cardinality skos:Concept"@en ;
+    rdfs:comment "A taxonomy / thesaurus must have at least one skos:Concept."@en ;
+	
+	sh:targetNode skos:Concept ;
+	
+	sh:property [
+		sh:path [ sh:inversePath rdf:type ] ;
+		sh:minCount 1 ;
+		sh:severity sh:Violation ;
+		sh:message "A taxonomy / thesaurus must have at least one skos:Concept."@en ;
+		
+		sh:name "Cardinality skos:Concept"@en ;
+		sh:description "A taxonomy / thesaurus must have at least one skos:Concept."@en ;
+	] .
+
+
+kf:TaxoPrefLabel
+    a sh:NodeShape ;
+
+    rdfs:label "skos:Concept shapes"@en ;
+    rdfs:comment "Required properties of skos:Concept class."@en ;
+
+	sh:targetClass skos:Concept ;
+
+    sh:name "skos/skos-xl:prefLabel at skos:Concept"@en ;
+    sh:description "Each skos:Concept must have at least one skos:prefLabel or skos-xl:prefLabel."@en ;
+
+    sh:or (
+        [
+            sh:path skos:prefLabel ;
+            sh:minCount 1 ;
+        ]
+        [
+            sh:path skos-xl:prefLabel ;
+            sh:minCount 1 ;
+        ]
+    ) ;
+
+    sh:severity sh:Violation ;
+    sh:message "A skos:Concept must have at least one skos:prefLabel or skos-xl:prefLabel."@en .

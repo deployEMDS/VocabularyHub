@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="025cf4b0-6e07-47ed-b9b8-f47a8516f4bc" name="Changes" comment="refactor: remove unused files and clean up main.py">
+      <change beforePath="$PROJECT_DIR$/src/dev/resources/rml/lib/rmlmapper-8.1.0-r380-all.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/mbenraho/PycharmProjects/deployEMDS/VocabularyHub/data_processing" value="3BTgKwPRatTBEMPeu00IeV0b8tq" />
+      <entry key="_C:/Users/mbenraho/PycharmProjects/deployEMDS/VocabularyHub_github/data_processing" value="3CzFo8LOkdl88LKrTEbQNE20ZQR" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Auto" />
+      <entry key="agent-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="81" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="aws_develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mben97&quot;
+  }
+}</component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;mbenraho&quot;,
+      &quot;fullname&quot;: &quot;Mariam Ben Rahou&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://umane.emeal.nttdata.com/git/KFSEMBU/projects/deployemds/data_processing.git&quot;,
+    &quot;second&quot;: &quot;3be95732-ea95-47a5-b7e6-ee9ad99d8141&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mben97/data_processing.git&quot;,
+    &quot;accountId&quot;: &quot;41a54379-d462-4be5-a631-796a06d09fc9&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3BTgKwPRatTBEMPeu00IeV0b8tq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.test_data_ingestion_integration_api.TestDataIngestionIntegrationApi.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_data_integration_vocabularies.TestDataIntegrationVocabularies.test_integration_ontology_ko_elastic_persist_error.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_requests.TestRequests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_requests.TestRequests.test_ingestion_upload_exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wsgi.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mobilitydcat__standard&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mbenraho/PycharmProjects/deployEMDS/VocabularyHub_github/data_processing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mbenraho\PycharmProjects\deployEMDS\VocabularyHub\data_processing\src\dev\resources\controlled_vocabularies\custom_vocabs" />
+      <recent name="C:\Users\mbenraho\PycharmProjects\deployEMDS\VocabularyHub\data_processing\src\dev\resources\controlled_vocabularies\eu_vocabs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mbenraho\PycharmProjects\deployEMDS\VocabularyHub\data_processing\src\dev\resources\controlled_vocabularies\custom_vocabs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.wsgi">
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_processing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dev/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_data_integration_vocabularies.TestDataIntegrationVocabularies.test_integration_ontology_ko_elastic_persist_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="data_processing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_data_integration_vocabularies.TestDataIntegrationVocabularies.test_integration_ontology_ko_elastic_persist_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_requests.TestRequests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="data_processing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_requests.TestRequests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_requests.TestRequests.test_ingestion_upload_exception" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="data_processing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_requests.TestRequests.test_ingestion_upload_exception&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="data_processing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dev/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/dev/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wsgi" />
+        <item itemvalue="Python tests.Python tests for test.test_data_integration_vocabularies.TestDataIntegrationVocabularies.test_integration_ontology_ko_elastic_persist_error" />
+        <item itemvalue="Python tests.Python tests in test" />
+        <item itemvalue="Python tests.Python tests for test.test_requests.TestRequests" />
+        <item itemvalue="Python tests.Python tests for test.test_requests.TestRequests.test_ingestion_upload_exception" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="025cf4b0-6e07-47ed-b9b8-f47a8516f4bc" name="Changes" comment="" />
+      <created>1774518414111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774518414111</updated>
+      <workItem from="1774518415223" duration="85729000" />
+      <workItem from="1775118248730" duration="640000" />
+      <workItem from="1775119088168" duration="39265000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add MobilityDCAT-AP support with new RML and SHACL configurations">
+      <option name="closed" value="true" />
+      <created>1774870451966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774870451966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add mobilityTheme support in metadata handling and queries">
+      <option name="closed" value="true" />
+      <created>1774950052728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774950052728</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add mobilityTheme support in controlled vocab profiles and validation service">
+      <option name="closed" value="true" />
+      <created>1774967861510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774967861510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix mobility-themes importation">
+      <option name="closed" value="true" />
+      <created>1775031625683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775031625683</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix mobility-themes importation: convert the file to xml">
+      <option name="closed" value="true" />
+      <created>1775038829248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775038829248</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add mobility_data_standard support across various modules and metadata">
+      <option name="closed" value="true" />
+      <created>1775058640644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775058640644</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: adjust the IRI of mobility_data_standard">
+      <option name="closed" value="true" />
+      <created>1775142816170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775142816170</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add mobility_data_standard and status filtering">
+      <option name="closed" value="true" />
+      <created>1775150641211</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775150641211</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: implement edit_metadata functionality for versioned metadata updates">
+      <option name="closed" value="true" />
+      <created>1775578344654</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775578344654</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: modify the status to ACTIVE/INACTIVE after editing">
+      <option name="closed" value="true" />
+      <created>1775638344972</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775638344972</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add ACTIVE/INACTIVE status to custom controlled vocabulary">
+      <option name="closed" value="true" />
+      <created>1775641249387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775641249387</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: refactor metadata editing process and introduce new queries for version management">
+      <option name="closed" value="true" />
+      <created>1775723010349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775723010349</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: make the vocab name NON-UPDATABLE.">
+      <option name="closed" value="true" />
+      <created>1775729712626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775729712626</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add endpoint to retrieve Resource versions by name with pagination and language filtering">
+      <option name="closed" value="true" />
+      <created>1775738369434</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775738369434</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add endpoints to auto-import the SHACL files and retrieve them">
+      <option name="closed" value="true" />
+      <created>1775745923084</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775745923084</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: fix the get endpoints">
+      <option name="closed" value="true" />
+      <created>1776108804079</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1776108804079</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: apply the ACTIVE/INACTIVE status while editing">
+      <option name="closed" value="true" />
+      <created>1776162577807</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1776162577807</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor: clean up unused router imports in API microservices">
+      <option name="closed" value="true" />
+      <created>1776246494358</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1776246494358</updated>
+    </task>
+    <task id="LOCAL-00019" summary="refactor: remove unused files and clean up main.py">
+      <option name="closed" value="true" />
+      <created>1776432212744</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1776432212744</updated>
+    </task>
+    <task id="LOCAL-00020" summary="refactor: remove unused files and clean up main.py">
+      <option name="closed" value="true" />
+      <created>1777381425169</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1777381425169</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ttl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add MobilityDCAT-AP support with new RML and SHACL configurations" />
+    <MESSAGE value="feat: add mobilityTheme support in metadata handling and queries" />
+    <MESSAGE value="feat: add mobilityTheme support in controlled vocab profiles and validation service" />
+    <MESSAGE value="fix mobility-themes importation" />
+    <MESSAGE value="fix mobility-themes importation: convert the file to xml" />
+    <MESSAGE value="feat: add mobility_data_standard support across various modules and metadata" />
+    <MESSAGE value="fix: adjust the IRI of mobility_data_standard" />
+    <MESSAGE value="feat: add mobility_data_standard and status filtering" />
+    <MESSAGE value="feat: implement edit_metadata functionality for versioned metadata updates" />
+    <MESSAGE value="feat: modify the status to ACTIVE/INACTIVE after editing" />
+    <MESSAGE value="feat: add ACTIVE/INACTIVE status to custom controlled vocabulary" />
+    <MESSAGE value="feat: refactor metadata editing process and introduce new queries for version management" />
+    <MESSAGE value="fix: make the vocab name NON-UPDATABLE." />
+    <MESSAGE value="feat: add endpoint to retrieve Resource versions by name with pagination and language filtering" />
+    <MESSAGE value="feat: add endpoints to auto-import the SHACL files and retrieve them" />
+    <MESSAGE value="fix: fix the get endpoints" />
+    <MESSAGE value="feat: apply the ACTIVE/INACTIVE status while editing" />
+    <MESSAGE value="refactor: clean up unused router imports in API microservices" />
+    <MESSAGE value="refactor: remove unused files and clean up main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove unused files and clean up main.py" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_processing$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1775574197727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dev" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

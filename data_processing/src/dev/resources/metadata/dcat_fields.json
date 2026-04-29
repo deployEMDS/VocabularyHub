@@ -1,0 +1,190 @@
+{
+   "name": {
+          "type": "array-dict",
+          "description": "Resource title.",
+          "required": true,
+          "example": [
+            {  "lang": "en",  "text": "Controlled vocabulary for the European Interoperability Reference Architecture (EIRA)." },
+            {  "lang": "es",   "text": "Vocabulario controlado para la Arquitectura de Referencia de Interoperabilidad Europea (EIRA)." }
+            ],
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "description": {
+          "type": "array-dict",
+          "description": "Resource description.",
+          "required": true,
+          "example": [
+            {  "lang": "en",  "text": " The EIRA Library of Interoperability Specifications is a library containing the standards and specifications defining the interoperability requirements of the architectural building blocks (ABBs) contained in the European Interoperability 'Reference Architecture (EIRA). The aim of this library is supporting solutions architects when modelling using EIRA." },
+            {  "lang": "es",   "text": "Vocabulario controlado para la Arquitectura de Referencia de Interoperabilidad Europea (EIRA)." }
+           ],
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+   },
+   "version": {
+          "type": "string",
+          "description": "Resource version indicator.",
+          "required": false,
+          "example": "6.4.0",
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "version_notes":  {
+          "type": "array-dict",
+          "description": "Possible differences between this version and a previous version.",
+          "required": false,
+          "example": [
+            { "lang": "en", "text": "This version has been developed in alignment with the EIRA v6.1.0." },
+            { "lang": "es", "text": "Esta versión se ha desarrollado en conformidad con EIRA v6.1.0." }
+          ],
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "creator": {
+          "type": "array",
+          "description": "Entity responsible for producing the resource.",
+          "required": false,
+          "example": ["European Commission"],
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "publisher": {
+          "type": "string",
+          "description": "Entity responsible for making the resource available.",
+          "required": true,
+          "example": "European Commission",
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "extension": {
+          "type": "string",
+          "description": "Media type of the resource. Possible values: ttl,json-ld,nq,rdf,nt.",
+          "required": false,
+          "example": "ttl",
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "media-types-ext"
+        },
+   "geographical_coverage": {
+          "type": "array",
+          "description": "Country covered by the resource.",
+          "required": false,
+          "example": ["EUR"],
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "countries"
+        },
+   "theme": {
+          "type": "array",
+          "description": "Theme of the resource.",
+          "required": false,
+          "example": ["TECH"],
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "data-theme"
+        },
+   "frequency": {
+          "type": "string",
+          "description": "Frequency the resource is updated.",
+          "required": false,
+          "example": "ANNUAL_2",
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "frequencies"
+        },
+   "language": {
+          "type": "array",
+          "description": "Language used in the resource.",
+          "required": false,
+          "example": ["ENG"],
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "languages"
+        },
+   "status": {
+          "type": "string",
+          "description": "Resource status.",
+          "required": false,
+          "example": "COMPLETED",
+          "updatable": true,
+          "is_controlled_vocabulary": true,
+          "vocabulary_name": "distribution-status"
+        },
+   "documentation": {
+          "type": "array",
+          "description": "URL web page that provides access to the resource.",
+          "required": false,
+          "example": ["https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/distribution/elis-v610ttl"],
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+        },
+   "vocabulary": {
+         "type": "string",
+         "description": "Standard that the resource conforms to.",
+         "required": false,
+         "example": "http://data.knowledgefactory.com/ontology/EIRA_6_1_0",
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+   },
+   "quality_score": {
+         "type": "string",
+         "description": "Quality score of the resource.",
+         "required": false,
+         "example": "76",
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+   },
+   "service_title": {
+         "type": "array-dict",
+         "description": "Service access title of the resource.",
+         "required": true,
+         "example": [
+           { "lang": "en", "text": "GitHub" },
+           { "lang": "eu",  "text": "GitHub" },
+           { "lang": "es", "text": "GitHub" }
+         ],
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+   },
+    "service_description": {
+        "type": "array-dict",
+        "description": "Service access description of the resource.",
+        "required": false,
+        "example": [
+          { "lang": "en", "text": "Endpoint to download the resource." },
+          { "lang": "eu",  "text": "Baliabidea deskargatzeko sarbide-puntua." },
+          { "lang": "es", "text": "Punto de acceso para descargar el recurso." }
+        ],
+         "updatable": true,
+         "is_controlled_vocabulary": false,
+         "vocabulary_name": ""
+   },
+     "service_endpoint": {
+         "type": "string",
+         "description": "URL to access the resource.",
+         "required": true,
+         "example": "https://github.com/isa-camss/ELIS/releases/download/6.1.0/elis.ttl",
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+   },
+     "service_documentation": {
+         "type": "string",
+         "description": "Service access documentation of the resource.",
+         "required": false,
+         "example":  "https://github.com/isa-camss/ELIS/releases/tag/6.1.0" ,
+          "updatable": true,
+          "is_controlled_vocabulary": false,
+          "vocabulary_name": ""
+   }
+	}

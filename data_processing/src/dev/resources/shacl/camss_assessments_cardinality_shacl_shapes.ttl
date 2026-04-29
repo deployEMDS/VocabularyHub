@@ -1,0 +1,135 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix : <https://data.knowledgefactory.com/a4g/shape> .
+
+
+:AssessmentCardinalityShape
+    a sh:NodeShape ;
+
+    sh:name "Assessment cardinalities check"@en ;
+    rdfs:label "Assessment Cardinality Shape"@en ;
+    rdfs:comment "Shape that checks the minimum and maximum cardinalities of the Assessment class properties are guaranteed"@en ;
+
+    sh:targetClass cav:Assessment ;
+
+    sh:property [
+        sh:name "Assesses cardinality check"@en ;
+        sh:description "Checks that the minimum cardinality is guaranteed"@en ;
+        rdfs:comment "Guarantee the minimum cardinality"@en ;
+
+        sh:path camss:assesses ;
+        sh:minCount 1 ;
+
+        sh:severity sh:Violation ;	
+        sh:message "cav:assesses property is mandatory"@en ;
+    ] ;
+    sh:property [
+        sh:name "ContextualisedBy cardinality check"@en ;
+        sh:description "Checks that the minimum and maximum cardinalities are guaranteed"@en ;
+        rdfs:comment "Guarantee the minimum and maximum cardinalities"@en ;
+
+        sh:path cav:contextualisedBy ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:contextualisedBy property is mandatory and it can only be one"@en ;
+    ] ;
+    sh:property [
+        sh:name "TriggeredFrom cardinality check"@en ;
+        sh:description "Checks that the maximum cardinality is guaranteed"@en ;
+        rdfs:comment "Guarantee the maximum cardinality"@en ;
+
+        sh:path cav:triggeredFrom ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:triggeredFrom property is not mandatory and it can only be one"@en ;
+    ] .
+
+
+:EvaluationContextCardinalityShape
+    a sh:NodeShape ;
+
+    sh:name "EvaluationContext cardinalities check"@en ;
+    rdfs:label "EvaluationContext Cardinality Shape"@en ;
+    rdfs:comment "Shape that checks the minimum and maximum cardinalities of the EvaluationContext class properties are guaranteed"@en ;
+
+    sh:targetClass cav:EvaluationContext ;
+    
+    sh:property [
+        sh:name "DefinedBy cardinality check"@en ;
+        sh:description "Checks that the minimum and maximum cardinalities are guaranteed"@en ;
+        rdfs:comment "Guarantee the minimum and maximum cardinalities"@en ;
+
+        sh:path cav:definedBy ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:definedBy property is mandatory and it can only be one"@en ;
+    ] ;
+    sh:property [
+        sh:name "Contextualises cardinality check"@en ;
+        sh:description "Checks that the minimum and maximum cardinalities are guaranteed"@en ;
+        rdfs:comment "Guarantee the minimum and maximum cardinalities"@en ;
+
+        sh:path cav:contextualises ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:contextualises property is mandatory and it can only be one"@en ;
+    ] .
+
+
+:ScoreCardinalityShape
+     a sh:NodeShape ;
+
+    sh:name "Score cardinalities check"@en ;
+    rdfs:label "Score Cardinality Shape"@en ;
+    rdfs:comment "Shape that checks the minimum and maximum cardinalities of the Score class properties are guaranteed"@en ;
+
+    sh:targetClass cav:Score ;
+
+    sh:property [
+        sh:name "ProvidedBy cardinality check"@en ;
+        sh:description "Checks that the maximum cardinality is guaranteed"@en ;
+        rdfs:comment "Guarantee the maximum cardinality"@en ;
+
+        sh:path cav:providedBy ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:providedBy property is not mandatory and it can only be one"@en ;
+    ] ;
+    sh:property [
+        sh:name "HasInput cardinality check"@en ;
+        sh:description "Checks that the maximum cardinality is guaranteed"@en ;
+        rdfs:comment "Guarantee the maximum cardinality"@en ;
+
+        sh:path cav:hasInput ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:hasInput property is not mandatory and it can only be one"@en ;
+    ] ;
+    sh:property [
+        sh:name "AssignedTo cardinality check"@en ;
+        sh:description "Checks that the minimum and maximum cardinalities are guaranteed"@en ;
+        rdfs:comment "Guarantee the minimum and maximum cardinalities"@en ;
+
+        sh:path cav:assignedTo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        
+        sh:severity sh:Violation ;	
+        sh:message "cav:assignedTo property is mandatory and it can only be one"@en ;
+    ] .
