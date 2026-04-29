@@ -1,0 +1,25 @@
+# Git / CI
+.git
+.github
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Data / outputs (add more if you generate big files)
+*.csv
+*.parquet
+*.sqlite
+data/
+output/
+logs/
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
