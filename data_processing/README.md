@@ -1,124 +1,37 @@
 # Microservice DATA PROCESSING
 
-This repository provides the main process endpoint of Knowledge Factory. It is accessible through `http://127.0.0.1:5000/data-processing/v1/` by default, although host and port are configurable through environment variables.
+This repository provides the Data Processing API focused on **VocabularyHub** and **Controlled Vocabularies**.
 
-## What this service does
+By default, the API is exposed at:
+`http://127.0.0.1:5000/data-processing/v1/`
 
-This microservice orchestrates ingestion and integration flows and exposes CRUD APIs for DCAT, FOAF, ODRL, Participants, and controlled vocabularies.
+Host and port are configurable through environment variables.
 
-### Orchestration capabilities
+## Current scope
 
-- Vocabularies ingestion and integration
-- DCAT and ODRL ingestion and integration
-- Metadata update flows
-- DCAT and ODRL update flows
-- VocabularyHub metadata retrieval and deletion
+This microservice currently supports:
 
-### CRUD capabilities
+- VocabularyHub ingestion + integration flow
+- VocabularyHub metadata update and versioned edit
+- VocabularyHub metadata query and deletion
+- Controlled vocabularies import, list, entry retrieval, delete, and auto-import
+- Health-check endpoint
 
-All CRUD endpoints below are exposed under `/data-processing/v1/CatalogDatasets` unless noted otherwise.
-
-- Catalogs
-- Datasets
-- Distributions
-- Dataset Offers
-- Agents
-- Participants
-- Data Services
-- Policies
-- Policy Templates
-
-### Controlled vocabulary capabilities
-
-Controlled vocabulary APIs are exposed under `/data-processing/v1/ControlledVocabularies`.
-
-Supported operations:
-
-- import a vocabulary from a URL or uploaded file
-- trigger controlled vocabularies auto-import on demand
-- list vocabularies with pagination
-- list localized vocabulary entries with pagination
-- delete a vocabulary graph
-- bootstrap vocabularies automatically at startup when enabled
+Removed capabilities (for example `CatalogDatasets` CRUD and DCAT/ODRL integration endpoints) are no longer part of this service.
 
 ## Main endpoints
 
 Base path: `http://localhost:5000/data-processing/v1`
 
-### Orchestration endpoints
+### VocabularyHub endpoints
 
-- `POST {API_BASE}/VocabularyHub/create_resource` - ingestion and integration for vocabularies
-- `PUT {API_BASE}/VocabularyHub/update_resource` - update metadata for vocabularies
-- `GET {API_BASE}/VocabularyHub` - list all vocabulary resources with pagination
-- `GET {API_BASE}/VocabularyHub/{resource_id}` - get a vocabulary resource by ID
-- `DELETE {API_BASE}/VocabularyHub/{resource_id}` - delete a vocabulary resource by ID
-- `POST {API_BASE}/CatalogDatasets/dcat_odrl_integration` - ingest and integrate DCAT and ODRL resources
-- `PUT {API_BASE}/CatalogDatasets/update_dcat_odrl` - update DCAT and ODRL resources
-
-### CRUD endpoints
-
-- Catalogs
-  - `POST {API_BASE}/CatalogDatasets/catalogs`
-  - `GET {API_BASE}/CatalogDatasets/catalogs/{catalog_id}`
-  - `PUT {API_BASE}/CatalogDatasets/catalogs/{catalog_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/catalogs/{catalog_id}`
-  - `GET {API_BASE}/CatalogDatasets/catalogs`
-
-- Datasets
-  - `POST {API_BASE}/CatalogDatasets/datasets`
-  - `GET {API_BASE}/CatalogDatasets/datasets/{dataset_id}`
-  - `PUT {API_BASE}/CatalogDatasets/datasets/{dataset_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/datasets/{dataset_id}`
-  - `GET {API_BASE}/CatalogDatasets/datasets`
-
-- Distributions
-  - `POST {API_BASE}/CatalogDatasets/distributions`
-  - `GET {API_BASE}/CatalogDatasets/distributions/{distribution_id}`
-  - `PUT {API_BASE}/CatalogDatasets/distributions/{distribution_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/distributions/{distribution_id}`
-  - `GET {API_BASE}/CatalogDatasets/distributions`
-
-- Dataset Offers
-  - `POST {API_BASE}/CatalogDatasets/datasetoffers`
-  - `GET {API_BASE}/CatalogDatasets/datasetoffers/{dataset_offer_id}`
-  - `PUT {API_BASE}/CatalogDatasets/datasetoffers/{dataset_offer_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/datasetoffers/{dataset_offer_id}`
-  - `GET {API_BASE}/CatalogDatasets/datasetoffers`
-
-- Agents
-  - `POST {API_BASE}/CatalogDatasets/agents`
-  - `GET {API_BASE}/CatalogDatasets/agents/{agent_id}`
-  - `PUT {API_BASE}/CatalogDatasets/agents/{agent_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/agents/{agent_id}`
-  - `GET {API_BASE}/CatalogDatasets/agents`
-
-- Participants
-  - `POST {API_BASE}/CatalogDatasets/participants`
-  - `GET {API_BASE}/CatalogDatasets/participants/{participant_id}`
-  - `PUT {API_BASE}/CatalogDatasets/participants/{participant_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/participants/{participant_id}`
-  - `GET {API_BASE}/CatalogDatasets/participants`
-
-- Data Services
-  - `POST {API_BASE}/CatalogDatasets/dataservices`
-  - `GET {API_BASE}/CatalogDatasets/dataservices/{dataservice_id}`
-  - `PUT {API_BASE}/CatalogDatasets/dataservices/{dataservice_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/dataservices/{dataservice_id}`
-  - `GET {API_BASE}/CatalogDatasets/dataservices`
-
-- Policies
-  - `POST {API_BASE}/CatalogDatasets/policies`
-  - `GET {API_BASE}/CatalogDatasets/policies/{policy_id}`
-  - `PUT {API_BASE}/CatalogDatasets/policies/{policy_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/policies/{policy_id}`
-  - `GET {API_BASE}/CatalogDatasets/policies`
-
-- Policy Templates
-  - `POST {API_BASE}/CatalogDatasets/policytemplates`
-  - `GET {API_BASE}/CatalogDatasets/policytemplates/{policy_template_id}`
-  - `PUT {API_BASE}/CatalogDatasets/policytemplates/{policy_template_id}`
-  - `DELETE {API_BASE}/CatalogDatasets/policytemplates/{policy_template_id}`
-  - `GET {API_BASE}/CatalogDatasets/policytemplates`
+- `POST {API_BASE}/VocabularyHub/create_resource` - ingest and integrate one semantic resource
+- `PUT {API_BASE}/VocabularyHub/update_resource` - update metadata of an existing resource
+- `POST {API_BASE}/VocabularyHub/edit_metadata` - create a new version from an existing resource with partial metadata patch
+- `GET {API_BASE}/VocabularyHub` - list resources (pagination and filters)
+- `GET {API_BASE}/VocabularyHub/{resource_id}` - get one resource by UUID
+- `GET {API_BASE}/VocabularyHub/versions/by-name?resource_name=...` - list versions of a resource by name
+- `DELETE {API_BASE}/VocabularyHub/{resource_id}` - delete a resource by ID
 
 ### Controlled vocabularies endpoints
 
@@ -128,9 +41,9 @@ Base path: `http://localhost:5000/data-processing/v1`
 - `GET {API_BASE}/ControlledVocabularies/{vocab_name}`
 - `DELETE {API_BASE}/ControlledVocabularies/{vocab_name}`
 
-Compatibility route:
+### Health-check endpoint
 
-- `/VocabularyHub/ControlledVocabularies`
+- `GET {API_BASE}/health-check`
 
 ## Validation and localization highlights
 
@@ -141,17 +54,6 @@ Compatibility route:
 - input may be either a code or an IRI
 - valid codes are normalized to canonical IRIs
 - invalid values fail the request with validation errors
-- the same profile-based rules are reused by CRUD and VocabularyHub flows
-
-### Participant validation
-
-`ParticipantService` adds three validation layers before create or update:
-
-- duplicate detection by identifier notation and optional identifier scheme
-- profile-driven controlled vocabulary validation
-- SHACL validation using the participant shapes file and the validator service
-
-Deletion is blocked when the participant is still referenced by catalogs, datasets, dataset offers, policies, or policy templates.
 
 ### VocabularyHub validation
 
@@ -167,12 +69,10 @@ Deletion is blocked when the participant is still referenced by catalogs, datase
 
 ### Localized GET responses
 
-When a CRUD endpoint supports the `lang` query parameter, `LocalizedResponseService` can:
+When a supported endpoint receives `lang`, `LocalizedResponseService` can:
 
 - filter multilingual fields such as `preferredLabel` and `description`
 - translate configured controlled vocabulary values from codes or IRIs into localized labels
-
-This behavior is currently relevant for participant reads and can be extended to other entities defined in the active controlled vocabulary profile.
 
 ### Controlled vocabulary bootstrap
 
@@ -191,26 +91,20 @@ Key behaviors:
 The following technologies are used in this project:
 
 - FastAPI
-- OpenAPI, available at `/docs` and `/redoc`
+- OpenAPI, available at `/data-processing/v1/docs` and `/data-processing/v1/redoc`
 - Pybuilder for tests and packaging tasks
 - Docker for local execution and deployment
 
-## See docs
-
-Check the [docs](docs/README.md) folder for more information about functionalities, architecture, design patterns, and configuration.
-
 ## Environment documentation
 
-Environment variables are defined in the [.env](./.env) file. You can modify them according to your environment setup.
+Environment variables are defined in the `.env` file.
 Examples: [Environment configuration](docs/environment_config.md)
 
-## Getting Started
-
-These instructions provide a complete local environment for the project. You can adapt them to your operating system and deployment needs.
+## Getting started
 
 ### Pydoc
 
-Consult the Pydoc documentation about the project's modules, classes, functions, and methods saved to HTML files.
+Consult the Pydoc documentation about project modules, classes, functions, and methods exported to HTML files.
 
 #### Generate Pydoc
 
@@ -253,26 +147,6 @@ Option B: run from a terminal:
 python src\dev\wsgi.py
 ```
 
-### Docker execution
-
-#### Prerequisites
-
-- Check the [.env](./.env) file and make sure the configured folders exist.
-- Ensure `CONTAINER_ENV_PATH` points to the correct environment file.
-- Check that `ELASTIC_OPENSEARCH_DATABASE` is set to either `elasticsearch` or `opensearch`.
-- Create the `kf-net` network if needed with `docker network create -d bridge kf-net`.
-
-#### Run
-
-```shell
-docker compose up --build -d
-```
-
-#### Additional information
-
-- `docker ps`
-- `docker logs --since=1h CONTAINER_NAME`
-
 ## Running the tests
 
 All project functions have associated unit tests to verify behavior.
@@ -282,8 +156,3 @@ All project functions have associated unit tests to verify behavior.
 - JSON schema files can be adjusted to generate models dynamically.
 - Template-driven SPARQL queries can be adjusted depending on the schema files.
 - Elastic mapping, RML mapping, and SHACL validation files can be adapted to field changes.
-
-### Information about CI/CD pipelines
-
-All developers should review:
-`https://umane.emeal.nttdata.com/git/KFSEMBU/dsb/pipeline_modules/-/blob/main/README.md?ref_type=heads`
