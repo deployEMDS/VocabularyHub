@@ -1,0 +1,143 @@
+services:
+
+  micro-validation:
+    image: ghcr.io/deployemds/validation:0.0.1
+    container_name: flask-validation
+    restart: unless-stopped
+
+    ports:
+      - "5200:5200"
+
+    environment:
+      - PORT=5200
+      - API_PORT=5200
+      - FILE_VALIDATOR_MAX_LENGTH_FILE_NAME=50
+      - FILE_VALIDATOR_MAX_FILE_SIZE_B=250000000
+      - ALLOWED_EXTENSION_VOCABULARIES=[".nq", ".rdf", ".ttl",".jsonld", ".xml", ".json", ".csv"]
+      - ALLOWED_EXTENSION_STRUCTURED=[".csv", ".json", ".nq", ".nt", ".rdf", ".ttl", ".xlsx", ".xls", ".xml", ".jsonld"]
+      - ALLOWED_EXTENSION_UNSTRUCTURED=[".pdf", ".txt"]
+      - CONTAINER_RESOURCES_FOLDER=/usr/src/resources
+      - NOSQL_BACKEND=opensearch
+      - OPENSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
+      - OPENSEARCH_URL=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
+      - ELASTICSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
+      - WORKERS=2
+      - THREADS=2
+      - instanceIP=172.22.144.1
+
+    volumes:
+      - corpus:/usr/src/corpus
+      - resources:/usr/src/resources
+
+    networks:
+      kf-net:
+        aliases:
+          - micro-validation
+          - flask-validation
+
+  corpus-permissions:
+    image: alpine:3.20
+    container_name: corpus-permissions
+
+    command: ["sh", "-c", "chown -R 1000:1000 /corpus"]
+
+    volumes:
+      - corpus:/corpus
+
+    restart: "no"
+
+  micro-file_manager:
+    image: ghcr.io/deployemds/file-manager:0.0.1
+    container_name: flask-file-manager
+
+    restart: unless-stopped
+
+    ports:
+      - "5100:5100"
+
+    volumes:
+      - corpus:/usr/src/corpus
+      - resources:/usr/src/resources
+
+    environment:
+      - PORT=5100
+      - API_PORT=5100
+      - PROJECT_NAME_FOLDER=src
+      - CORPUS_PATH=/usr/src/corpus
+      - CONTAINER_RESOURCES_FOLDER=/usr/src/resources
+      - WORKERS=2
+      - THREADS=2
+      - instanceIP=172.22.144.1
+
+    depends_on:
+      corpus-permissions:
+        condition: service_completed_successfully
+
+    networks:
+      kf-net:
+        aliases:
+          - micro-file_manager
+          - flask-file-manager
+
+  micro-data_processing:
+    image: ghcr.io/deployemds/data-processing:0.0.1
+    container_name: flask-data-processing
+
+    restart: unless-stopped
+
+    ports:
+      - "5000:5000"
+
+    volumes:
+      - corpus:/usr/src/corpus
+      - resources:/usr/src/resources
+      - /etc/localtime:/etc/localtime:ro
+
+    env_file:
+      - ../data_processing/.env
+
+    environment:
+      - CONTAINER_RESOURCES_FOLDER=/usr/src/resources
+      - WORKERS=1
+      - THREADS=2
+      - instanceIP=172.22.144.1
+
+      - GRAPHDB_HOST=${DEMO_GRAPHDB_REPOSITORIES_URL:-http://31.70.80.47:7200/repositories/}
+      - GRAPHDB_CONTROLLED_VOCABS_REPOSITORY_NAME=${GRAPHDB_CONTROLLED_VOCABS_REPOSITORY_NAME:-catalog}
+
+      - ELASTIC_OPENSEARCH_DATABASE=opensearch
+      - OPENSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
+      - OPENSEARCH_USER=${OPENSEARCH_USER:-}
+      - OPENSEARCH_PASSWORD=${OPENSEARCH_PASSWORD:-}
+
+      - FILE_MANAGER_HOST=http://micro-file_manager:5100/file-manager/v1
+      - VALIDATOR_HOST=http://micro-validation:5200/validator/v1
+
+      - FILE_MANAGER_SERVICE_NAME=micro-file_manager
+      - VALIDATOR_SERVICE_NAME=micro-validation
+
+      - AUTO_IMPORT_CONTROLLED_VOCABS_ENABLED=true
+      - AUTO_IMPORT_CONTROLLED_VOCABS_LIST=profile
+
+    depends_on:
+      micro-file_manager:
+        condition: service_started
+
+      micro-validation:
+        condition: service_started
+
+    networks:
+      - kf-net
+
+
+volumes:
+  corpus:
+
+  resources:
+  resource:
+  models:
+
+networks:
+  kf-net:
+    name: kf-net
+    driver: bridge
