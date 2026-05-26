@@ -94,7 +94,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
 
     env_file:
-      - ../data_processing/.env
+      - ./data_processing/.env
 
     environment:
       - CONTAINER_RESOURCES_FOLDER=/usr/src/resources
