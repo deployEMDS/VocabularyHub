@@ -112,11 +112,11 @@ When running `data_processing`, API docs are available at:
 - `/docs`
 - `/redoc`
 
-## Related docs in this repository
+## Local Deployment Using GHCR Images
 
-- `README.md`
-- `docs/README.md`
-- `docs/architecture.md`
-- `docs/data_processing_swagger.md`
+- Before starting the platform, update the `instanceIP` value inside the docker-compose.ghcr.yml file by your IP address.
+- Run the following command from the folder containing docker-compose.ghcr.yml and data_processing folder:
+  `docker compose -f docker-compose.ghcr.yml up -d`
+  
 
 
