@@ -148,6 +148,14 @@ The Connector application is the main frontend entry point. From here, users can
 
 ---
 
+### 6 - Vocabulary/Asset link
+
+Those vocabularies can be linked to assets in the platform through the attribute `Reference System`. The following screenshot shows the link between a vocabulary and an asset.
+
+![vocab_asset_link.png](screenshots/vocab_asset_link.png)
+
+---
+
 ## Technologies
 
 The following technologies are used in this project:
