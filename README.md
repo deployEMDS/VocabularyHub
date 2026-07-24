@@ -1,122 +1,220 @@
-# VocabularyHub Component (data_processing)
+# Microservice DATA PROCESSING
 
-This document describes the current VocabularyHub APIs exposed by the `data_processing` microservice and its integration with the other platform microservices:
+This repository provides the Data Processing API focused on **VocabularyHub** and **Controlled Vocabularies**.
 
-- `Validation`
-- `file_manager`
+By default, the API is exposed at:
+`http://127.0.0.1:5000/data-processing/v1/`
 
-## Scope
+Host and port are configurable through environment variables.
 
-VocabularyHub in this service includes:
+---
 
-- resource ingestion and integration flows
-- metadata update and versioned metadata edit
-- resource retrieval and deletion
-- controlled vocabularies import, listing, retrieval, deletion, and auto-import
+## Architecture
 
-Base URL (default local):
+The diagram below shows how the Data Processing microservice fits into the broader platform and how its internal components are organised.
 
-- `http://127.0.0.1:5000/data-processing/v1`
+![VH_diagram.png](screenshots/VH_diagram.png)
+---
 
-## API groups
+## Current scope
 
-### 1) VocabularyHub resource APIs
+This microservice currently supports:
 
-Prefix:
+- VocabularyHub ingestion + integration flow
+- VocabularyHub metadata update and versioned edit
+- VocabularyHub metadata query and deletion
+- Controlled vocabularies import, list, entry retrieval, delete, and auto-import
+- Health-check endpoint
 
-- `/data-processing/v1/VocabularyHub`
+Removed capabilities (for example `CatalogDatasets` CRUD and DCAT/ODRL integration endpoints) are no longer part of this service.
 
-| Method | Path | Purpose |
-|---|---|---|
-| POST | `/VocabularyHub/create_resource` | Ingest and integrate a semantic resource |
-| PUT | `/VocabularyHub/update_resource` | Update metadata of an existing resource |
-| POST | `/VocabularyHub/edit_metadata` | Create a new version by applying a metadata patch |
-| GET | `/VocabularyHub` | List resources (paginated, with optional filters) |
-| GET | `/VocabularyHub/{resource_id}` | Get one resource by UUID |
-| GET | `/VocabularyHub/versions/by-name?resource_name=...` | List all versions for a resource name |
-| DELETE | `/VocabularyHub/{resource_id}` | Delete resource metadata by id |
+## Main endpoints
 
-Notes:
+Base path: `http://localhost:5000/data-processing/v1`
 
-- `POST /edit_metadata` is copy-on-write versioning: the original resource is preserved and a new version is created.
-- `DELETE /{resource_id}` can return conflict when referential integrity rules are violated.
+### VocabularyHub endpoints
 
-### 2) Controlled vocabularies APIs
+- `POST {API_BASE}/VocabularyHub/create_resource` - ingest and integrate one semantic resource
+- `PUT {API_BASE}/VocabularyHub/update_resource` - update metadata of an existing resource
+- `POST {API_BASE}/VocabularyHub/edit_metadata` - create a new version from an existing resource with partial metadata patch
+- `GET {API_BASE}/VocabularyHub` - list resources (pagination and filters)
+- `GET {API_BASE}/VocabularyHub/{resource_id}` - get one resource by UUID
+- `GET {API_BASE}/VocabularyHub/versions/by-name?resource_name=...` - list versions of a resource by name
+- `DELETE {API_BASE}/VocabularyHub/{resource_id}` - delete a resource by ID
 
-Primary prefix:
+### Controlled vocabularies endpoints
 
-- `/data-processing/v1/ControlledVocabularies`
+- `POST {API_BASE}/ControlledVocabularies/import`
+- `POST {API_BASE}/ControlledVocabularies/auto-import`
+- `GET {API_BASE}/ControlledVocabularies`
+- `GET {API_BASE}/ControlledVocabularies/{vocab_name}`
+- `DELETE {API_BASE}/ControlledVocabularies/{vocab_name}`
 
-Compatibility prefix:
+### Health-check endpoint
 
-- `/data-processing/v1/VocabularyHub/ControlledVocabularies`
+- `GET {API_BASE}/health-check`
 
-| Method | Path | Purpose |
-|---|---|---|
-| POST | `/ControlledVocabularies/import` | Import a vocabulary from `download_url` or uploaded `file` |
-| POST | `/ControlledVocabularies/auto-import` | Run on-demand auto-import from configured resources |
-| GET | `/ControlledVocabularies` | List vocabularies (paginated) |
-| GET | `/ControlledVocabularies/{vocab_name}` | List vocabulary entries (paginated, localized with `lang`) |
-| DELETE | `/ControlledVocabularies/{vocab_name}` | Delete a vocabulary graph |
+## Validation and localization highlights
 
-### 3) Health-check API
+### Controlled vocabulary validation
 
-| Method | Path | Purpose |
-|---|---|---|
-| GET | `/health-check` | Service health endpoint |
+`FieldVocabularyValidationService` validates profile-configured fields before persistence.
 
-## Dependency with the other microservices
+- input may be either a code or an IRI
+- valid codes are normalized to canonical IRIs
+- invalid values fail the request with validation errors
 
-VocabularyHub orchestration in `data_processing` relies on the two related microservices below.
+### VocabularyHub validation
 
-### Validation microservice
+`VocabularyHubValidationService` validates semantic resource fields used by ingestion and metadata update flows:
 
-Default host:
+- `type`
+- `resource_extension`
+- `spatial` or `geographical_coverage`
+- `language`
+- `theme`
+- `frequency`
+- `status`
 
-- `http://127.0.0.1:5200/validator/v1`
+### Localized GET responses
 
-Used endpoints:
+When a supported endpoint receives `lang`, `LocalizedResponseService` can:
 
-- `/FileValidation/file_validation`
-- `/CodeValidation/code_validation`
-- `/SHACLValidation/SHACL_validation`
-- `/DataIngestionValidation/data_ingestion_validation`
-- `/DataIntegrationValidation/data_integration_validation`
+- filter multilingual fields such as `preferredLabel` and `description`
+- translate configured controlled vocabulary values from codes or IRIs into localized labels
 
-Usage highlights:
+### Controlled vocabulary bootstrap
 
-- validates files and metadata before integration
-- validates controlled vocabulary codes and SHACL constraints
-- checks duplicate/existing resources before persistence
+`controlled_vocabularies_bootstrap.py` can auto-import vocabularies from the resources folder at startup.
 
-### file_manager microservice
+Key behaviors:
 
-Default host:
+- supports explicit selection or profile-based selection
+- skips vocabularies that already exist in the target graph
+- routes vocabularies to custom, EU, IANA, or W3 graphs
+- materializes `odrl22.rdf` into `rule_actions`, `constraint_left_operand`, and `constraint_operator`
+- the same flow can be executed on demand through `POST /ControlledVocabularies/auto-import`
 
-- `http://127.0.0.1:5100/file-manager/v1`
+---
 
-Used endpoints:
+## User guide
 
-- `/Downloader/download`
-- `/Uploader/upload`
+This section provides a visual walkthrough of the main frontend workflows. The screenshots capture the **Connector UI**, where the user interacts with the VocabularyHub forms and related CRUD actions.
 
-Usage highlights:
+### 1 – Connector home / entry point
 
-- uploads resource files used by ingestion flows
-- downloads remote files required for processing
+The Connector application is the main frontend entry point. From here, users can navigate to the VocabularyHub UI and start creating or managing vocabularies.
 
-## OpenAPI and interactive docs
+![VH_home.png](screenshots/VH_home.png)
 
-When running `data_processing`, API docs are available at:
+> Main landing page for the Connector UI.
+> This is where we can find the list of the existing vocabularies.
 
-- `/docs`
-- `/redoc`
+---
 
-## Local Deployment Using GHCR Images
+### 2 – Creating a new resource
 
-- Before starting the platform, update the `instanceIP` value inside the docker-compose.ghcr.yml file by your IP address.
-- Run the following command from the folder containing docker-compose.ghcr.yml and data_processing folder:
-  `docker compose -f docker-compose.ghcr.yml up -d`
-  
+![VH_creation.png](screenshots/VH_creation.png)
 
+> Resource creation form inside the Connector UI.
+> This is where users upload or register a new vocabulary resource.
 
+---
+
+### 3 – Viewing a single resource
+
+![VH_viewing.png](screenshots/VH_viewing.png)
+
+> Detail view for one VocabularyHub resource.
+> Useful for checking the stored metadata and the current version.
+
+---
+
+### 4 – Editing metadata (versioned)
+
+![VH_editing.png](screenshots/VH_editing.png)
+
+> Metadata edit form for an existing resource.
+> Saving changes creates a new version instead of overwriting the original record.
+
+---
+
+### 5 – Deleting a resource
+
+![VH-deletion.png](screenshots/VH_deletion.png)
+
+> Confirmation or action area for removing a resource.
+> Use this option only when the resource should no longer be available in the hub.
+
+---
+
+## Technologies
+
+The following technologies are used in this project:
+
+- FastAPI
+- OpenAPI, available at `/data-processing/v1/docs` and `/data-processing/v1/redoc`
+- Pybuilder for tests and packaging tasks
+- Docker for local execution and deployment
+
+## Environment documentation
+
+Environment variables are defined in the `.env` file.
+Examples: [Environment configuration](docs/environment_config.md)
+
+## Getting started
+
+### Pydoc
+
+Consult the Pydoc documentation about project modules, classes, functions, and methods exported to HTML files.
+
+#### Generate Pydoc
+
+##### Generate HTML files
+
+- `python -m pydoc -w <file_name_or_project_path>`
+
+##### Serve the documentation browser
+
+- `python -m pydoc -b`
+
+Terminate the service by pressing `q`.
+
+### Prerequisites
+
+Docker execution:
+
+- Docker Engine v20.10.17
+- Docker Compose v2.6.1
+
+Manual execution:
+
+- Python 3.12.3
+- Pip 25.1.1
+- Install dependencies with `pip install -r .\requirements.txt`
+
+### Dependencies to other resources
+
+- File Manager and Validator microservices must be available
+- Elasticsearch or OpenSearch must be available
+- GraphDB, Fuseki, or Neptune must be available depending on `TRIPLESTORE_BACKEND`
+
+### Start microservice
+
+Option A: run `src\dev\wsgi.py` from the IDE.
+
+Option B: run from a terminal:
+
+```shell
+python src\dev\wsgi.py
+```
+
+## Running the tests
+
+All project functions have associated unit tests to verify behavior.
+
+### Configuration files
+
+- JSON schema files can be adjusted to generate models dynamically.
+- Template-driven SPARQL queries can be adjusted depending on the schema files.
+- Elastic mapping, RML mapping, and SHACL validation files can be adapted to field changes.
