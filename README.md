@@ -226,3 +226,18 @@ All project functions have associated unit tests to verify behavior.
 - JSON schema files can be adjusted to generate models dynamically.
 - Template-driven SPARQL queries can be adjusted depending on the schema files.
 - Elastic mapping, RML mapping, and SHACL validation files can be adapted to field changes.
+
+## IONOS DEPLOYMENT
+
+This section lists the current IONOS deployment endpoints for the Vocabulary Hub platform.
+
+Deployment repository: [IONOS deployment repository](<deployEMDS/deployEMDS-k8s-VocabularyHub-deployment>)
+
+### Deployment URLs
+
+- Data-processing: <https://vocabhub-data.194-164-194-95.sslip.io>
+- File manager: <https://vocabhub-files.194-164-194-95.sslip.io>
+- OpenSearch: <https://opensearch.194-164-194-95.sslip.io>
+- OpenSearch Dashboard: <https://opensearch-dashboard.194-164-194-95.sslip.io>
+- Validation: <https://vocabhub-validation.194-164-194-95.sslip.io>
+
