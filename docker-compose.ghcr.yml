@@ -1,5 +1,63 @@
 services:
 
+  opensearch:
+    image: ghcr.io/deployemds/opensearch:latest
+    container_name: opensearch
+    restart: unless-stopped
+
+    environment:
+      - discovery.type=single-node
+      - plugins.security.disabled=true
+      - OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m
+
+    ports:
+      - "9200:9200"
+
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+
+    networks:
+      kf-net:
+        aliases:
+          - opensearch
+
+  opensearch-dashboard:
+    image: ghcr.io/deployemds/opensearch-dashboard:latest
+    container_name: opensearch-dashboard
+    restart: unless-stopped
+
+    environment:
+      - OPENSEARCH_HOSTS=["http://opensearch:9200"]
+      - DISABLE_SECURITY_DASHBOARDS_PLUGIN=true
+
+    ports:
+      - "5601:5601"
+
+    depends_on:
+      opensearch:
+        condition: service_started
+
+    networks:
+      kf-net:
+        aliases:
+          - opensearch-dashboard
+
+  graphdb:
+    image: ghcr.io/deployemds/graphdb:latest
+    container_name: graphdb
+    restart: unless-stopped
+
+    ports:
+      - "7200:7200"
+
+    volumes:
+      - graphdb-data:/opt/graphdb/home
+
+    networks:
+      kf-net:
+        aliases:
+          - graphdb
+
   micro-validation:
     image: ghcr.io/deployemds/validation:0.0.1
     container_name: flask-validation
@@ -18,9 +76,9 @@ services:
       - ALLOWED_EXTENSION_UNSTRUCTURED=[".pdf", ".txt"]
       - CONTAINER_RESOURCES_FOLDER=/usr/src/resources
       - NOSQL_BACKEND=opensearch
-      - OPENSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
-      - OPENSEARCH_URL=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
-      - ELASTICSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
+      - OPENSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://opensearch:9200}
+      - OPENSEARCH_URL=${DEMO_OPENSEARCH_URL:-http://opensearch:9200}
+      - ELASTICSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://opensearch:9200}
       - WORKERS=2
       - THREADS=2
       - instanceIP=172.22.144.1
@@ -28,6 +86,10 @@ services:
     volumes:
       - corpus:/usr/src/corpus
       - resources:/usr/src/resources
+
+    depends_on:
+      opensearch:
+        condition: service_started
 
     networks:
       kf-net:
@@ -102,11 +164,11 @@ services:
       - THREADS=2
       - instanceIP=172.22.144.1
 
-      - GRAPHDB_HOST=${DEMO_GRAPHDB_REPOSITORIES_URL:-http://31.70.80.47:7200/repositories/}
+      - GRAPHDB_HOST=${DEMO_GRAPHDB_REPOSITORIES_URL:-http://graphdb:7200/repositories/}
       - GRAPHDB_CONTROLLED_VOCABS_REPOSITORY_NAME=${GRAPHDB_CONTROLLED_VOCABS_REPOSITORY_NAME:-catalog}
 
       - ELASTIC_OPENSEARCH_DATABASE=opensearch
-      - OPENSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://31.70.80.49:9200}
+      - OPENSEARCH_HOST=${DEMO_OPENSEARCH_URL:-http://opensearch:9200}
       - OPENSEARCH_USER=${OPENSEARCH_USER:-}
       - OPENSEARCH_PASSWORD=${OPENSEARCH_PASSWORD:-}
 
@@ -126,6 +188,12 @@ services:
       micro-validation:
         condition: service_started
 
+      opensearch:
+        condition: service_started
+
+      graphdb:
+        condition: service_started
+
     networks:
       - kf-net
 
@@ -136,6 +204,8 @@ volumes:
   resources:
   resource:
   models:
+  opensearch-data:
+  graphdb-data:
 
 networks:
   kf-net:
