@@ -240,4 +240,8 @@ Deployment repository: [IONOS deployment repository](<deployEMDS/deployEMDS-k8s-
 - OpenSearch: <https://opensearch.194-164-194-95.sslip.io>
 - OpenSearch Dashboard: <https://opensearch-dashboard.194-164-194-95.sslip.io>
 - Validation: <https://vocabhub-validation.194-164-194-95.sslip.io>
+- GraphDB: <https://graphdb.194-164-194-95.sslip.io/>
+
+## Docker DEPLOYMENT
+
 
