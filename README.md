@@ -242,6 +242,66 @@ Deployment repository: [IONOS deployment repository](<deployEMDS/deployEMDS-k8s-
 - Validation: <https://vocabhub-validation.194-164-194-95.sslip.io>
 - GraphDB: <https://graphdb.194-164-194-95.sslip.io/>
 
-## Docker DEPLOYMENT
+  
+## Local Docker Deployment
+
+You can run the full VocabularyHub stack locally with Docker Compose using `docker-compose.ghcr.yml`.
+
+Included services:
+
+- `micro-data_processing`
+- `micro-file_manager`
+- `micro-validation`
+- `opensearch`
+- `opensearch-dashboard`
+- `graphdb`
+
+### 1) Start all services
+
+```powershell
+docker compose -f docker-compose.ghcr.yml up -d
+```
+
+### 2) Check container status
+
+```powershell
+docker compose -f docker-compose.ghcr.yml ps
+```
+
+### 3) Access the services
+
+- Data Processing API: `http://localhost:5000`
+- File Manager API: `http://localhost:5100`
+- Validation API: `http://localhost:5200`
+- OpenSearch API: `http://localhost:9200`
+- OpenSearch Dashboards: `http://localhost:5601`
+- GraphDB Workbench: `http://localhost:7200`
+
+### 4) Optional: use external OpenSearch / GraphDB instead of local containers
+
+By default, the compose file now uses local container hostnames:
+
+- OpenSearch default: `http://opensearch:9200`
+- GraphDB repositories default: `http://graphdb:7200/repositories/`
+
+If you want to use external instances (for example IONOS), set these variables before starting:
+
+```powershell
+$env:DEMO_OPENSEARCH_URL = "http://<your-opensearch-host>:9200"
+$env:DEMO_GRAPHDB_REPOSITORIES_URL = "http://<your-graphdb-host>:7200/repositories/"
+docker compose -f docker-compose.ghcr.yml up -d
+```
+
+### 5) Stop services
+
+```powershell
+docker compose -f docker-compose.ghcr.yml down
+```
+
+### 6) Clean reset (remove volumes)
+
+```powershell
+docker compose -f docker-compose.ghcr.yml down -v
+```
 
 
